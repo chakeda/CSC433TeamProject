@@ -1,0 +1,898 @@
+﻿Log file open, 04/19/17 18:04:04
+LogInit:Display: Running engine for game: Project433
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1287550313) SRandInit(-1287550313).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.094150
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.04.20-01.04.05:348][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.20-01.04.05:348][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.20-01.04.05:359][  0]LogInit: Computer: BEN
+[2017.04.20-01.04.05:359][  0]LogInit: User: Ben
+[2017.04.20-01.04.05:359][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.04.20-01.04.05:359][  0]LogInit: High frequency timer resolution =2.435778 MHz
+[2017.04.20-01.04.05:359][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.04.20-01.04.05:359][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.20-01.04.05:359][  0]LogMemory: Process Physical Memory: 262.69 MB used, 262.69 MB peak
+[2017.04.20-01.04.05:359][  0]LogMemory: Process Virtual Memory: 262.64 MB used, 262.64 MB peak
+[2017.04.20-01.04.05:359][  0]LogMemory: Physical Memory: 5467.72 MB used,  2607.13 MB free, 8074.85 MB total
+[2017.04.20-01.04.05:359][  0]LogMemory: Virtual Memory: 645.11 MB used,  2607.13 MB free, 134217728.00 MB total
+[2017.04.20-01.04.05:438][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.04.20-01.04.06:033][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.20-01.04.06:058][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 860M' (Feature Level 11_0)
+[2017.04.20-01.04.06:058][  0]LogD3D11RHI:       2018/0/4037 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.04.20-01.04.06:064][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.04.20-01.04.06:064][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.04.20-01.04.06:065][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.04.20-01.04.06:065][  0]LogD3D11RHI:       0/0/4037 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.04.20-01.04.06:065][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.20-01.04.06:072][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.20-01.04.06:072][  0]LogD3D11RHI:     GPU DeviceId: 0x1392 (for the marketing name, search the web for "GPU Device Id")
+[2017.04.20-01.04.06:072][  0]LogWindows: EnumDisplayDevices:
+[2017.04.20-01.04.06:072][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2017.04.20-01.04.06:072][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.04.20-01.04.06:072][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.04.20-01.04.06:072][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.04.20-01.04.06:072][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 860M
+[2017.04.20-01.04.06:072][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.04.20-01.04.06:072][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.04.20-01.04.06:072][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.04.20-01.04.06:085][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.20-01.04.06:096][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.04.20-01.04.06:097][  0]LogShaderCompilers: Guid format shader working directory is -28 characters bigger than the processId version (../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Intermediate/Shaders/WorkingDirectory/13548/).
+[2017.04.20-01.04.06:097][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Ben/AppData/Local/Temp/UnrealShaderWorkingDir/B466389C4C0AA63B43701D945B3B4CD3/'.
+[2017.04.20-01.04.06:097][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.20-01.04.07:293][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.20-01.04.07:346][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.04.20-01.04.07:402][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.04.20-01.04.07:457][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.04.20-01.04.07:536][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.04.20-01.04.07:589][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.20-01.04.07:642][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.20-01.04.07:695][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.20-01.04.07:738][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.20-01.04.07:841][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.20-01.04.07:909][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.20-01.04.07:962][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.20-01.04.08:013][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.20-01.04.08:066][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.20-01.04.08:118][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.20-01.04.08:224][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.20-01.04.08:224][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.20-01.04.08:261][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.20-01.04.08:378][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.20-01.04.08:429][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.20-01.04.08:480][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.04.20-01.04.08:532][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.20-01.04.08:585][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.20-01.04.08:647][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.20-01.04.08:647][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.20-01.04.09:097][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.20-01.04.09:943][  0]LogDerivedDataCache: Loaded boot cache 0.85s 50MB C:/Users/Ben/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.20-01.04.09:943][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Ben/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.04.20-01.04.09:944][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.20-01.04.09:944][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.20-01.04.09:944][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.20-01.04.09:944][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.20-01.04.09:998][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.20-01.04.10:010][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Ben/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.20-01.04.10:048][  0]LogSlate: Using Freetype 2.6.0
+[2017.04.20-01.04.10:050][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.20-01.04.10:050][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.20-01.04.10:342][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.20-01.04.10:345][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.20-01.04.10:573][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.04.20-01.04.10:615][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.04.20-01.04.10:662][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.04.20-01.04.10:662][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.04.20-01.04.10:662][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.20-01.04.11:348][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: project433, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3701128711
+[2017.04.20-01.04.11:391][  0]LogAssetRegistry: FAssetRegistry took 0.0212 seconds to start up
+[2017.04.20-01.04.11:442][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.030244 seconds
+[2017.04.20-01.04.11:447][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.04.20-01.04.11:447][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.04.20-01.04.11:447][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.20-01.04.11:505][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.20-01.04.40:719][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.20-01.04.40:794][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.20-01.04.41:722][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.20-01.04.42:144][  0]SourceControl: Info Source control is disabled
+[2017.04.20-01.04.42:287][  0]SourceControl: Info Source control is disabled
+[2017.04.20-01.04.42:333][  0]SourceControl: Info Source control is disabled
+[2017.04.20-01.04.42:380][  0]SourceControl: Info Source control is disabled
+[2017.04.20-01.04.44:208][  0]LogEngine: Initializing Engine...
+[2017.04.20-01.04.44:209][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.04.20-01.04.44:443][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.04.20-01.04.44:452][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.20-01.04.44:462][  0]LogInit: FAudioDevice initialized.
+[2017.04.20-01.04.44:522][  0]LogDerivedDataCache: Saved boot cache 0.06s 50MB C:/Users/Ben/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.20-01.04.44:531][  0]LogInit: Texture streaming: Enabled
+[2017.04.20-01.04.44:660][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.04.20-01.04.44:672][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={DAB8DBC6-4C31-4650-DC4D-A4A13991EFD1}
+[2017.04.20-01.04.44:759][  0]LogInit: Transaction tracking system initialized
+[2017.04.20-01.04.45:089][  0]BlueprintLog: New page: Editor Load
+[2017.04.20-01.04.46:031][  0]LocalizationService: Info Localization service is disabled
+[2017.04.20-01.04.48:345][  0]LogConsoleResponse:Display: 
+[2017.04.20-01.04.48:497][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.04.20-01.04.48:497][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.20-01.04.49:383][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/' took 0.02s
+[2017.04.20-01.04.50:101][  0]SourceControl: Info Source control is disabled
+[2017.04.20-01.04.50:254][  0]LogSlate: Took 0.000679 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.20-01.05.41:660][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.20-01.05.41:743][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.20-01.05.44:580][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.20-01.05.44:628][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.20-01.05.44:630][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.20-01.05.44:630][  0]LightingResults: New page: Lighting Build
+[2017.04.20-01.05.44:698][  0]MapCheck: New page: Map Check
+[2017.04.20-01.05.44:698][  0]LightingResults: New page: Lighting Build
+[2017.04.20-01.05.45:411][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.04.20-01.05.45:463][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.20-01.05.45:464][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.20-01.05.45:546][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 81.257ms to complete.
+[2017.04.20-01.05.45:546][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.917
+[2017.04.20-01.05.45:826][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_3dc8_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_288c_0///####STATCAT_Advanced####
+[2017.04.20-01.05.45:826][  0]LogCollectionManager: Loaded 0 collections in 0.002216 seconds
+[2017.04.20-01.05.45:944][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/Collections/' took 0.01s
+[2017.04.20-01.05.45:944][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/Developers/Ben/Collections/' took 0.01s
+[2017.04.20-01.05.45:944][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/Collections/' took 0.01s
+[2017.04.20-01.05.45:944][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.04.20-01.05.45:956][  0]LogContentBrowser: Native class hierarchy populated in 0.0118 seconds. Added 2245 classes and 453 folders.
+[2017.04.20-01.05.45:960][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.04.20-01.05.45:960][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.04.20-01.05.46:037][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.04.20-01.05.47:250][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0019 seconds. Added 0 classes and 0 folders.
+[2017.04.20-01.05.47:324][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.04.20-01.05.47:389][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.04.20-01.05.47:399][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.04.20-01.05.47:483][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2017.04.20-01.05.47:483][  0]LogLoad: (Engine Initialization) Total time: 104.20 seconds
+[2017.04.20-01.05.47:483][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.36 seconds
+[2017.04.20-01.05.47:483][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.04.20-01.05.47:483][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.04.20-01.05.47:825][  0]LogOcInput: OculusInput pre-init called
+[2017.04.20-01.05.47:855][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.04.20-01.05.47:860][  0]LogSlate: Took 0.000526 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.04.20-01.05.47:936][  0]LogSlate: Took 0.065084 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.04.20-01.05.48:179][  0]LogSlate: Took 0.000465 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.20-01.05.48:262][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2017.04.20-01.05.48:743][  2]LogAssetRegistry: Asset discovery search completed in 97.3724 seconds
+[2017.04.20-01.05.48:743][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000009 seconds (found 0 objects)
+[2017.04.20-01.05.48:743][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000028 seconds (updated 0 objects)
+[2017.04.20-01.05.54:448][648]Cmd: MAP LOAD FILE="../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.20-01.05.54:453][648]LogSlate: Took 0.000227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.20-01.05.54:464][648]LightingResults: New page: Lighting Build
+[2017.04.20-01.05.54:466][648]LoadErrors: New page: Loading map: FirstPersonExampleMap.umap
+[2017.04.20-01.05.54:468][648]MapCheck: New page: Map Check
+[2017.04.20-01.05.54:468][648]LightingResults: New page: Lighting Build
+[2017.04.20-01.05.54:815][648]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map FoliageInstancedStaticMeshComponent /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_0.
+[2017.04.20-01.05.55:799][648]LogSlate: Took 0.154248 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.20-01.05.55:815][648]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.04.20-01.05.57:320][648]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.20-01.05.57:360][648]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.20-01.05.57:415][648]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 54.885ms to complete.
+[2017.04.20-01.05.57:415][648]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 2.968
+[2017.04.20-01.06.00:930][976]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2017.04.20-01.06.03:167][150]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (powerstar)
+[2017.04.20-01.06.09:012][765]Cmd: EDIT CUT
+[2017.04.20-01.06.09:331][765]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.04.20-01.06.09:366][765]LogEditorActor: Deleted 1 Actors (0.063 secs)
+[2017.04.20-01.06.12:388][ 51]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2017.04.20-01.06.20:305][766]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor2)
+[2017.04.20-01.06.23:938][135]Cmd: EDIT PASTE
+[2017.04.20-01.06.32:677][952]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (powerstar)
+[2017.04.20-01.06.55:560][187]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2017.04.20-01.07.01:064][665]LogSavePackage: Save=289.09ms
+[2017.04.20-01.07.01:064][665]LogSavePackage: Moving '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/FirstPersonExampleMapEB2D54714CC43BE3B503CF8792692EEF.tmp' to '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
+[2017.04.20-01.07.01:124][665]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap
+[2017.04.20-01.07.03:619][665]LogSavePackage: Save=2137.23ms
+[2017.04.20-01.07.03:619][665]LogSavePackage: Moving '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/FirstPersonExampleMap_BuiltDataB13F2196494CF8E5AF6D2E8F896A6888.tmp' to '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2017.04.20-01.07.03:636][665]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2017.04.20-01.08.07:109][759]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2017.04.20-01.08.07:720][812]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Sphere)
+[2017.04.20-01.08.10:991][149]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2017.04.20-01.08.13:403][389]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.04.20-01.08.14:529][494]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2017.04.20-01.08.15:885][627]Cmd: DELETE
+[2017.04.20-01.08.15:885][627]Cmd: ACTOR DELETE
+[2017.04.20-01.08.18:291][627]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.04.20-01.08.18:303][627]LogEditorActor: Deleted 1 Actors (2.393 secs)
+[2017.04.20-01.08.27:970][249]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Ben/Desktop/College/Junior/Spring 17/CSc 433/Team Project/coin.fbx)
+[2017.04.20-01.08.27:979][249]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.04.20-01.08.27:979][249]LogFbx: ItemName: NodeAttribute, ItemCount : 2
+[2017.04.20-01.08.27:979][249]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.04.20-01.08.27:979][249]LogFbx: ItemName: Model, ItemCount : 3
+[2017.04.20-01.08.27:979][249]LogFbx: ItemName: Material, ItemCount : 1
+[2017.04.20-01.08.27:979][249]LogFbx: ItemName: Texture, ItemCount : 1
+[2017.04.20-01.08.27:979][249]LogFbx: ItemName: Video, ItemCount : 1
+[2017.04.20-01.08.27:984][249]LogFbx: Loading FBX Scene from ../../../../../../Users/Ben/Desktop/College/Junior/Spring 17/CSc 433/Team Project/coin.fbx
+[2017.04.20-01.08.27:992][249]LogFbx: FBX Scene Loaded Succesfully
+[2017.04.20-01.08.33:372][249]LogFbx: Loading FBX Scene from ../../../../../../Users/Ben/Desktop/College/Junior/Spring 17/CSc 433/Team Project/coin.fbx
+[2017.04.20-01.08.33:384][249]LogFbx: FBX Scene Loaded Succesfully
+[2017.04.20-01.08.33:387][249]LogLinker: Can't find file '/Game/FirstPersonCPP/Blueprints/wire_088088225_001'
+[2017.04.20-01.08.33:387][249]LogLinker: Can't find file '/Game/FirstPersonCPP/Blueprints/wire_088088225_001'
+[2017.04.20-01.08.33:389][249]LogLinker: Can't find file '/Game/FirstPersonCPP/Blueprints/dl_itembell_alb'
+[2017.04.20-01.08.33:389][249]LogLinker: Can't find file '/Game/FirstPersonCPP/Blueprints/dl_itembell_alb'
+[2017.04.20-01.08.33:393][249]LogTexture:Display: Building textures: dl_itembell_alb (AutoDXT, 256X128) - 228 MB total VRAM
+[2017.04.20-01.08.33:425][249]LogMaterial: Missing cached shader map for material wire_088088225_001, compiling. 
+[2017.04.20-01.08.33:426][249]LogTemp:Display: Added material ShaderMap 0x000001344E53E400 with Material 0x000001341380C580 to ShaderMapsBeingCompiled
+[2017.04.20-01.08.33:450][249]LogTemp:Display: Kicking off shader compilation for wire_088088225_001, GameThreadShaderMap 0x000001344E53E400
+[2017.04.20-01.08.33:456][249]LogStaticMesh: Building static mesh coin...
+[2017.04.20-01.08.33:460][249]LogStaticMesh: Built static mesh [0.00s] /Game/FirstPersonCPP/Blueprints/coin.coin
+[2017.04.20-01.08.33:500][249]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.04.20-01.08.36:094][468]LogTemp:Display: Finished compile of shader map 0x000001344E53E400
+[2017.04.20-01.08.36:094][468]LogTemp:Display: Shader map wire_088088225_001 complete, GameThreadShaderMap 0x000001344E53E400, marking material wire_088088225_001 as finished
+[2017.04.20-01.08.36:094][468]LogTemp:Display: Marking material as finished 0x000001341380C580
+[2017.04.20-01.08.38:832][667]LogActorFactory: Actor Factory created coin
+[2017.04.20-01.08.41:240][914]LogActorFactory: Actor Factory created coin
+[2017.04.20-01.08.52:530][996]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.04.20-01.08.59:478][660]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (coin)
+[2017.04.20-01.09.08:553][507]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (coin)
+[2017.04.20-01.09.11:819][818]Cmd: EDIT COPY
+[2017.04.20-01.09.13:044][919]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2017.04.20-01.09.16:722][253]Cmd: EDIT PASTE
+[2017.04.20-01.09.20:568][634]Cmd: EDIT PASTE
+[2017.04.20-01.09.25:235][ 98]Cmd: EDIT PASTE
+[2017.04.20-01.09.32:385][815]Cmd: EDIT PASTE
+[2017.04.20-01.09.38:271][401]Cmd: EDIT PASTE
+[2017.04.20-01.09.41:345][705]Cmd: EDIT PASTE
+[2017.04.20-01.09.46:755][251]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (coin6)
+[2017.04.20-01.09.49:583][538]Cmd: EDIT PASTE
+[2017.04.20-01.09.53:950][984]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (coin2)
+[2017.04.20-01.09.57:321][323]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (coin8)
+[2017.04.20-01.10.01:179][719]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (coin3)
+[2017.04.20-01.10.03:327][935]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (coin7)
+[2017.04.20-01.10.05:944][200]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (coin)
+[2017.04.20-01.10.12:576][883]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.04.20-01.10.16:287][239]LogBlueprint:Error: [Compiler PersistentLevel.FirstPersonExampleMap] Error Couldn't find object for bound event node  OnActorHit (None)
+[2017.04.20-01.10.16:613][239]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [0373.33] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 0 Warning(s) [in 409 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.10.16:614][239]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [0373.33] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.10.16:614][239]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [0373.33] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.10.16:614][239]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [0373.33] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.10.16:614][239]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [0373.33] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.10.16:614][239]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [0373.33] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.10.16:806][239]LogSavePackage: Save=605.03ms
+[2017.04.20-01.10.16:806][239]LogSavePackage: Moving '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/FirstPersonExampleMapDCDAECDF40DE5B676DB2009E1FA64423.tmp' to '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
+[2017.04.20-01.10.16:813][239]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap
+[2017.04.20-01.10.18:195][239]LogSavePackage: Save=1350.85ms
+[2017.04.20-01.10.18:195][239]LogSavePackage: Moving '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/FirstPersonExampleMap_BuiltData52DAA42542CD985226369E85AB2A0C50.tmp' to '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2017.04.20-01.10.18:198][239]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2017.04.20-01.11.30:880][ 27]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Ben/Desktop/College/Junior/Spring 17/CSc 433/Team Project/warppipe.fbx)
+[2017.04.20-01.11.30:894][ 27]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.04.20-01.11.30:894][ 27]LogFbx: ItemName: NodeAttribute, ItemCount : 2
+[2017.04.20-01.11.30:894][ 27]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.04.20-01.11.30:894][ 27]LogFbx: ItemName: Model, ItemCount : 3
+[2017.04.20-01.11.30:894][ 27]LogFbx: ItemName: Material, ItemCount : 1
+[2017.04.20-01.11.30:894][ 27]LogFbx: ItemName: Texture, ItemCount : 1
+[2017.04.20-01.11.30:894][ 27]LogFbx: ItemName: Video, ItemCount : 1
+[2017.04.20-01.11.30:905][ 27]LogFbx: Loading FBX Scene from ../../../../../../Users/Ben/Desktop/College/Junior/Spring 17/CSc 433/Team Project/warppipe.fbx
+[2017.04.20-01.11.30:925][ 27]LogFbx: FBX Scene Loaded Succesfully
+[2017.04.20-01.11.32:809][ 27]LogFbx: Loading FBX Scene from ../../../../../../Users/Ben/Desktop/College/Junior/Spring 17/CSc 433/Team Project/warppipe.fbx
+[2017.04.20-01.11.32:818][ 27]LogFbx: FBX Scene Loaded Succesfully
+[2017.04.20-01.11.32:821][ 27]LogLinker: Can't find file '/Game/FirstPersonCPP/Blueprints/mesh0043mat'
+[2017.04.20-01.11.32:821][ 27]LogLinker: Can't find file '/Game/FirstPersonCPP/Blueprints/mesh0043mat'
+[2017.04.20-01.11.32:823][ 27]LogLinker: Can't find file '/Game/FirstPersonCPP/Blueprints/t0043_0'
+[2017.04.20-01.11.32:824][ 27]LogLinker: Can't find file '/Game/FirstPersonCPP/Blueprints/t0043_0'
+[2017.04.20-01.11.32:829][ 27]LogTexture:Display: Building textures: t0043_0 (AutoDXT, 64X64) - 228 MB total VRAM
+[2017.04.20-01.11.32:854][ 27]LogMaterial: Missing cached shader map for material mesh0043mat, compiling. 
+[2017.04.20-01.11.32:855][ 27]LogTemp:Display: Added material ShaderMap 0x00000134528A6400 with Material 0x000001341DD66800 to ShaderMapsBeingCompiled
+[2017.04.20-01.11.32:869][ 27]LogTemp:Display: Kicking off shader compilation for mesh0043mat, GameThreadShaderMap 0x00000134528A6400
+[2017.04.20-01.11.32:875][ 27]LogStaticMesh: Building static mesh warppipe...
+[2017.04.20-01.11.32:880][ 27]LogStaticMesh: Built static mesh [0.01s] /Game/FirstPersonCPP/Blueprints/warppipe.warppipe
+[2017.04.20-01.11.32:889][ 27]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.04.20-01.11.34:861][127]LogTemp:Display: Finished compile of shader map 0x00000134528A6400
+[2017.04.20-01.11.34:861][127]LogTemp:Display: Shader map mesh0043mat complete, GameThreadShaderMap 0x00000134528A6400, marking material mesh0043mat as finished
+[2017.04.20-01.11.34:861][127]LogTemp:Display: Marking material as finished 0x000001341DD66800
+[2017.04.20-01.11.39:084][448]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder)
+[2017.04.20-01.11.42:006][759]Cmd: DELETE
+[2017.04.20-01.11.42:006][759]Cmd: ACTOR DELETE
+[2017.04.20-01.11.42:007][759]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.04.20-01.11.42:020][759]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2017.04.20-01.11.43:006][868]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder2)
+[2017.04.20-01.11.43:331][898]Cmd: DELETE
+[2017.04.20-01.11.43:331][898]Cmd: ACTOR DELETE
+[2017.04.20-01.11.43:332][898]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.04.20-01.11.43:341][898]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.04.20-01.11.44:133][964]LogActorFactory: Actor Factory created warppipe
+[2017.04.20-01.11.46:192][196]LogActorFactory: Actor Factory created warppipe
+[2017.04.20-01.11.56:605][886]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.04.20-01.11.57:637][982]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (warppipe)
+[2017.04.20-01.12.10:148][945]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.04.20-01.12.15:436][335]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (warppipe)
+[2017.04.20-01.12.16:203][390]Cmd: TRANSACTION UNDO
+[2017.04.20-01.12.16:203][390]LogEditorTransaction: Undo Clicking on Actors
+[2017.04.20-01.12.16:241][390]LogSlate: Took 0.000225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.20-01.12.17:768][514]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (warppipe)
+[2017.04.20-01.12.26:961][128]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.04.20-01.12.28:721][280]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (warppipe)
+[2017.04.20-01.12.34:182][648]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.04.20-01.12.36:897][868]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (warppipe)
+[2017.04.20-01.12.37:297][892]LogSlate: Took 0.040657 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.04.20-01.12.48:774][901]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.04.20-01.12.51:329][114]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (warppipe)
+[2017.04.20-01.12.55:294][388]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.04.20-01.12.56:456][496]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (warppipe)
+[2017.04.20-01.13.03:368][ 75]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.04.20-01.13.05:167][234]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (warppipe)
+[2017.04.20-01.13.08:559][469]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.04.20-01.13.10:181][622]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (warppipe)
+[2017.04.20-01.13.14:391][916]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.04.20-01.13.19:786][427]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (warppipe)
+[2017.04.20-01.13.29:087][201]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.04.20-01.13.30:280][318]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (warppipe)
+[2017.04.20-01.13.50:752][511]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.04.20-01.13.55:369][957]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (warppipe)
+[2017.04.20-01.14.02:374][655]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.04.20-01.14.08:083][265]LogBlueprint:Error: [Compiler PersistentLevel.FirstPersonExampleMap] Error Couldn't find object for bound event node  OnActorHit (None)
+[2017.04.20-01.14.08:241][265]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [0604.96] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 0 Warning(s) [in 161 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.14.08:241][265]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [0604.96] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.14.08:241][265]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [0604.96] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.14.08:241][265]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [0604.96] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.14.08:241][265]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [0604.96] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.14.08:241][265]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [0604.96] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.14.08:449][265]LogSavePackage: Save=372.06ms
+[2017.04.20-01.14.08:449][265]LogSavePackage: Moving '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/FirstPersonExampleMap8B8FE2E74135357FC623C9B8058A9973.tmp' to '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
+[2017.04.20-01.14.08:457][265]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap
+[2017.04.20-01.14.10:157][265]LogSavePackage: Save=1539.07ms
+[2017.04.20-01.14.10:157][265]LogSavePackage: Moving '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/FirstPersonExampleMap_BuiltData33F78C87472BD49DF5EFBDA1F8804AA1.tmp' to '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2017.04.20-01.14.10:161][265]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2017.04.20-01.17.25:359][489]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.04.20-01.17.26:154][572]Cmd: DELETE
+[2017.04.20-01.17.26:154][572]Cmd: ACTOR DELETE
+[2017.04.20-01.17.26:159][572]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.04.20-01.17.26:199][572]LogEditorActor: Deleted 1 Actors (0.045 secs)
+[2017.04.20-01.17.27:960][762]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.20-01.17.27:980][762]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.20-01.17.27:981][762]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.04.20-01.17.27:981][762]LogPlayLevel: [PlayLevel] Compiling FirstPersonExampleMap before play...
+[2017.04.20-01.17.27:991][762]LogBlueprint:Error: [Compiler PersistentLevel.FirstPersonExampleMap] Error Couldn't find object for bound event node  OnActorHit (None)
+[2017.04.20-01.17.28:165][762]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [0804.88] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 0 Warning(s) [in 178 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.17.28:165][762]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [0804.88] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.17.28:165][762]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [0804.88] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.17.28:165][762]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [0804.88] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.17.28:165][762]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [0804.88] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.17.28:165][762]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [0804.88] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.17.28:173][762]LogPlayLevel: PlayLevel: Blueprint regeneration took 192 ms (1 blueprints)
+[2017.04.20-01.17.28:173][762]BlueprintLog: Info Blueprint FirstPersonExampleMap failed to compile
+[2017.04.20-01.18.02:069][876]LogBlueprint:Error: [Compiler PersistentLevel.FirstPersonExampleMap] Error Couldn't find object for bound event node  OnActorHit (None)
+[2017.04.20-01.18.02:229][876]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [0838.94] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 0 Warning(s) [in 162 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.18.02:229][876]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [0838.94] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.18.02:229][876]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [0838.94] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.18.02:229][876]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [0838.94] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.18.02:229][876]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [0838.94] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.18.02:229][876]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [0838.94] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.18.02:439][876]LogSavePackage: Save=375.29ms
+[2017.04.20-01.18.02:439][876]LogSavePackage: Moving '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/FirstPersonExampleMap1EF471F0467B2534CAB2D0BA25FD551F.tmp' to '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
+[2017.04.20-01.18.02:472][876]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap
+[2017.04.20-01.18.03:990][876]LogSavePackage: Save=1452.16ms
+[2017.04.20-01.18.03:990][876]LogSavePackage: Moving '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/FirstPersonExampleMap_BuiltDataD89A3065449CA417EC2308ADF498A905.tmp' to '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2017.04.20-01.18.03:993][876]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2017.04.20-01.18.05:131][981]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.20-01.18.05:148][981]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.20-01.18.05:148][981]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.04.20-01.18.05:148][981]LogPlayLevel: [PlayLevel] Compiling FirstPersonExampleMap before play...
+[2017.04.20-01.18.05:155][981]LogBlueprint:Error: [Compiler PersistentLevel.FirstPersonExampleMap] Error Couldn't find object for bound event node  OnActorHit (None)
+[2017.04.20-01.18.05:360][981]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [0842.08] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 0 Warning(s) [in 209 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.18.05:361][981]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [0842.08] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.18.05:361][981]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [0842.08] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.18.05:361][981]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [0842.08] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.18.05:361][981]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [0842.08] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.18.05:361][981]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [0842.08] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.18.05:376][981]LogPlayLevel: PlayLevel: Blueprint regeneration took 228 ms (1 blueprints)
+[2017.04.20-01.18.05:376][981]BlueprintLog: Info Blueprint FirstPersonExampleMap failed to compile
+[2017.04.20-01.18.09:901][981]PIE: New page: PIE session: FirstPersonExampleMap (Apr 19, 2017, 11:18:09 AM)
+[2017.04.20-01.18.09:901][981]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.04.20-01.18.09:975][981]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map FoliageInstancedStaticMeshComponent /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_0.
+[2017.04.20-01.18.10:073][981]LogPlayLevel: PIE: StaticDuplicateObject took: (0.171993s)
+[2017.04.20-01.18.10:078][981]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.04.20-01.18.10:079][981]LogPlayLevel: PIE: World Init took: (0.006206s)
+[2017.04.20-01.18.10:080][981]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.178807s)
+[2017.04.20-01.18.10:108][981]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.20-01.18.10:119][981]LogInit: FAudioDevice initialized.
+[2017.04.20-01.18.10:175][981]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.20-01.18.10:184][981]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.04.19-18.18.10
+[2017.04.20-01.18.10:185][981]LogWorld: Bringing up level for play took: 0.007576
+[2017.04.20-01.18.10:226][981]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0011 seconds. Added 11 classes and 0 folders.
+[2017.04.20-01.18.10:229][981]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 4.856
+[2017.04.20-01.18.10:229][981]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.20-01.18.39:771][  8]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.20-01.18.39:816][  8]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.20-01.18.42:404][255]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (coin2)
+[2017.04.20-01.18.44:934][485]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (coin8)
+[2017.04.20-01.18.48:286][799]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (coin3)
+[2017.04.20-01.18.51:886][139]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (coin5)
+[2017.04.20-01.19.04:637][261]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (coin4)
+[2017.04.20-01.19.06:337][411]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (coin6)
+[2017.04.20-01.19.09:160][678]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (coin)
+[2017.04.20-01.19.13:831][ 67]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (coin7)
+[2017.04.20-01.19.17:328][375]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (coin2)
+[2017.04.20-01.19.20:893][715]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.20-01.19.20:907][715]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.20-01.19.20:907][715]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.04.20-01.19.20:907][715]LogPlayLevel: [PlayLevel] Compiling FirstPersonExampleMap before play...
+[2017.04.20-01.19.20:913][715]LogBlueprint:Error: [Compiler PersistentLevel.FirstPersonExampleMap] Error Couldn't find object for bound event node  OnActorHit (None)
+[2017.04.20-01.19.21:075][715]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [0917.79] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 0 Warning(s) [in 164 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.19.21:075][715]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [0917.79] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.19.21:075][715]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [0917.79] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.19.21:075][715]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [0917.79] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.19.21:075][715]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [0917.79] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.19.21:075][715]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [0917.79] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.19.21:085][715]LogPlayLevel: PlayLevel: Blueprint regeneration took 177 ms (1 blueprints)
+[2017.04.20-01.19.21:085][715]BlueprintLog: Info Blueprint FirstPersonExampleMap failed to compile
+[2017.04.20-01.19.22:938][715]PIE: New page: PIE session: FirstPersonExampleMap (Apr 19, 2017, 11:19:22 AM)
+[2017.04.20-01.19.22:939][715]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.04.20-01.19.22:969][715]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map FoliageInstancedStaticMeshComponent /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_0.
+[2017.04.20-01.19.22:978][715]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039771s)
+[2017.04.20-01.19.22:980][715]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.04.20-01.19.22:980][715]LogPlayLevel: PIE: World Init took: (0.001961s)
+[2017.04.20-01.19.22:981][715]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.042000s)
+[2017.04.20-01.19.23:001][715]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.20-01.19.23:010][715]LogInit: FAudioDevice initialized.
+[2017.04.20-01.19.23:042][715]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.20-01.19.23:054][715]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.04.19-18.19.23
+[2017.04.20-01.19.23:056][715]LogWorld: Bringing up level for play took: 0.010643
+[2017.04.20-01.19.23:060][715]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 1.688
+[2017.04.20-01.19.23:061][715]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.20-01.19.44:219][836]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.20-01.19.44:306][836]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.20-01.19.45:546][929]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (coin7)
+[2017.04.20-01.19.48:750][222]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (coin3)
+[2017.04.20-01.20.02:365][352]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (coin8)
+[2017.04.20-01.20.03:838][483]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (coin2)
+[2017.04.20-01.20.08:426][849]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (coin3)
+[2017.04.20-01.20.10:860][ 72]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (coin8)
+[2017.04.20-01.20.13:100][275]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (coin8)
+[2017.04.20-01.20.20:999][961]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (coin3)
+[2017.04.20-01.20.23:097][154]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (coin8)
+[2017.04.20-01.20.26:505][470]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (coin7)
+[2017.04.20-01.20.38:262][555]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.20-01.20.38:276][555]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.20-01.20.38:276][555]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.04.20-01.20.38:276][555]LogPlayLevel: [PlayLevel] Compiling FirstPersonExampleMap before play...
+[2017.04.20-01.20.38:282][555]LogBlueprint:Error: [Compiler PersistentLevel.FirstPersonExampleMap] Error Couldn't find object for bound event node  OnActorHit (None)
+[2017.04.20-01.20.38:441][555]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [0995.16] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 0 Warning(s) [in 162 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.20.38:441][555]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [0995.16] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.20.38:441][555]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [0995.16] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.20.38:441][555]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [0995.16] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.20.38:441][555]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [0995.16] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.20.38:441][555]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [0995.16] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.20.38:450][555]LogPlayLevel: PlayLevel: Blueprint regeneration took 173 ms (1 blueprints)
+[2017.04.20-01.20.38:450][555]BlueprintLog: Info Blueprint FirstPersonExampleMap failed to compile
+[2017.04.20-01.20.40:247][555]PIE: New page: PIE session: FirstPersonExampleMap (Apr 19, 2017, 11:20:40 AM)
+[2017.04.20-01.20.40:247][555]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.04.20-01.20.40:281][555]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map FoliageInstancedStaticMeshComponent /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_0.
+[2017.04.20-01.20.40:291][555]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043436s)
+[2017.04.20-01.20.40:293][555]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.04.20-01.20.40:293][555]LogPlayLevel: PIE: World Init took: (0.001746s)
+[2017.04.20-01.20.40:293][555]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.045435s)
+[2017.04.20-01.20.40:311][555]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.20-01.20.40:319][555]LogInit: FAudioDevice initialized.
+[2017.04.20-01.20.40:349][555]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.20-01.20.40:359][555]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.04.19-18.20.40
+[2017.04.20-01.20.40:360][555]LogWorld: Bringing up level for play took: 0.008660
+[2017.04.20-01.20.40:364][555]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 2.992
+[2017.04.20-01.20.40:364][555]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.20-01.21.00:696][632]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.20-01.21.00:768][632]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.20-01.21.02:975][767]LogActorFactory: Actor Factory created warppipe
+[2017.04.20-01.21.03:889][858]LogActorFactory: Actor Factory created warppipe
+[2017.04.20-01.21.04:616][926]Cmd: TRANSACTION UNDO
+[2017.04.20-01.21.04:616][926]LogEditorTransaction: Undo Create Actors
+[2017.04.20-01.21.05:488][989]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (warppipe)
+[2017.04.20-01.21.05:987][ 33]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (warppipe)
+[2017.04.20-01.21.09:908][350]Cmd: EDIT COPY
+[2017.04.20-01.21.10:854][448]Cmd: EDIT PASTE
+[2017.04.20-01.21.29:920][264]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (powerstar)
+[2017.04.20-01.21.50:517][351]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2017.04.20-01.21.52:584][493]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.04.20-01.21.53:371][565]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (powerstar)
+[2017.04.20-01.21.54:528][642]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (powerstar)
+[2017.04.20-01.22.00:860][231]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (warppipe2)
+[2017.04.20-01.22.07:452][838]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (warppipe2)
+[2017.04.20-01.22.16:515][710]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2017.04.20-01.22.23:188][431]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (warppipe2)
+[2017.04.20-01.22.28:437][974]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (warppipe)
+[2017.04.20-01.22.29:850][ 95]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (warppipe)
+[2017.04.20-01.22.30:360][148]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (warppipe)
+[2017.04.20-01.22.37:352][813]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.04.20-01.24.10:242][ 91]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (coin5)
+[2017.04.20-01.24.11:084][182]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (coin5)
+[2017.04.20-01.25.31:090][542]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (coin2)
+[2017.04.20-01.25.32:742][679]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (coin2)
+[2017.04.20-01.25.33:094][708]Cmd: DELETE
+[2017.04.20-01.25.33:094][708]Cmd: ACTOR DELETE
+[2017.04.20-01.25.33:095][708]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.04.20-01.25.33:113][708]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2017.04.20-01.25.33:745][771]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (coin4)
+[2017.04.20-01.25.34:192][799]Cmd: DELETE
+[2017.04.20-01.25.34:192][799]Cmd: ACTOR DELETE
+[2017.04.20-01.25.34:193][799]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.04.20-01.25.34:208][799]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2017.04.20-01.25.34:562][834]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (coin6)
+[2017.04.20-01.25.34:851][852]Cmd: DELETE
+[2017.04.20-01.25.34:851][852]Cmd: ACTOR DELETE
+[2017.04.20-01.25.34:852][852]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.04.20-01.25.34:862][852]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.04.20-01.25.35:835][949]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (coin8)
+[2017.04.20-01.25.36:078][968]Cmd: DELETE
+[2017.04.20-01.25.36:078][968]Cmd: ACTOR DELETE
+[2017.04.20-01.25.36:079][968]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.04.20-01.25.36:092][968]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2017.04.20-01.25.36:538][ 12]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (coin7)
+[2017.04.20-01.25.36:772][ 29]Cmd: DELETE
+[2017.04.20-01.25.36:772][ 29]Cmd: ACTOR DELETE
+[2017.04.20-01.25.36:773][ 29]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.04.20-01.25.36:782][ 29]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.04.20-01.25.37:184][ 69]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (coin3)
+[2017.04.20-01.25.37:380][ 83]Cmd: DELETE
+[2017.04.20-01.25.37:380][ 83]Cmd: ACTOR DELETE
+[2017.04.20-01.25.37:381][ 83]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.04.20-01.25.37:390][ 83]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.04.20-01.25.42:561][513]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (coin)
+[2017.04.20-01.25.43:441][590]Cmd: DELETE
+[2017.04.20-01.25.43:441][590]Cmd: ACTOR DELETE
+[2017.04.20-01.25.43:442][590]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.04.20-01.25.43:454][590]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2017.04.20-01.25.47:354][924]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (coin5)
+[2017.04.20-01.25.50:992][263]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.20-01.25.51:006][263]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.20-01.25.51:006][263]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.04.20-01.25.51:006][263]LogPlayLevel: [PlayLevel] Compiling FirstPersonExampleMap before play...
+[2017.04.20-01.25.51:011][263]LogBlueprint:Error: [Compiler PersistentLevel.FirstPersonExampleMap] Error Couldn't find object for bound event node  OnActorHit (None)
+[2017.04.20-01.25.51:172][263]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [1307.89] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 0 Warning(s) [in 164 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.25.51:173][263]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [1307.89] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.25.51:173][263]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [1307.89] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.25.51:173][263]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [1307.89] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.25.51:173][263]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [1307.89] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.25.51:173][263]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [1307.89] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.25.51:181][263]LogPlayLevel: PlayLevel: Blueprint regeneration took 175 ms (1 blueprints)
+[2017.04.20-01.25.51:181][263]BlueprintLog: Info Blueprint FirstPersonExampleMap failed to compile
+[2017.04.20-01.25.51:911][263]PIE: New page: PIE session: FirstPersonExampleMap (Apr 19, 2017, 11:25:51 AM)
+[2017.04.20-01.25.51:911][263]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.04.20-01.25.51:970][263]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map FoliageInstancedStaticMeshComponent /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_0.
+[2017.04.20-01.25.52:025][263]LogPlayLevel: PIE: StaticDuplicateObject took: (0.114309s)
+[2017.04.20-01.25.52:028][263]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.04.20-01.25.52:029][263]LogPlayLevel: PIE: World Init took: (0.004126s)
+[2017.04.20-01.25.52:030][263]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.119255s)
+[2017.04.20-01.25.52:071][263]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.20-01.25.52:080][263]LogInit: FAudioDevice initialized.
+[2017.04.20-01.25.52:110][263]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.20-01.25.52:115][263]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.04.19-18.25.52
+[2017.04.20-01.25.52:116][263]LogWorld: Bringing up level for play took: 0.004582
+[2017.04.20-01.25.52:118][263]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.746
+[2017.04.20-01.25.52:118][263]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.20-01.26.08:727][938]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.20-01.26.08:798][938]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.20-01.26.10:073][ 44]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (coin5)
+[2017.04.20-01.26.23:843][357]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (coin5)
+[2017.04.20-01.30.40:978][390]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0043 seconds. Added 112 classes and 0 folders.
+[2017.04.20-01.34.11:097][776]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.04.20-01.34.39:499][913]LogRenderer: Reallocating scene render targets to support 1208x900 NumSamples 1 (Frame:114202).
+[2017.04.20-01.35.51:147][ 48]LogSlate: Took 0.024092 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.04.20-01.37.03:705][791]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Users/Ben/Desktop/College/Junior/Spring 17/CSc 433/Team Project/sm64_coin.wav)
+[2017.04.20-01.37.03:725][791]LogAudioDerivedData:Display: Building compressed audio format OGG wave sm64_coin...
+[2017.04.20-01.37.03:857][791]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/FirstPersonCPP/Blueprints/sm64_coin.sm64_coin.
+[2017.04.20-01.39.56:431][ 49]LogBlueprint:Error: [Compiler PersistentLevel.FirstPersonExampleMap] Error Couldn't find object for bound event node  OnActorHit (None)
+[2017.04.20-01.39.56:739][ 49]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [2153.45] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 0 Warning(s) [in 319 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.39.56:739][ 49]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [2153.46] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.39.56:740][ 49]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [2153.46] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.39.56:740][ 49]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [2153.46] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.39.56:740][ 49]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [2153.46] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.39.56:740][ 49]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [2153.46] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.39.56:931][ 49]LogSavePackage: Save=517.95ms
+[2017.04.20-01.39.56:931][ 49]LogSavePackage: Moving '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/FirstPersonExampleMap_Auto16441684844B59A83B2114A9D9AD1F3A9.tmp' to '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2017.04.20-01.39.56:952][ 49]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto1.umap
+[2017.04.20-01.39.56:956][ 49]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.817
+[2017.04.20-01.39.56:956][ 49]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.817
+[2017.04.20-01.39.56:958][ 49]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonCPP/Blueprints/coin] ([1] browsable assets)...
+[2017.04.20-01.39.57:012][ 49]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/FirstPersonCPP/Blueprints/coin.coin]
+[2017.04.20-01.39.57:013][ 49]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonCPP/Blueprints/coin]
+[2017.04.20-01.39.57:041][ 49]LogSavePackage: Save=24.91ms
+[2017.04.20-01.39.57:041][ 49]LogSavePackage: Moving '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/coin_Auto13C494EF446C4B3E4F8559C85F827B352.tmp' to '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/Autosaves/Game/FirstPersonCPP/Blueprints/coin_Auto1.uasset'
+[2017.04.20-01.39.57:043][ 49]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/Autosaves/Game/FirstPersonCPP/Blueprints/coin_Auto1.uasset
+[2017.04.20-01.39.57:044][ 49]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonCPP/Blueprints/wire_088088225_001] ([1] browsable assets)...
+[2017.04.20-01.39.57:090][ 49]OBJ SavePackage:     Rendered thumbnail for [Material /Game/FirstPersonCPP/Blueprints/wire_088088225_001.wire_088088225_001]
+[2017.04.20-01.39.57:090][ 49]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonCPP/Blueprints/wire_088088225_001]
+[2017.04.20-01.39.57:115][ 49]LogSavePackage: Save=23.14ms
+[2017.04.20-01.39.57:115][ 49]LogSavePackage: Moving '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/wire_088088225_001_Auto16CB8C0274D2633ADDA1196BA583E3DFC.tmp' to '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/Autosaves/Game/FirstPersonCPP/Blueprints/wire_088088225_001_Auto1.uasset'
+[2017.04.20-01.39.57:116][ 49]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/Autosaves/Game/FirstPersonCPP/Blueprints/wire_088088225_001_Auto1.uasset
+[2017.04.20-01.39.57:117][ 49]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonCPP/Blueprints/dl_itembell_alb] ([1] browsable assets)...
+[2017.04.20-01.39.57:122][ 49]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/FirstPersonCPP/Blueprints/dl_itembell_alb.dl_itembell_alb]
+[2017.04.20-01.39.57:122][ 49]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonCPP/Blueprints/dl_itembell_alb]
+[2017.04.20-01.39.57:130][ 49]LogSavePackage: Save=6.86ms
+[2017.04.20-01.39.57:130][ 49]LogSavePackage: Moving '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/dl_itembell_alb_Auto1D1F429954A2CEE2AAF06C389F11199A5.tmp' to '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/Autosaves/Game/FirstPersonCPP/Blueprints/dl_itembell_alb_Auto1.uasset'
+[2017.04.20-01.39.57:131][ 49]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/Autosaves/Game/FirstPersonCPP/Blueprints/dl_itembell_alb_Auto1.uasset
+[2017.04.20-01.39.57:132][ 49]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonCPP/Blueprints/warppipe] ([1] browsable assets)...
+[2017.04.20-01.39.57:170][ 49]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/FirstPersonCPP/Blueprints/warppipe.warppipe]
+[2017.04.20-01.39.57:170][ 49]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonCPP/Blueprints/warppipe]
+[2017.04.20-01.39.57:190][ 49]LogSavePackage: Save=14.66ms
+[2017.04.20-01.39.57:190][ 49]LogSavePackage: Moving '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/warppipe_Auto1FF41E2B545ACBA5ABF2323BB187B9B57.tmp' to '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/Autosaves/Game/FirstPersonCPP/Blueprints/warppipe_Auto1.uasset'
+[2017.04.20-01.39.57:191][ 49]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/Autosaves/Game/FirstPersonCPP/Blueprints/warppipe_Auto1.uasset
+[2017.04.20-01.39.57:191][ 49]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonCPP/Blueprints/mesh0043mat] ([1] browsable assets)...
+[2017.04.20-01.39.57:230][ 49]OBJ SavePackage:     Rendered thumbnail for [Material /Game/FirstPersonCPP/Blueprints/mesh0043mat.mesh0043mat]
+[2017.04.20-01.39.57:230][ 49]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonCPP/Blueprints/mesh0043mat]
+[2017.04.20-01.39.57:247][ 49]LogSavePackage: Save=15.10ms
+[2017.04.20-01.39.57:247][ 49]LogSavePackage: Moving '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/mesh0043mat_Auto106BFE95C494E7FECFB36C5BD3C4878C3.tmp' to '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/Autosaves/Game/FirstPersonCPP/Blueprints/mesh0043mat_Auto1.uasset'
+[2017.04.20-01.39.57:248][ 49]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/Autosaves/Game/FirstPersonCPP/Blueprints/mesh0043mat_Auto1.uasset
+[2017.04.20-01.39.57:248][ 49]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonCPP/Blueprints/t0043_0] ([1] browsable assets)...
+[2017.04.20-01.39.57:250][ 49]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/FirstPersonCPP/Blueprints/t0043_0.t0043_0]
+[2017.04.20-01.39.57:250][ 49]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonCPP/Blueprints/t0043_0]
+[2017.04.20-01.39.57:256][ 49]LogSavePackage: Save=5.11ms
+[2017.04.20-01.39.57:256][ 49]LogSavePackage: Moving '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/t0043_0_Auto185FEE78C487A847785ADDB8C4060F85D.tmp' to '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/Autosaves/Game/FirstPersonCPP/Blueprints/t0043_0_Auto1.uasset'
+[2017.04.20-01.39.57:257][ 49]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/Autosaves/Game/FirstPersonCPP/Blueprints/t0043_0_Auto1.uasset
+[2017.04.20-01.39.57:258][ 49]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonCPP/Blueprints/coinbp] ([1] browsable assets)...
+[2017.04.20-01.39.57:301][ 49]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonCPP/Blueprints/coinbp.coinbp]
+[2017.04.20-01.39.57:301][ 49]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonCPP/Blueprints/coinbp]
+[2017.04.20-01.39.57:336][ 49]LogSavePackage: Save=32.28ms
+[2017.04.20-01.39.57:336][ 49]LogSavePackage: Moving '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/coinbp_Auto11C2D4A9E4E35581152CED19D48E49EF8.tmp' to '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/Autosaves/Game/FirstPersonCPP/Blueprints/coinbp_Auto1.uasset'
+[2017.04.20-01.39.57:337][ 49]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/Autosaves/Game/FirstPersonCPP/Blueprints/coinbp_Auto1.uasset
+[2017.04.20-01.39.57:338][ 49]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonCPP/Blueprints/sm64_coin] ([1] browsable assets)...
+[2017.04.20-01.39.57:343][ 49]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/FirstPersonCPP/Blueprints/sm64_coin.sm64_coin]
+[2017.04.20-01.39.57:343][ 49]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonCPP/Blueprints/sm64_coin]
+[2017.04.20-01.39.57:368][ 49]LogSavePackage: Save=7.25ms
+[2017.04.20-01.39.57:368][ 49]LogSavePackage: Moving '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/sm64_coin_Auto1A4573D9C4C542EA2E49A188123EEE918.tmp' to '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/Autosaves/Game/FirstPersonCPP/Blueprints/sm64_coin_Auto1.uasset'
+[2017.04.20-01.39.57:369][ 49]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/Autosaves/Game/FirstPersonCPP/Blueprints/sm64_coin_Auto1.uasset
+[2017.04.20-01.39.57:369][ 49]LogFileHelpers: Auto-saving content packages took 0.411
+[2017.04.20-01.41.35:207][638]LogEditorTransaction: Undo Add new track
+[2017.04.20-01.41.36:519][752]LogEditorTransaction: Undo Move Node
+[2017.04.20-01.48.01:067][137]LogSavePackage: Save=86.90ms
+[2017.04.20-01.48.01:067][137]LogSavePackage: Moving '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/coinbp1CF4E92A444A0F97DD24D4B5676DDEDC.tmp' to '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/FirstPersonCPP/Blueprints/coinbp.uasset'
+[2017.04.20-01.48.01:324][137]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/FirstPersonCPP/Blueprints/coinbp.uasset
+[2017.04.20-01.48.03:295][161]LogBlueprint:Error: [Compiler PersistentLevel.FirstPersonExampleMap] Error Couldn't find object for bound event node  OnActorHit (None)
+[2017.04.20-01.48.03:757][161]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [2640.47] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 0 Warning(s) [in 473 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.48.03:757][161]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [2640.47] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.48.03:757][161]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [2640.47] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.48.03:757][161]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [2640.47] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.48.03:757][161]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [2640.47] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.48.03:757][161]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [2640.47] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-01.48.03:973][161]LogSavePackage: Save=697.74ms
+[2017.04.20-01.48.03:973][161]LogSavePackage: Moving '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/FirstPersonExampleMap134EFBD14F71D3F951B8D08EBF674B7B.tmp' to '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
+[2017.04.20-01.48.04:021][161]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap
+[2017.04.20-01.48.09:188][161]LogSavePackage: Save=2470.87ms
+[2017.04.20-01.48.09:190][161]LogSavePackage: Moving '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/FirstPersonExampleMap_BuiltDataCD7BE0A249E32E1318A414A9891A9905.tmp' to '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2017.04.20-01.48.09:199][161]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2017.04.20-04.18.27:212][599]BlueprintLog: New page: Compile coinbp
+[2017.04.20-04.18.55:144][730]LogEditorTransaction: Undo Add Key(s)
+[2017.04.20-04.19.32:363][124]BlueprintLog: New page: Compile coinbp
+[2017.04.20-04.20.47:999][957]LogEditorTransaction: Undo Mouse Drag
+[2017.04.20-04.22.15:365][ 73]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.035
+[2017.04.20-04.22.15:384][ 73]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonCPP/Blueprints/coinbp] ([1] browsable assets)...
+[2017.04.20-04.22.15:506][ 73]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonCPP/Blueprints/coinbp.coinbp]
+[2017.04.20-04.22.15:506][ 73]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonCPP/Blueprints/coinbp]
+[2017.04.20-04.22.15:774][ 73]LogSavePackage: Save=118.33ms
+[2017.04.20-04.22.15:774][ 73]LogSavePackage: Moving '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/coinbp_Auto2A97A6E674B46DCF0CA7AF08C4E055524.tmp' to '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/Autosaves/Game/FirstPersonCPP/Blueprints/coinbp_Auto2.uasset'
+[2017.04.20-04.22.15:780][ 73]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/Autosaves/Game/FirstPersonCPP/Blueprints/coinbp_Auto2.uasset
+[2017.04.20-04.22.15:780][ 73]LogFileHelpers: Auto-saving content packages took 0.413
+[2017.04.20-04.25.30:805][980]LogSavePackage: Save=56.48ms
+[2017.04.20-04.25.30:805][980]LogSavePackage: Moving '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/coinbp296A4F6E47B4A9CC2FBEABA808A80FCE.tmp' to '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/FirstPersonCPP/Blueprints/coinbp.uasset'
+[2017.04.20-04.25.30:837][980]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/FirstPersonCPP/Blueprints/coinbp.uasset
+[2017.04.20-04.25.31:817][991]BlueprintLog: New page: Compile coinbp
+[2017.04.20-04.25.33:189][999]LogSavePackage: Save=88.35ms
+[2017.04.20-04.25.33:189][999]LogSavePackage: Moving '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/coinbp309134984203DDAC1E6A5DB03FC42E4C.tmp' to '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/FirstPersonCPP/Blueprints/coinbp.uasset'
+[2017.04.20-04.25.33:196][999]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/FirstPersonCPP/Blueprints/coinbp.uasset
+[2017.04.20-04.25.36:536][ 46]BlueprintLog: New page: Compile coinbp
+[2017.04.20-04.25.37:831][ 55]LogSavePackage: Save=82.91ms
+[2017.04.20-04.25.37:831][ 55]LogSavePackage: Moving '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/coinbp96F70C7C49AEAD4E2E18A28DD921C625.tmp' to '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/FirstPersonCPP/Blueprints/coinbp.uasset'
+[2017.04.20-04.25.37:842][ 55]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/FirstPersonCPP/Blueprints/coinbp.uasset
+[2017.04.20-04.27.27:020][945]LogSavePackage: Save=105.46ms
+[2017.04.20-04.27.27:020][945]LogSavePackage: Moving '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/coinbp97737E4F44E0F5A366F27AB5385A8E5D.tmp' to '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/FirstPersonCPP/Blueprints/coinbp.uasset'
+[2017.04.20-04.27.27:030][945]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/FirstPersonCPP/Blueprints/coinbp.uasset
+[2017.04.20-04.27.28:333][962]BlueprintLog: New page: Compile coinbp
+[2017.04.20-04.27.31:095][982]LogSavePackage: Save=70.49ms
+[2017.04.20-04.27.31:095][982]LogSavePackage: Moving '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/coinbp9D5AEA114DD8C547D8757A92BA9B7F72.tmp' to '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/FirstPersonCPP/Blueprints/coinbp.uasset'
+[2017.04.20-04.27.31:098][982]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/FirstPersonCPP/Blueprints/coinbp.uasset
+[2017.04.20-04.27.53:349][412]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (coin5)
+[2017.04.20-04.27.58:616][536]Cmd: DELETE
+[2017.04.20-04.27.58:616][536]Cmd: ACTOR DELETE
+[2017.04.20-04.27.59:306][536]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.04.20-04.27.59:418][536]LogEditorActor: Deleted 1 Actors (0.121 secs)
+[2017.04.20-04.28.09:093][789]Cmd: EDIT COPY
+[2017.04.20-04.28.09:385][789]Cmd: EDIT PASTE
+[2017.04.20-04.28.16:282][992]Cmd: EDIT PASTE
+[2017.04.20-04.28.23:148][165]LogBlueprint:Error: [Compiler PersistentLevel.FirstPersonExampleMap] Error Couldn't find object for bound event node  OnActorHit (None)
+[2017.04.20-04.28.23:924][165]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [2260.65] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 0 Warning(s) [in 787 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-04.28.23:925][165]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [2260.65] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-04.28.23:925][165]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [2260.65] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-04.28.23:925][165]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [2260.65] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-04.28.23:927][165]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [2260.65] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 4 Warning(s) [in 1 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-04.28.23:927][165]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [2260.65] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-04.28.24:345][165]LogSavePackage: Save=1215.72ms
+[2017.04.20-04.28.24:345][165]LogSavePackage: Moving '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/FirstPersonExampleMapD70D506F437C4BDADC859DAC1F1D9EBC.tmp' to '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
+[2017.04.20-04.28.24:349][165]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap
+[2017.04.20-04.28.27:297][165]LogSavePackage: Save=1526.36ms
+[2017.04.20-04.28.27:297][165]LogSavePackage: Moving '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/FirstPersonExampleMap_BuiltDataAB15192B49B17863A8B0F2A1A1BA4A92.tmp' to '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2017.04.20-04.28.27:301][165]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2017.04.20-04.28.43:434][606]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.20-04.28.43:508][606]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.20-04.28.43:548][606]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.04.20-04.28.43:548][606]LogPlayLevel: [PlayLevel] Compiling FirstPersonExampleMap before play...
+[2017.04.20-04.28.43:567][606]LogBlueprint:Error: [Compiler PersistentLevel.FirstPersonExampleMap] Error Couldn't find object for bound event node  OnActorHit (None)
+[2017.04.20-04.28.43:930][606]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [2280.66] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 0 Warning(s) [in 375 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-04.28.43:931][606]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [2280.66] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-04.28.43:931][606]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [2280.66] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-04.28.43:931][606]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [2280.66] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-04.28.43:931][606]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [2280.66] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-04.28.43:931][606]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [2280.66] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-04.28.43:963][606]LogPlayLevel: PlayLevel: Blueprint regeneration took 416 ms (1 blueprints)
+[2017.04.20-04.28.43:963][606]BlueprintLog: Info Blueprint FirstPersonExampleMap failed to compile
+[2017.04.20-04.28.52:772][606]PIE: New page: PIE session: FirstPersonExampleMap (Apr 19, 2017, 2:28:52 PM)
+[2017.04.20-04.28.52:799][606]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.04.20-04.28.53:436][606]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map FoliageInstancedStaticMeshComponent /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_0.
+[2017.04.20-04.28.53:708][606]LogPlayLevel: PIE: StaticDuplicateObject took: (0.909808s)
+[2017.04.20-04.28.53:752][606]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.04.20-04.28.53:845][606]LogPlayLevel: PIE: World Init took: (0.136165s)
+[2017.04.20-04.28.53:859][606]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (1.070855s)
+[2017.04.20-04.28.54:673][606]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.20-04.28.54:877][606]LogInit: FAudioDevice initialized.
+[2017.04.20-04.28.55:122][606]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.20-04.28.55:878][606]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.04.19-21.28.55
+[2017.04.20-04.28.56:067][606]LogWorld: Bringing up level for play took: 0.735270
+[2017.04.20-04.28.56:543][606]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 13.182
+[2017.04.20-04.28.56:544][606]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.20-04.29.16:135][168]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.20-04.29.16:474][168]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.20-04.29.25:045][412]LogEditorViewport: Clicking on Actor (LMB): coinbp_C (coinbp)
+[2017.04.20-04.29.26:285][448]Cmd: DELETE
+[2017.04.20-04.29.26:286][448]Cmd: ACTOR DELETE
+[2017.04.20-04.29.26:288][448]LogEditorActor: Deleted Actor: coinbp_C
+[2017.04.20-04.29.26:349][448]LogEditorActor: Deleted 1 Actors (0.063 secs)
+[2017.04.20-04.29.27:063][471]LogEditorViewport: Clicking on Actor (LMB): coinbp_C (coinbp3)
+[2017.04.20-04.29.27:484][482]Cmd: DELETE
+[2017.04.20-04.29.27:484][482]Cmd: ACTOR DELETE
+[2017.04.20-04.29.27:486][482]LogEditorActor: Deleted Actor: coinbp_C
+[2017.04.20-04.29.27:539][482]LogEditorActor: Deleted 1 Actors (0.054 secs)
+[2017.04.20-04.29.28:059][499]LogEditorViewport: Clicking on Actor (LMB): coinbp_C (coinbp2)
+[2017.04.20-04.29.31:329][595]Cmd: EDIT COPY
+[2017.04.20-04.29.32:122][619]Cmd: EDIT PASTE
+[2017.04.20-04.29.36:915][760]Cmd: TRANSACTION UNDO
+[2017.04.20-04.29.36:915][760]LogEditorTransaction: Undo Move Actors
+[2017.04.20-04.29.40:257][817]Cmd: TRANSACTION UNDO
+[2017.04.20-04.29.40:257][817]LogEditorTransaction: Undo Paste
+[2017.04.20-04.29.42:629][850]Cmd: TRANSACTION UNDO
+[2017.04.20-04.29.42:629][850]LogEditorTransaction: Undo Clicking on Actors
+[2017.04.20-04.29.43:288][860]Cmd: TRANSACTION UNDO
+[2017.04.20-04.29.43:289][860]LogEditorTransaction: Undo Delete Actors
+[2017.04.20-04.29.44:760][881]Cmd: TRANSACTION REDO
+[2017.04.20-04.29.44:760][881]LogEditorTransaction: Redo Delete Actors
+[2017.04.20-04.29.50:594][ 12]LogEditorViewport: Clicking on Actor (LMB): coinbp_C (coinbp2)
+[2017.04.20-04.30.06:087][471]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.04.20-04.30.07:195][490]LogEditorViewport: Clicking on Actor (LMB): coinbp_C (coinbp2)
+[2017.04.20-04.30.12:381][646]Cmd: EDIT COPY
+[2017.04.20-04.30.12:810][659]Cmd: EDIT PASTE
+[2017.04.20-04.30.21:066][899]Cmd: EDIT PASTE
+[2017.04.20-04.30.22:617][942]LogEditorViewport: Clicking on Actor (LMB): coinbp_C (coinbp3)
+[2017.04.20-04.30.24:875][  8]LogEditorViewport: Clicking on Actor (LMB): coinbp_C (coinbp2)
+[2017.04.20-04.30.30:061][163]Cmd: TRANSACTION UNDO
+[2017.04.20-04.30.30:061][163]LogEditorTransaction: Undo Move Actors
+[2017.04.20-04.30.30:500][171]Cmd: TRANSACTION UNDO
+[2017.04.20-04.30.30:500][171]LogEditorTransaction: Undo Move Actors
+[2017.04.20-04.30.38:666][371]Cmd: EDIT PASTE
+[2017.04.20-04.30.47:904][647]Cmd: EDIT PASTE
+[2017.04.20-04.31.05:369][167]LogEditorViewport: Clicking on Actor (LMB): coinbp_C (coinbp6)
+[2017.04.20-04.31.06:175][191]Cmd: EDIT COPY
+[2017.04.20-04.31.06:572][203]Cmd: EDIT PASTE
+[2017.04.20-04.31.11:152][338]Cmd: EDIT PASTE
+[2017.04.20-04.31.19:224][576]LogEditorViewport: Clicking on Actor (LMB): coinbp_C (coinbp8)
+[2017.04.20-04.31.20:820][625]Cmd: EDIT COPY
+[2017.04.20-04.31.22:470][675]Cmd: EDIT PASTE
+[2017.04.20-04.31.29:070][871]LogEditorViewport: Clicking on Actor (LMB): coinbp_C (coinbp2)
+[2017.04.20-04.31.33:362][996]Cmd: EDIT COPY
+[2017.04.20-04.31.34:402][ 27]LogEditorViewport: Clicking on Actor (LMB): coinbp_C (coinbp5)
+[2017.04.20-04.31.35:565][ 58]Cmd: DELETE
+[2017.04.20-04.31.35:565][ 58]Cmd: ACTOR DELETE
+[2017.04.20-04.31.35:567][ 58]LogEditorActor: Deleted Actor: coinbp_C
+[2017.04.20-04.31.35:630][ 58]LogEditorActor: Deleted 1 Actors (0.065 secs)
+[2017.04.20-04.31.36:604][ 89]Cmd: EDIT PASTE
+[2017.04.20-04.31.43:471][277]LogBlueprint:Error: [Compiler PersistentLevel.FirstPersonExampleMap] Error Couldn't find object for bound event node  OnActorHit (None)
+[2017.04.20-04.31.43:974][277]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [2460.70] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 0 Warning(s) [in 519 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-04.31.43:975][277]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [2460.70] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-04.31.43:975][277]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [2460.70] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-04.31.43:975][277]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [2460.70] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-04.31.43:975][277]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [2460.70] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-04.31.43:975][277]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [2460.70] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-04.31.44:324][277]LogSavePackage: Save=877.55ms
+[2017.04.20-04.31.44:324][277]LogSavePackage: Moving '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/FirstPersonExampleMapB9DF91204C7883A0BABD889401D03F65.tmp' to '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
+[2017.04.20-04.31.44:338][277]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap
+[2017.04.20-04.31.45:853][277]LogSavePackage: Save=1370.19ms
+[2017.04.20-04.31.45:854][277]LogSavePackage: Moving '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/FirstPersonExampleMap_BuiltData67C8CCBF420FCADDBBD75B897638FDBA.tmp' to '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2017.04.20-04.31.45:857][277]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2017.04.20-04.31.46:442][295]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.20-04.31.46:459][295]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.20-04.31.46:459][295]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.04.20-04.31.46:459][295]LogPlayLevel: [PlayLevel] Compiling FirstPersonExampleMap before play...
+[2017.04.20-04.31.46:465][295]LogBlueprint:Error: [Compiler PersistentLevel.FirstPersonExampleMap] Error Couldn't find object for bound event node  OnActorHit (None)
+[2017.04.20-04.31.46:745][295]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [2463.47] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 0 Warning(s) [in 283 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-04.31.46:745][295]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [2463.47] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-04.31.46:745][295]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [2463.47] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-04.31.46:745][295]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [2463.47] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-04.31.46:747][295]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [2463.47] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 4 Warning(s) [in 1 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-04.31.46:747][295]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [2463.47] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.20-04.31.46:791][295]LogPlayLevel: PlayLevel: Blueprint regeneration took 332 ms (1 blueprints)
+[2017.04.20-04.31.46:791][295]BlueprintLog: Info Blueprint FirstPersonExampleMap failed to compile
+[2017.04.20-04.31.48:524][295]PIE: New page: PIE session: FirstPersonExampleMap (Apr 19, 2017, 2:31:48 PM)
+[2017.04.20-04.31.48:524][295]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.04.20-04.31.48:554][295]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map FoliageInstancedStaticMeshComponent /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_0.
+[2017.04.20-04.31.48:567][295]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042894s)
+[2017.04.20-04.31.48:568][295]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.04.20-04.31.48:568][295]LogPlayLevel: PIE: World Init took: (0.001216s)
+[2017.04.20-04.31.48:568][295]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.044476s)
+[2017.04.20-04.31.48:597][295]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.20-04.31.48:607][295]LogInit: FAudioDevice initialized.
+[2017.04.20-04.31.48:646][295]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.20-04.31.48:661][295]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.04.19-21.31.48
+[2017.04.20-04.31.48:663][295]LogWorld: Bringing up level for play took: 0.013296
+[2017.04.20-04.31.48:668][295]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 1.307
+[2017.04.20-04.31.48:669][295]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.20-04.32.16:136][126]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.20-04.32.16:252][126]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.20-04.32.19:595][221]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (powerstar)
+[2017.04.20-04.32.20:924][249]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (powerstar)
+[2017.04.20-04.32.36:988][290]LogStats: FPlatformStackWalk::StackWalkAndDump - 11.298 s
+[2017.04.20-04.32.36:988][290]LogOutputDevice:Error: === Handled ensure: ===
+[2017.04.20-04.32.36:988][290]LogOutputDevice:Error: 
+[2017.04.20-04.32.36:988][290]LogOutputDevice:Error: Ensure condition failed: ListenerTransformCopy.IsValid() [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Runtime\Engine\Private\AudioDevice.cpp] [Line: 2143]
+[2017.04.20-04.32.36:989][290]LogOutputDevice:Error: Invalid listener transform provided to AudioDevice
+[2017.04.20-04.32.36:989][290]LogOutputDevice:Error: Stack: 
+[2017.04.20-04.32.36:989][290]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000010D395E6
+[2017.04.20-04.32.36:989][290]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000010AE9B82
+[2017.04.20-04.32.36:989][290]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000010AFB666
+[2017.04.20-04.32.36:989][290]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000000D391B6B
+[2017.04.20-04.32.36:989][290]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000000B60782A
+[2017.04.20-04.32.36:989][290]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000000B604763
+[2017.04.20-04.32.36:989][290]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000000B29197D
+[2017.04.20-04.32.36:989][290]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000000E0AA74E
+[2017.04.20-04.32.36:989][290]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000000B1E9315
+[2017.04.20-04.32.36:989][290]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000000B1E72F9
+[2017.04.20-04.32.36:989][290]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000000B9F2086
+[2017.04.20-04.32.36:989][290]LogOutputDevice:Error: UE4Editor.exe!0x000000009583DEE3
+[2017.04.20-04.32.36:989][290]LogOutputDevice:Error: UE4Editor.exe!0x000000009582EB40
+[2017.04.20-04.32.36:989][290]LogOutputDevice:Error: UE4Editor.exe!0x000000009582EBBA
+[2017.04.20-04.32.36:989][290]LogOutputDevice:Error: UE4Editor.exe!0x0000000095840A29
+[2017.04.20-04.32.36:989][290]LogOutputDevice:Error: UE4Editor.exe!0x00000000958422B6
+[2017.04.20-04.32.36:989][290]LogOutputDevice:Error: KERNEL32.DLL!0x000000005DC88364
+[2017.04.20-04.32.36:989][290]LogOutputDevice:Error: ntdll.dll!0x000000005E8E70D1
+[2017.04.20-04.32.36:989][290]LogOutputDevice:Error: 
+[2017.04.20-04.32.37:021][290]LogStats:                SubmitErrorReport -  0.023 s

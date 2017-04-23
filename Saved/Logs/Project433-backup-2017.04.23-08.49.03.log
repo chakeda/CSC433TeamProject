@@ -1,0 +1,855 @@
+﻿Log file open, 04/23/17 08:42:07
+LogInit:Display: Running engine for game: Project433
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(231213997) SRandInit(231213997).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.064063
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3299760
+LogInit: Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Feb 14 2017 02:04:14
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.04.23-15.42.08:957][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.23-15.42.08:957][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.23-15.42.08:968][  0]LogInit: Computer: KITE
+[2017.04.23-15.42.08:968][  0]LogInit: User: Kite
+[2017.04.23-15.42.08:968][  0]LogInit: CPU Page size=65536, Cores=2
+[2017.04.23-15.42.08:968][  0]LogInit: High frequency timer resolution =2.046044 MHz
+[2017.04.23-15.42.08:968][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.04.23-15.42.08:968][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.23-15.42.08:968][  0]LogMemory: Process Physical Memory: 259.69 MB used, 259.69 MB peak
+[2017.04.23-15.42.08:968][  0]LogMemory: Process Virtual Memory: 261.87 MB used, 261.87 MB peak
+[2017.04.23-15.42.08:968][  0]LogMemory: Physical Memory: 2296.30 MB used,  5811.09 MB free, 8107.39 MB total
+[2017.04.23-15.42.08:968][  0]LogMemory: Virtual Memory: 622.36 MB used,  5811.09 MB free, 134217728.00 MB total
+[2017.04.23-15.42.09:153][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.04.23-15.42.10:077][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.23-15.42.10:102][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 5500' (Feature Level 11_0)
+[2017.04.23-15.42.10:102][  0]LogD3D11RHI:       0/0/3839 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.04.23-15.42.10:103][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.04.23-15.42.10:103][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.04.23-15.42.10:103][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.23-15.42.10:109][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.23-15.42.10:109][  0]LogD3D11RHI:     GPU DeviceId: 0x1616 (for the marketing name, search the web for "GPU Device Id")
+[2017.04.23-15.42.10:109][  0]LogWindows: EnumDisplayDevices:
+[2017.04.23-15.42.10:109][  0]LogWindows:    0. 'Intel(R) HD Graphics 5500' (P:1 D:1)
+[2017.04.23-15.42.10:109][  0]LogWindows:    1. 'Intel(R) HD Graphics 5500' (P:0 D:0)
+[2017.04.23-15.42.10:109][  0]LogWindows:    2. 'Intel(R) HD Graphics 5500' (P:0 D:0)
+[2017.04.23-15.42.10:109][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.04.23-15.42.10:109][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 5500
+[2017.04.23-15.42.10:109][  0]LogD3D11RHI:   Driver Version: 10.18.10.3960 (internal:10.18.10.3960, unified:10.18.10.3960)
+[2017.04.23-15.42.10:110][  0]LogD3D11RHI:      Driver Date: 9-29-2014
+[2017.04.23-15.42.10:110][  0]LogRHI: Texture pool is 1343 MB (70% of 1919 MB)
+[2017.04.23-15.42.10:116][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.23-15.42.10:124][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
+[2017.04.23-15.42.10:125][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (../../../../../../Users/Kite/Documents/Unreal Projects/Project433/Intermediate/Shaders/WorkingDirectory/392/).
+[2017.04.23-15.42.10:125][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Kite/AppData/Local/Temp/UnrealShaderWorkingDir/D53399584029304042FF8DAC9A41D82E/'.
+[2017.04.23-15.42.10:125][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.23-15.42.14:292][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.23-15.42.14:376][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.04.23-15.42.14:469][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.04.23-15.42.14:562][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.04.23-15.42.14:656][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.04.23-15.42.14:733][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.23-15.42.14:808][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.23-15.42.14:883][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.23-15.42.14:937][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.23-15.42.15:029][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.23-15.42.15:105][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.23-15.42.15:180][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.23-15.42.15:261][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.23-15.42.15:349][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.23-15.42.15:434][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.23-15.42.15:597][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.23-15.42.15:597][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.23-15.42.15:651][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.23-15.42.15:806][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.23-15.42.15:875][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.23-15.42.15:957][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.04.23-15.42.16:035][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.23-15.42.16:110][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.23-15.42.16:195][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.23-15.42.16:195][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.23-15.42.17:304][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.23-15.42.18:046][  0]LogDerivedDataCache: Loaded boot cache 0.74s 50MB C:/Users/Kite/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.23-15.42.18:046][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Kite/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.04.23-15.42.18:046][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Kite/Documents/Unreal Projects/Project433/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.23-15.42.18:046][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.23-15.42.18:046][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Kite/Documents/Unreal Projects/Project433/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.23-15.42.18:046][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.23-15.42.18:106][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.23-15.42.18:119][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Kite/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.23-15.42.18:131][  0]LogSlate: Using Freetype 2.6.0
+[2017.04.23-15.42.18:156][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.23-15.42.18:156][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.23-15.42.22:355][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.23-15.42.22:361][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.23-15.42.22:727][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.04.23-15.42.22:813][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.04.23-15.42.22:892][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.04.23-15.42.22:892][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.04.23-15.42.22:892][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.23-15.42.24:599][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: project433, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3701128711
+[2017.04.23-15.42.24:699][  0]LogAssetRegistry: FAssetRegistry took 0.0221 seconds to start up
+[2017.04.23-15.42.24:773][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.030371 seconds
+[2017.04.23-15.42.24:782][  0]LogUObjectArray: 32475 objects as part of root set at end of initial load.
+[2017.04.23-15.42.24:782][  0]LogUObjectAllocator: 7073360 out of 0 bytes used by permanent object pool.
+[2017.04.23-15.42.24:782][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.23-15.42.24:858][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.23-15.42.52:371][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.23-15.42.52:433][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.23-15.42.53:614][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.23-15.42.54:277][  0]SourceControl: Info Source control is disabled
+[2017.04.23-15.42.54:334][  0]SourceControl: Info Source control is disabled
+[2017.04.23-15.42.54:451][  0]SourceControl: Info Source control is disabled
+[2017.04.23-15.42.54:539][  0]SourceControl: Info Source control is disabled
+[2017.04.23-15.42.56:843][  0]LogEngine: Initializing Engine...
+[2017.04.23-15.42.56:843][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.04.23-15.42.57:474][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.04.23-15.42.57:481][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.23-15.42.57:506][  0]LogInit: FAudioDevice initialized.
+[2017.04.23-15.42.57:540][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/Kite/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.23-15.42.57:546][  0]LogInit: Texture streaming: Enabled
+[2017.04.23-15.42.57:723][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.04.23-15.42.57:848][  0]LogInit: Transaction tracking system initialized
+[2017.04.23-15.42.58:305][  0]BlueprintLog: New page: Editor Load
+[2017.04.23-15.42.59:839][  0]LocalizationService: Info Localization service is disabled
+[2017.04.23-15.43.01:367][  0]LogConsoleResponse:Display: 
+[2017.04.23-15.43.04:182][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.04.23-15.43.04:182][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.23-15.43.04:719][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kite/Documents/Unreal Projects/Project433/Content/' took 0.02s
+[2017.04.23-15.43.07:509][  0]SourceControl: Info Source control is disabled
+[2017.04.23-15.43.07:509][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Kite/Documents/Unreal Projects/Project433/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.23-15.43.07:529][  0]LightingResults: New page: Lighting Build
+[2017.04.23-15.43.07:599][  0]MapCheck: New page: Map Check
+[2017.04.23-15.43.07:599][  0]LightingResults: New page: Lighting Build
+[2017.04.23-15.43.09:336][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.04.23-15.43.09:388][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.23-15.43.09:388][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.23-15.43.09:436][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 47.708ms to complete.
+[2017.04.23-15.43.09:436][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.927
+[2017.04.23-15.43.09:525][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.23-15.43.09:526][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.23-15.43.09:816][  0]LogCollectionManager: Loaded 0 collections in 0.001863 seconds
+[2017.04.23-15.43.09:922][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kite/Documents/Unreal Projects/Project433/Saved/Collections/' took 0.01s
+[2017.04.23-15.43.09:922][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kite/Documents/Unreal Projects/Project433/Content/Developers/Kite/Collections/' took 0.01s
+[2017.04.23-15.43.09:922][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kite/Documents/Unreal Projects/Project433/Content/Collections/' took 0.01s
+[2017.04.23-15.43.09:922][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.04.23-15.43.09:934][  0]LogContentBrowser: Native class hierarchy populated in 0.0119 seconds. Added 2244 classes and 450 folders.
+[2017.04.23-15.43.09:939][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.04.23-15.43.09:939][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.04.23-15.43.10:009][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.04.23-15.43.11:130][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0019 seconds. Added 0 classes and 0 folders.
+[2017.04.23-15.43.11:214][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.04.23-15.43.11:319][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.04.23-15.43.11:327][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.04.23-15.43.11:418][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.04.23-15.43.11:418][  0]LogLoad: (Engine Initialization) Total time: 64.78 seconds
+[2017.04.23-15.43.11:418][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.29 seconds
+[2017.04.23-15.43.11:418][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.04.23-15.43.11:418][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.04.23-15.43.11:436][  0]LogOcInput: OculusInput pre-init called
+[2017.04.23-15.43.11:455][  0]LogContentStreaming: Texture pool size now 400 MB
+[2017.04.23-15.43.11:464][  0]LogSlate: Took 0.006929 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.23-15.43.11:480][  0]LogSlate: Took 0.010724 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.04.23-15.43.11:503][  0]LogSlate: Took 0.016127 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.04.23-15.43.11:736][  0]LogRenderer: Reallocating scene render targets to support 856x392 NumSamples 1 (Frame:2).
+[2017.04.23-15.43.12:339][  2]LogAssetRegistry: Asset discovery search completed in 47.6623 seconds
+[2017.04.23-15.43.12:339][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000007 seconds (found 0 objects)
+[2017.04.23-15.43.12:339][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000025 seconds (updated 0 objects)
+[2017.04.23-15.43.15:764][136]LogSlate: Took 0.066417 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.23-15.43.21:074][363]LogSlate: Took 0.000371 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.23-15.43.21:214][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:214][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading ../../../../../../Users/Kite/Documents/Unreal Projects/Project433/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap.
+[2017.04.23-15.43.21:214][363]LoadErrors:Error: Error /Game/FirstPersonCPP/Maps/FirstPersonExampleMap : Can't find file for asset. /Game/FirstPersonCPP/Blueprints/coinbp
+[2017.04.23-15.43.21:215][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/starbp'
+[2017.04.23-15.43.21:215][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/starbp' while loading ../../../../../../Users/Kite/Documents/Unreal Projects/Project433/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap.
+[2017.04.23-15.43.21:215][363]LoadErrors:Error: Error /Game/FirstPersonCPP/Maps/FirstPersonExampleMap : Can't find file for asset. /Game/FirstPersonCPP/Blueprints/starbp
+[2017.04.23-15.43.21:224][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:224][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading ../../../../../../Users/Kite/Documents/Unreal Projects/Project433/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap.
+[2017.04.23-15.43.21:224][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/starbp'
+[2017.04.23-15.43.21:225][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/starbp' while loading ../../../../../../Users/Kite/Documents/Unreal Projects/Project433/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap.
+[2017.04.23-15.43.21:751][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:752][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading ../../../../../../Users/Kite/Documents/Unreal Projects/Project433/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap.
+[2017.04.23-15.43.21:752][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/starbp'
+[2017.04.23-15.43.21:752][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/starbp' while loading ../../../../../../Users/Kite/Documents/Unreal Projects/Project433/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap.
+[2017.04.23-15.43.21:752][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/warppipe'
+[2017.04.23-15.43.21:753][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/warppipe' while loading ../../../../../../Users/Kite/Documents/Unreal Projects/Project433/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap.
+[2017.04.23-15.43.21:753][363]LoadErrors:Error: Error /Game/FirstPersonCPP/Maps/FirstPersonExampleMap : Can't find file for asset. /Game/FirstPersonCPP/Blueprints/warppipe
+[2017.04.23-15.43.21:851][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:851][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading ../../../../../../Users/Kite/Documents/Unreal Projects/Project433/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap.
+[2017.04.23-15.43.21:851][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/starbp'
+[2017.04.23-15.43.21:852][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/starbp' while loading ../../../../../../Users/Kite/Documents/Unreal Projects/Project433/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap.
+[2017.04.23-15.43.21:853][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:853][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading ../../../../../../Users/Kite/Documents/Unreal Projects/Project433/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap.
+[2017.04.23-15.43.21:853][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/starbp'
+[2017.04.23-15.43.21:853][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/starbp' while loading ../../../../../../Users/Kite/Documents/Unreal Projects/Project433/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap.
+[2017.04.23-15.43.21:854][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/warppipe'
+[2017.04.23-15.43.21:854][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/warppipe' while loading ../../../../../../Users/Kite/Documents/Unreal Projects/Project433/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap.
+[2017.04.23-15.43.21:855][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:855][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading ../../../../../../Users/Kite/Documents/Unreal Projects/Project433/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap.
+[2017.04.23-15.43.21:855][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/starbp'
+[2017.04.23-15.43.21:855][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/starbp' while loading ../../../../../../Users/Kite/Documents/Unreal Projects/Project433/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap.
+[2017.04.23-15.43.21:857][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:857][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:857][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/starbp'
+[2017.04.23-15.43.21:857][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/starbp' while loading NULL.
+[2017.04.23-15.43.21:858][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:858][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:858][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/starbp'
+[2017.04.23-15.43.21:858][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/starbp' while loading NULL.
+[2017.04.23-15.43.21:858][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:858][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:858][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/starbp'
+[2017.04.23-15.43.21:859][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/starbp' while loading NULL.
+[2017.04.23-15.43.21:859][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/warppipe'
+[2017.04.23-15.43.21:859][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/warppipe' while loading NULL.
+[2017.04.23-15.43.21:859][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:859][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:859][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/starbp'
+[2017.04.23-15.43.21:859][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/starbp' while loading NULL.
+[2017.04.23-15.43.21:860][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:860][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:860][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/starbp'
+[2017.04.23-15.43.21:860][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/starbp' while loading NULL.
+[2017.04.23-15.43.21:860][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/warppipe'
+[2017.04.23-15.43.21:860][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/warppipe' while loading NULL.
+[2017.04.23-15.43.21:860][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:860][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:861][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/starbp'
+[2017.04.23-15.43.21:861][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/starbp' while loading NULL.
+[2017.04.23-15.43.21:885][363]LogBlueprint:Error: [Compiler PersistentLevel.FirstPersonExampleMap] Error Couldn't find object for bound event node  OnActorHit (None)
+[2017.04.23-15.43.21:887][363]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [0075.25] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 0 Warning(s) [in 4 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.23-15.43.21:887][363]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [0075.25] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.23-15.43.21:888][363]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [0075.25] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.23-15.43.21:891][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:891][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:891][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:891][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:891][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:891][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:891][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:891][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:891][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:891][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:892][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:892][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:892][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:892][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:892][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:892][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:892][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:892][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:892][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:892][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:892][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:892][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:892][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:893][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:893][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:893][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:893][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:893][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:893][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:893][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:893][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:893][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:905][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:905][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:905][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:905][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:905][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:905][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:905][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:905][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:906][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:906][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:906][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:906][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:906][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:906][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:906][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:906][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:906][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:906][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:906][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:906][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:907][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:907][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:907][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:907][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:907][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:907][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:907][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:907][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:907][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:907][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:908][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:908][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:908][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/starbp'
+[2017.04.23-15.43.21:908][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/starbp' while loading NULL.
+[2017.04.23-15.43.21:908][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/starbp'
+[2017.04.23-15.43.21:908][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/starbp' while loading NULL.
+[2017.04.23-15.43.21:908][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:908][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:909][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:909][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:909][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:909][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:909][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:909][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:909][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:909][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:909][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:909][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:910][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:910][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:910][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:910][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:910][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:910][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:910][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:910][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:910][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:910][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:910][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:910][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:911][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:911][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:911][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:911][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:911][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:912][363]LogSlate: Took 0.000243 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.23-15.43.21:919][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:919][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:919][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:919][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/starbp'
+[2017.04.23-15.43.21:919][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/starbp' while loading NULL.
+[2017.04.23-15.43.21:919][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/starbp'
+[2017.04.23-15.43.21:919][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/starbp' while loading NULL.
+[2017.04.23-15.43.21:920][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/starbp'
+[2017.04.23-15.43.21:920][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/starbp' while loading NULL.
+[2017.04.23-15.43.21:920][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/starbp'
+[2017.04.23-15.43.21:920][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/starbp' while loading NULL.
+[2017.04.23-15.43.21:921][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:921][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:921][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:921][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:921][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:921][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:922][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:922][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:922][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:922][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:922][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:922][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:922][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:922][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:922][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:922][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:922][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:923][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:923][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:923][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:923][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:923][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:923][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:923][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:923][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:923][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:923][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:923][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:924][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:924][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:924][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:924][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:924][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/starbp'
+[2017.04.23-15.43.21:924][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/starbp' while loading NULL.
+[2017.04.23-15.43.21:924][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/starbp'
+[2017.04.23-15.43.21:924][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/starbp' while loading NULL.
+[2017.04.23-15.43.21:925][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:925][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:925][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:925][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:925][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:925][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:925][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:925][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:926][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:926][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:926][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:926][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:926][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:926][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:926][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:926][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:926][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:926][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:926][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:926][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:927][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:927][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:927][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:927][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:927][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:927][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:927][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:927][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:927][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:927][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:928][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.21:928][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.21:928][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/starbp'
+[2017.04.23-15.43.21:928][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/starbp' while loading NULL.
+[2017.04.23-15.43.21:928][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/starbp'
+[2017.04.23-15.43.21:928][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/starbp' while loading NULL.
+[2017.04.23-15.43.22:151][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/starbp'
+[2017.04.23-15.43.22:152][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/starbp' while loading NULL.
+[2017.04.23-15.43.22:152][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/starbp'
+[2017.04.23-15.43.22:152][363]LoadErrors: Info Failed to load /Game/FirstPersonCPP/Blueprints/starbp.starbp_C Referenced by PersistentLevel
+[2017.04.23-15.43.22:153][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/starbp' while loading NULL.
+[2017.04.23-15.43.22:153][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.22:153][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.22:154][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.22:154][363]LoadErrors: Info Failed to load /Game/FirstPersonCPP/Blueprints/coinbp.coinbp_C Referenced by PersistentLevel
+[2017.04.23-15.43.22:155][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.22:155][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.22:155][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.22:155][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.22:156][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.22:156][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.22:157][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.22:157][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.22:158][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.22:158][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.22:159][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.22:159][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.22:160][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.22:160][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.22:160][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.22:160][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.22:161][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.22:161][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.22:161][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.22:161][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.22:161][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.22:161][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.22:161][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.22:161][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.22:162][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.22:162][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.22:162][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.22:162][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/coinbp'
+[2017.04.23-15.43.22:162][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/coinbp' while loading NULL.
+[2017.04.23-15.43.22:220][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/warppipe'
+[2017.04.23-15.43.22:220][363]LoadErrors: Info Failed to load /Game/FirstPersonCPP/Blueprints/warppipe.warppipe Referenced by warppipe2_18
+[2017.04.23-15.43.22:221][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/warppipe' while loading NULL.
+[2017.04.23-15.43.22:221][363]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/warppipe'
+[2017.04.23-15.43.22:221][363]LoadErrors: Info Failed to load /Game/FirstPersonCPP/Blueprints/warppipe.warppipe Referenced by warppipe_13
+[2017.04.23-15.43.22:222][363]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/warppipe' while loading NULL.
+[2017.04.23-15.43.23:681][363]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map FoliageInstancedStaticMeshComponent /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_0.
+[2017.04.23-15.43.23:977][363]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.04.23-15.43.24:060][363]Cmd: MAP LOAD FILE="../../../../../../Users/Kite/Documents/Unreal Projects/Project433/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.23-15.43.24:060][363]LightingResults: New page: Lighting Build
+[2017.04.23-15.43.24:062][363]LoadErrors: New page: Loading map: FirstPersonExampleMap.umap
+[2017.04.23-15.43.24:096][363]MapCheck: New page: Map Check
+[2017.04.23-15.43.24:096][363]LightingResults: New page: Lighting Build
+[2017.04.23-15.43.25:626][363]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.23-15.43.25:699][363]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.23-15.43.25:753][363]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 54.2ms to complete.
+[2017.04.23-15.43.25:753][363]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 1.694
+[2017.04.23-15.43.25:781][363]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': coinbp_C /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.coinbp2
+[2017.04.23-15.43.25:782][363]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': coinbp_C /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.coinbp3_1458
+[2017.04.23-15.43.25:782][363]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': coinbp_C /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.coinbp4
+[2017.04.23-15.43.25:782][363]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': coinbp_C /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.coinbp5_2686
+[2017.04.23-15.43.25:782][363]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': coinbp_C /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.coinbp6
+[2017.04.23-15.43.25:782][363]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': coinbp_C /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.coinbp7
+[2017.04.23-15.43.25:782][363]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': coinbp_C /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.coinbp8
+[2017.04.23-15.43.25:782][363]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': coinbp_C /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.coinbp9
+[2017.04.23-15.43.25:782][363]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': starbp_C /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.starbp_487
+[2017.04.23-15.43.25:782][363]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'Sphere': coinbp_C /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.coinbp2
+[2017.04.23-15.43.25:782][363]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'Sphere': coinbp_C /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.coinbp3_1458
+[2017.04.23-15.43.25:782][363]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'Sphere': coinbp_C /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.coinbp4
+[2017.04.23-15.43.25:782][363]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'Sphere': coinbp_C /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.coinbp5_2686
+[2017.04.23-15.43.25:782][363]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'Sphere': coinbp_C /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.coinbp6
+[2017.04.23-15.43.25:782][363]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'Sphere': coinbp_C /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.coinbp7
+[2017.04.23-15.43.25:782][363]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'Sphere': coinbp_C /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.coinbp8
+[2017.04.23-15.43.25:782][363]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'Sphere': coinbp_C /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.coinbp9
+[2017.04.23-15.43.25:782][363]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'Sphere': starbp_C /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.starbp_487
+[2017.04.23-15.43.25:783][363]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'Coins': coinbp_C /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.coinbp2
+[2017.04.23-15.43.25:783][363]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'Coins': coinbp_C /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.coinbp3_1458
+[2017.04.23-15.43.25:783][363]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'Coins': coinbp_C /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.coinbp4
+[2017.04.23-15.43.25:783][363]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'Coins': coinbp_C /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.coinbp5_2686
+[2017.04.23-15.43.25:783][363]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'Coins': coinbp_C /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.coinbp6
+[2017.04.23-15.43.25:783][363]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'Coins': coinbp_C /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.coinbp7
+[2017.04.23-15.43.25:783][363]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'Coins': coinbp_C /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.coinbp8
+[2017.04.23-15.43.25:783][363]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'Coins': coinbp_C /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.coinbp9
+[2017.04.23-15.43.25:783][363]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'StaticMesh': starbp_C /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.starbp_487
+[2017.04.23-15.43.25:783][363]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'coin': coinbp_C /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.coinbp2
+[2017.04.23-15.43.25:783][363]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'coin': coinbp_C /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.coinbp3_1458
+[2017.04.23-15.43.25:784][363]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'coin': coinbp_C /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.coinbp4
+[2017.04.23-15.43.25:784][363]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'coin': coinbp_C /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.coinbp5_2686
+[2017.04.23-15.43.25:784][363]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'coin': coinbp_C /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.coinbp6
+[2017.04.23-15.43.25:784][363]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'coin': coinbp_C /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.coinbp7
+[2017.04.23-15.43.25:784][363]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'coin': coinbp_C /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.coinbp8
+[2017.04.23-15.43.25:784][363]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'coin': coinbp_C /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.coinbp9
+[2017.04.23-15.43.25:784][363]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'star': starbp_C /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.starbp_487
+[2017.04.23-15.43.34:693][756]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.23-15.43.34:708][756]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.23-15.43.34:708][756]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.04.23-15.43.34:708][756]LogPlayLevel: [PlayLevel] Compiling FirstPersonExampleMap before play...
+[2017.04.23-15.43.34:753][756]LogBlueprint:Error: [Compiler PersistentLevel.FirstPersonExampleMap] Error Couldn't find object for bound event node  OnActorHit (None)
+[2017.04.23-15.43.34:966][756]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [0088.33] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 0 Warning(s) [in 255 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.23-15.43.34:966][756]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [0088.33] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.23-15.43.34:966][756]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [0088.33] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.23-15.43.34:966][756]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [0088.33] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.23-15.43.34:966][756]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [0088.33] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.23-15.43.34:967][756]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [0088.33] Compile of PersistentLevel.FirstPersonExampleMap failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2017.04.23-15.43.34:994][756]LogPlayLevel: PlayLevel: Blueprint regeneration took 285 ms (1 blueprints)
+[2017.04.23-15.43.34:994][756]BlueprintLog: Info Blueprint FirstPersonExampleMap failed to compile
+[2017.04.23-15.43.37:540][756]PIE: New page: PIE session: FirstPersonExampleMap (Apr 23, 2017, 1:43:37 AM)
+[2017.04.23-15.43.37:541][756]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.04.23-15.43.37:583][756]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map FoliageInstancedStaticMeshComponent /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_0.
+[2017.04.23-15.43.37:604][756]LogPlayLevel: PIE: StaticDuplicateObject took: (0.063343s)
+[2017.04.23-15.43.37:608][756]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.04.23-15.43.37:609][756]LogPlayLevel: PIE: World Init took: (0.005255s)
+[2017.04.23-15.43.37:611][756]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.070007s)
+[2017.04.23-15.43.37:640][756]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.23-15.43.37:652][756]LogInit: FAudioDevice initialized.
+[2017.04.23-15.43.37:767][756]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/HUD'
+[2017.04.23-15.43.37:767][756]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/HUD' while loading ../../../../../../Users/Kite/Documents/Unreal Projects/Project433/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset.
+[2017.04.23-15.43.37:767][756]LoadErrors:Error: Error /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode : Can't find file for asset. /Game/FirstPersonCPP/Blueprints/HUD
+[2017.04.23-15.43.37:767][756]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/HUD'
+[2017.04.23-15.43.37:767][756]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/HUD' while loading ../../../../../../Users/Kite/Documents/Unreal Projects/Project433/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset.
+[2017.04.23-15.43.37:779][756]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/HUD'
+[2017.04.23-15.43.37:779][756]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/HUD' while loading NULL.
+[2017.04.23-15.43.37:779][756]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/HUD'
+[2017.04.23-15.43.37:779][756]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/HUD' while loading NULL.
+[2017.04.23-15.43.37:780][756]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/HUD'
+[2017.04.23-15.43.37:780][756]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/HUD' while loading NULL.
+[2017.04.23-15.43.37:780][756]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/HUD'
+[2017.04.23-15.43.37:780][756]LoadErrors: Info Failed to load /Game/FirstPersonCPP/Blueprints/HUD.HUD_C Referenced by K2Node_CreateWidget_0
+[2017.04.23-15.43.37:781][756]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/HUD' while loading NULL.
+[2017.04.23-15.43.37:781][756]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/HUD'
+[2017.04.23-15.43.37:781][756]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/HUD' while loading NULL.
+[2017.04.23-15.43.37:846][756]LogBlueprint:Error: [Compiler ThirdPersonGameMode] Error Spawn node  Create Widget  must have a class specified.
+[2017.04.23-15.43.37:849][756]LogBlueprint:Warning: [Compiler ThirdPersonGameMode] Warning [0091.21] Compile of ThirdPersonGameMode failed. 1 Fatal Issue(s) 0 Warning(s) [in 43 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode)
+[2017.04.23-15.43.37:849][756]LogBlueprint:Warning: [Compiler ThirdPersonGameMode] Warning [0091.21] Compile of ThirdPersonGameMode failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode)
+[2017.04.23-15.43.37:849][756]LogBlueprint:Warning: [Compiler ThirdPersonGameMode] Warning [0091.21] Compile of ThirdPersonGameMode failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode)
+[2017.04.23-15.43.37:852][756]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.23-15.43.37:870][756]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.04.23-08.43.37
+[2017.04.23-15.43.37:874][756]LogWorld: Bringing up level for play took: 0.019562
+[2017.04.23-15.43.37:935][756]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.04.23-15.43.37:938][756]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 3.756
+[2017.04.23-15.43.37:938][756]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.23-15.43.57:880][936]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.23-15.43.57:995][936]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.23-15.47.10:583][105]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.23-15.47.10:583][105]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.23-15.47.10:790][106]Cmd: QUIT_EDITOR
+[2017.04.23-15.47.11:824][106]LogExit: Preparing to exit.
+[2017.04.23-15.47.12:696][106]LogDirectoryWatcher: A directory notification for 'C:/Users/Kite/Documents/Unreal Projects/Project433/Content/' was aborted.
+[2017.04.23-15.47.12:743][106]LogExit: Editor shut down
+[2017.04.23-15.47.12:743][106]LogExit: Transaction tracking system shut down
+[2017.04.23-15.47.12:821][106]LogObj: Freed 0b from 0 cluster array pools.
+[2017.04.23-15.47.12:821][106]LogExit: Object subsystem successfully closed.
+[2017.04.23-15.47.12:836][106]LogD3D11RHI: Shutdown
+[2017.04.23-15.47.12:836][106]LogD3D11RHI: CleanupD3DDevice
+[2017.04.23-15.47.12:986][106]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.04.23-15.47.13:001][106]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (498)
+[2017.04.23-15.47.13:001][106]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (496)
+[2017.04.23-15.47.13:001][106]LogModuleManager: Shutting down and abandoning module CrashTracker (494)
+[2017.04.23-15.47.13:001][106]LogModuleManager: Shutting down and abandoning module SceneOutliner (492)
+[2017.04.23-15.47.13:001][106]LogModuleManager: Shutting down and abandoning module AddContentDialog (490)
+[2017.04.23-15.47.13:001][106]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.04.23-15.47.13:003][106]LogModuleManager: Shutting down and abandoning module WidgetCarousel (489)
+[2017.04.23-15.47.13:003][106]LogModuleManager: Shutting down and abandoning module EditorWidgets (486)
+[2017.04.23-15.47.13:003][106]LogModuleManager: Shutting down and abandoning module CollectionManager (484)
+[2017.04.23-15.47.13:003][106]LogDirectoryWatcher: A directory notification for 'C:/Users/Kite/Documents/Unreal Projects/Project433/Content/Collections/' was aborted.
+[2017.04.23-15.47.13:003][106]LogDirectoryWatcher: A directory notification for 'C:/Users/Kite/Documents/Unreal Projects/Project433/Content/Developers/Kite/Collections/' was aborted.
+[2017.04.23-15.47.13:003][106]LogDirectoryWatcher: A directory notification for 'C:/Users/Kite/Documents/Unreal Projects/Project433/Saved/Collections/' was aborted.
+[2017.04.23-15.47.13:003][106]LogModuleManager: Shutting down and abandoning module StatsViewer (482)
+[2017.04.23-15.47.13:003][106]LogModuleManager: Shutting down and abandoning module FoliageEdit (480)
+[2017.04.23-15.47.13:003][106]LogModuleManager: Shutting down and abandoning module LandscapeEditor (478)
+[2017.04.23-15.47.13:003][106]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (476)
+[2017.04.23-15.47.13:003][106]LogModuleManager: Shutting down and abandoning module ActorPickerMode (474)
+[2017.04.23-15.47.13:003][106]LogModuleManager: Shutting down and abandoning module GeometryMode (472)
+[2017.04.23-15.47.13:003][106]LogModuleManager: Shutting down and abandoning module TextureAlignMode (470)
+[2017.04.23-15.47.13:003][106]LogModuleManager: Shutting down and abandoning module BspMode (468)
+[2017.04.23-15.47.13:003][106]LogModuleManager: Shutting down and abandoning module HardwareSurvey (466)
+[2017.04.23-15.47.13:003][106]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (464)
+[2017.04.23-15.47.13:003][106]LogModuleManager: Shutting down and abandoning module AutomationWorker (462)
+[2017.04.23-15.47.13:003][106]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (460)
+[2017.04.23-15.47.13:003][106]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (458)
+[2017.04.23-15.47.13:003][106]LogModuleManager: Shutting down and abandoning module PlacementMode (457)
+[2017.04.23-15.47.13:004][106]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (454)
+[2017.04.23-15.47.13:004][106]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (452)
+[2017.04.23-15.47.13:004][106]LogModuleManager: Shutting down and abandoning module MfMediaFactory (450)
+[2017.04.23-15.47.13:004][106]LogModuleManager: Shutting down and abandoning module MfMediaEditor (448)
+[2017.04.23-15.47.13:004][106]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (446)
+[2017.04.23-15.47.13:004][106]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (444)
+[2017.04.23-15.47.13:004][106]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (442)
+[2017.04.23-15.47.13:004][106]LogModuleManager: Shutting down and abandoning module Media (441)
+[2017.04.23-15.47.13:004][106]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (438)
+[2017.04.23-15.47.13:004][106]LogModuleManager: Shutting down and abandoning module CharacterAI (436)
+[2017.04.23-15.47.13:004][106]LogModuleManager: Shutting down and abandoning module AudioCapture (434)
+[2017.04.23-15.47.13:004][106]LogModuleManager: Shutting down and abandoning module SequenceRecorder (433)
+[2017.04.23-15.47.13:004][106]LogModuleManager: Shutting down and abandoning module SmartSnapping (430)
+[2017.04.23-15.47.13:004][106]LogModuleManager: Shutting down and abandoning module SessionServices (428)
+[2017.04.23-15.47.13:004][106]LogModuleManager: Shutting down and abandoning module ViewportSnapping (426)
+[2017.04.23-15.47.13:004][106]LogModuleManager: Shutting down and abandoning module ViewportInteraction (424)
+[2017.04.23-15.47.13:004][106]LogModuleManager: Shutting down and abandoning module LogVisualizer (422)
+[2017.04.23-15.47.13:004][106]LogModuleManager: Shutting down and abandoning module IntroTutorials (420)
+[2017.04.23-15.47.13:004][106]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (419)
+[2017.04.23-15.47.13:004][106]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (416)
+[2017.04.23-15.47.13:004][106]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (414)
+[2017.04.23-15.47.13:004][106]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (412)
+[2017.04.23-15.47.13:004][106]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (410)
+[2017.04.23-15.47.13:004][106]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (409)
+[2017.04.23-15.47.13:702][106]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (406)
+[2017.04.23-15.47.13:703][106]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (404)
+[2017.04.23-15.47.13:703][106]LogModuleManager: Shutting down and abandoning module InputBindingEditor (402)
+[2017.04.23-15.47.13:703][106]LogModuleManager: Shutting down and abandoning module NiagaraEditor (400)
+[2017.04.23-15.47.13:703][106]LogModuleManager: Shutting down and abandoning module MergeActors (398)
+[2017.04.23-15.47.13:703][106]LogModuleManager: Shutting down and abandoning module SizeMap (396)
+[2017.04.23-15.47.13:703][106]LogModuleManager: Shutting down and abandoning module TreeMap (394)
+[2017.04.23-15.47.13:703][106]LogModuleManager: Shutting down and abandoning module ReferenceViewer (392)
+[2017.04.23-15.47.13:703][106]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (390)
+[2017.04.23-15.47.13:703][106]LogModuleManager: Shutting down and abandoning module LocalizationService (389)
+[2017.04.23-15.47.13:703][106]LogModuleManager: Shutting down and abandoning module HardwareTargeting (386)
+[2017.04.23-15.47.13:703][106]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (384)
+[2017.04.23-15.47.13:703][106]LogModuleManager: Shutting down and abandoning module UndoHistory (382)
+[2017.04.23-15.47.13:703][106]LogModuleManager: Shutting down and abandoning module UserFeedback (380)
+[2017.04.23-15.47.13:703][106]LogModuleManager: Shutting down and abandoning module XmlParser (378)
+[2017.04.23-15.47.13:703][106]LogModuleManager: Shutting down and abandoning module Blutility (376)
+[2017.04.23-15.47.13:703][106]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (374)
+[2017.04.23-15.47.13:703][106]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (373)
+[2017.04.23-15.47.13:704][106]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (370)
+[2017.04.23-15.47.13:704][106]LogModuleManager: Shutting down and abandoning module SettingsEditor (368)
+[2017.04.23-15.47.13:704][106]LogModuleManager: Shutting down and abandoning module ProjectLauncher (366)
+[2017.04.23-15.47.13:704][106]LogModuleManager: Shutting down and abandoning module SessionFrontend (364)
+[2017.04.23-15.47.13:704][106]LogModuleManager: Shutting down and abandoning module ProfilerClient (362)
+[2017.04.23-15.47.13:704][106]LogModuleManager: Shutting down and abandoning module DeviceManager (360)
+[2017.04.23-15.47.13:704][106]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (359)
+[2017.04.23-15.47.13:758][106]LogModuleManager: Shutting down and abandoning module AutomationController (356)
+[2017.04.23-15.47.13:758][106]LogModuleManager: Shutting down and abandoning module AutomationWindow (354)
+[2017.04.23-15.47.13:758][106]LogModuleManager: Shutting down and abandoning module Layers (352)
+[2017.04.23-15.47.13:758][106]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (350)
+[2017.04.23-15.47.13:758][106]LogModuleManager: Shutting down and abandoning module DetailCustomizations (348)
+[2017.04.23-15.47.13:758][106]LogModuleManager: Shutting down and abandoning module PackagesDialog (346)
+[2017.04.23-15.47.13:758][106]LogModuleManager: Shutting down and abandoning module Persona (344)
+[2017.04.23-15.47.13:758][106]LogModuleManager: Shutting down and abandoning module AnimGraph (343)
+[2017.04.23-15.47.13:758][106]LogModuleManager: Shutting down and abandoning module Kismet (340)
+[2017.04.23-15.47.13:760][106]LogModuleManager: Shutting down and abandoning module GraphEditor (338)
+[2017.04.23-15.47.13:760][106]LogModuleManager: Shutting down and abandoning module ClassViewer (336)
+[2017.04.23-15.47.13:760][106]LogModuleManager: Shutting down and abandoning module Toolbox (334)
+[2017.04.23-15.47.13:760][106]LogModuleManager: Shutting down and abandoning module ModuleUI (332)
+[2017.04.23-15.47.13:760][106]LogModuleManager: Shutting down and abandoning module MovieSceneTools (330)
+[2017.04.23-15.47.13:760][106]LogModuleManager: Shutting down and abandoning module OutputLog (328)
+[2017.04.23-15.47.13:760][106]LogModuleManager: Shutting down and abandoning module GammaUI (326)
+[2017.04.23-15.47.13:760][106]LogModuleManager: Shutting down and abandoning module Documentation (324)
+[2017.04.23-15.47.13:760][106]LogModuleManager: Shutting down and abandoning module Niagara (322)
+[2017.04.23-15.47.13:760][106]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (320)
+[2017.04.23-15.47.13:760][106]LogModuleManager: Shutting down and abandoning module AnalyticsET (318)
+[2017.04.23-15.47.13:760][106]LogModuleManager: Shutting down and abandoning module PortalServices (316)
+[2017.04.23-15.47.13:760][106]LogModuleManager: Shutting down and abandoning module PortalRpc (314)
+[2017.04.23-15.47.13:760][106]LogModuleManager: Shutting down and abandoning module MessagingRpc (312)
+[2017.04.23-15.47.13:760][106]LogModuleManager: Shutting down and abandoning module AIModule (310)
+[2017.04.23-15.47.13:761][106]LogModuleManager: Shutting down and abandoning module GameplayDebugger (309)
+[2017.04.23-15.47.13:761][106]LogModuleManager: Shutting down and abandoning module AITestSuite (307)
+[2017.04.23-15.47.13:761][106]LogModuleManager: Shutting down and abandoning module ProfilerService (304)
+[2017.04.23-15.47.14:001][106]LogModuleManager: Shutting down and abandoning module TaskGraph (302)
+[2017.04.23-15.47.14:001][106]LogModuleManager: Shutting down and abandoning module SteamVRController (300)
+[2017.04.23-15.47.14:001][106]LogModuleManager: Shutting down and abandoning module SteamVR (298)
+[2017.04.23-15.47.14:001][106]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (296)
+[2017.04.23-15.47.14:001][106]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (294)
+[2017.04.23-15.47.14:001][106]LogModuleManager: Shutting down and abandoning module OculusLibrary (292)
+[2017.04.23-15.47.14:001][106]LogModuleManager: Shutting down and abandoning module OculusInput (290)
+[2017.04.23-15.47.14:001][106]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (288)
+[2017.04.23-15.47.14:001][106]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (286)
+[2017.04.23-15.47.14:001][106]LogModuleManager: Shutting down and abandoning module CableComponent (284)
+[2017.04.23-15.47.14:001][106]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (282)
+[2017.04.23-15.47.14:001][106]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (278)
+[2017.04.23-15.47.14:001][106]LogModuleManager: Shutting down and abandoning module HTML5Networking (276)
+[2017.04.23-15.47.14:001][106]LogModuleManager: Shutting down and abandoning module AlembicImporter (274)
+[2017.04.23-15.47.14:001][106]LogModuleManager: Shutting down and abandoning module AlembicLibrary (273)
+[2017.04.23-15.47.14:001][106]LogModuleManager: Shutting down and abandoning module GeometryCache (272)
+[2017.04.23-15.47.14:001][106]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (271)
+[2017.04.23-15.47.14:001][106]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (266)
+[2017.04.23-15.47.14:002][106]LogModuleManager: Shutting down and abandoning module SuperSearch (265)
+[2017.04.23-15.47.14:002][106]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (262)
+[2017.04.23-15.47.14:002][106]LogModuleManager: Shutting down and abandoning module PluginBrowser (260)
+[2017.04.23-15.47.14:002][106]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (258)
+[2017.04.23-15.47.14:002][106]LogModuleManager: Shutting down and abandoning module EpicSurvey (256)
+[2017.04.23-15.47.14:002][106]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (254)
+[2017.04.23-15.47.14:002][106]LogModuleManager: Shutting down and abandoning module DesktopPlatform (253)
+[2017.04.23-15.47.14:002][106]LogModuleManager: Shutting down and abandoning module UObjectPlugin (250)
+[2017.04.23-15.47.14:002][106]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (248)
+[2017.04.23-15.47.14:002][106]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (246)
+[2017.04.23-15.47.14:002][106]LogModuleManager: Shutting down and abandoning module GitSourceControl (244)
+[2017.04.23-15.47.14:002][106]LogModuleManager: Shutting down and abandoning module SourceControl (243)
+[2017.04.23-15.47.14:002][106]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (240)
+[2017.04.23-15.47.14:002][106]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (238)
+[2017.04.23-15.47.14:002][106]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (236)
+[2017.04.23-15.47.14:002][106]LogModuleManager: Shutting down and abandoning module Paper2DEditor (234)
+[2017.04.23-15.47.14:002][106]LogModuleManager: Shutting down and abandoning module MeshPaint (233)
+[2017.04.23-15.47.14:002][106]LogModuleManager: Shutting down and abandoning module LevelEditor (231)
+[2017.04.23-15.47.14:004][106]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (230)
+[2017.04.23-15.47.14:005][106]LogModuleManager: Shutting down and abandoning module MainFrame (228)
+[2017.04.23-15.47.14:005][106]LogModuleManager: Shutting down and abandoning module HotReload (227)
+[2017.04.23-15.47.14:006][106]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.04.23-15.47.14:008][106]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (220)
+[2017.04.23-15.47.14:008][106]LogModuleManager: Shutting down and abandoning module PhysXVehicles (218)
+[2017.04.23-15.47.14:008][106]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (216)
+[2017.04.23-15.47.14:008][106]LogModuleManager: Shutting down and abandoning module UdpMessaging (214)
+[2017.04.23-15.47.14:110][106]LogModuleManager: Shutting down and abandoning module TcpMessaging (212)
+[2017.04.23-15.47.14:210][106]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (210)
+[2017.04.23-15.47.14:210][106]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (208)
+[2017.04.23-15.47.14:210][106]LogModuleManager: Shutting down and abandoning module FacialAnimation (206)
+[2017.04.23-15.47.14:210][106]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (204)
+[2017.04.23-15.47.14:210][106]LogModuleManager: Shutting down and abandoning module Paper2D (202)
+[2017.04.23-15.47.14:210][106]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (200)
+[2017.04.23-15.47.14:210][106]LogModuleManager: Shutting down and abandoning module WmfMedia (198)
+[2017.04.23-15.47.14:210][106]LogModuleManager: Shutting down and abandoning module MfMedia (196)
+[2017.04.23-15.47.14:210][106]LogModuleManager: Shutting down and abandoning module MediaAssets (194)
+[2017.04.23-15.47.14:210][106]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (192)
+[2017.04.23-15.47.14:211][106]LogModuleManager: Shutting down and abandoning module VREditor (190)
+[2017.04.23-15.47.14:211][106]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (188)
+[2017.04.23-15.47.14:211][106]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (186)
+[2017.04.23-15.47.14:211][106]LogModuleManager: Shutting down and abandoning module FunctionalTesting (184)
+[2017.04.23-15.47.14:211][106]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (182)
+[2017.04.23-15.47.14:211][106]LogModuleManager: Shutting down and abandoning module UMG (180)
+[2017.04.23-15.47.14:211][106]LogModuleManager: Shutting down and abandoning module UMGEditor (179)
+[2017.04.23-15.47.14:211][106]LogModuleManager: Shutting down and abandoning module Sequencer (178)
+[2017.04.23-15.47.14:212][106]LogModuleManager: Shutting down and abandoning module AssetTools (176)
+[2017.04.23-15.47.14:212][106]LogModuleManager: Shutting down and abandoning module MessageLog (175)
+[2017.04.23-15.47.14:212][106]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (174)
+[2017.04.23-15.47.14:212][106]LogModuleManager: Shutting down and abandoning module SlateReflector (168)
+[2017.04.23-15.47.14:212][106]LogModuleManager: Shutting down and abandoning module Slate (166)
+[2017.04.23-15.47.14:212][106]LogModuleManager: Shutting down and abandoning module EditorStyle (164)
+[2017.04.23-15.47.14:220][106]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (162)
+[2017.04.23-15.47.14:220][106]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (160)
+[2017.04.23-15.47.14:220][106]LogModuleManager: Shutting down and abandoning module XAudio2 (158)
+[2017.04.23-15.47.14:220][106]LogModuleManager: Shutting down and abandoning module Networking (156)
+[2017.04.23-15.47.14:220][106]LogModuleManager: Shutting down and abandoning module Core (152)
+[2017.04.23-15.47.14:220][106]LogModuleManager: Shutting down and abandoning module AssetRegistry (150)
+[2017.04.23-15.47.14:415][106]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.04.23-15.47.14:415][106]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Kite/Documents/Unreal Projects/Project433/Content/' was aborted.
+[2017.04.23-15.47.14:415][106]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.04.23-15.47.14:415][106]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (149)
+[2017.04.23-15.47.14:416][106]LogModuleManager: Shutting down and abandoning module KismetCompiler (146)
+[2017.04.23-15.47.14:416][106]LogModuleManager: Shutting down and abandoning module PhysXFormats (144)
+[2017.04.23-15.47.14:416][106]LogModuleManager: Shutting down and abandoning module MeshUtilities (142)
+[2017.04.23-15.47.14:416][106]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (141)
+[2017.04.23-15.47.14:416][106]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (139)
+[2017.04.23-15.47.14:416][106]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (137)
+[2017.04.23-15.47.14:416][106]LogModuleManager: Shutting down and abandoning module PropertyEditor (135)
+[2017.04.23-15.47.14:416][106]LogModuleManager: Shutting down and abandoning module DerivedDataCache (132)
+[2017.04.23-15.47.14:504][106]LogDerivedDataCache: Shutdown
+[2017.04.23-15.47.14:504][106]LogModuleManager: Shutting down and abandoning module TargetPlatform (130)
+[2017.04.23-15.47.14:504][106]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (129)
+[2017.04.23-15.47.14:504][106]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (127)
+[2017.04.23-15.47.14:504][106]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (125)
+[2017.04.23-15.47.14:504][106]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (123)
+[2017.04.23-15.47.14:504][106]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (121)
+[2017.04.23-15.47.14:504][106]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (119)
+[2017.04.23-15.47.14:504][106]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (117)
+[2017.04.23-15.47.14:504][106]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (115)
+[2017.04.23-15.47.14:505][106]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (113)
+[2017.04.23-15.47.14:505][106]LogModuleManager: Shutting down and abandoning module ImageWrapper (112)
+[2017.04.23-15.47.14:505][106]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (109)
+[2017.04.23-15.47.14:505][106]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (107)
+[2017.04.23-15.47.14:505][106]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (105)
+[2017.04.23-15.47.14:505][106]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (103)
+[2017.04.23-15.47.14:505][106]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (101)
+[2017.04.23-15.47.14:505][106]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (99)
+[2017.04.23-15.47.14:505][106]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (97)
+[2017.04.23-15.47.14:505][106]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (95)
+[2017.04.23-15.47.14:505][106]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (93)
+[2017.04.23-15.47.14:505][106]LogModuleManager: Shutting down and abandoning module Messaging (91)
+[2017.04.23-15.47.14:505][106]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (89)
+[2017.04.23-15.47.14:505][106]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (87)
+[2017.04.23-15.47.14:505][106]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (85)
+[2017.04.23-15.47.14:505][106]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (83)
+[2017.04.23-15.47.14:505][106]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (81)
+[2017.04.23-15.47.14:505][106]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (79)
+[2017.04.23-15.47.14:505][106]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (77)
+[2017.04.23-15.47.14:505][106]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (75)
+[2017.04.23-15.47.14:505][106]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (73)
+[2017.04.23-15.47.14:505][106]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (71)
+[2017.04.23-15.47.14:505][106]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (69)
+[2017.04.23-15.47.14:505][106]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (67)
+[2017.04.23-15.47.14:505][106]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (65)
+[2017.04.23-15.47.14:505][106]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (63)
+[2017.04.23-15.47.14:505][106]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (61)
+[2017.04.23-15.47.14:505][106]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (59)
+[2017.04.23-15.47.14:506][106]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (57)
+[2017.04.23-15.47.14:506][106]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (55)
+[2017.04.23-15.47.14:506][106]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (53)
+[2017.04.23-15.47.14:506][106]LogModuleManager: Shutting down and abandoning module InputCore (50)
+[2017.04.23-15.47.14:506][106]LogModuleManager: Shutting down and abandoning module Settings (48)
+[2017.04.23-15.47.14:506][106]LogModuleManager: Shutting down and abandoning module OculusRift (46)
+[2017.04.23-15.47.14:506][106]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.04.23-15.47.14:506][106]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.04.23-15.47.14:506][106]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.04.23-15.47.14:506][106]LogOnline:Display: Unloading online subsystem: NULL
+[2017.04.23-15.47.14:506][106]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.04.23-15.47.14:506][106]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.04.23-15.47.14:506][106]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.04.23-15.47.14:506][106]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1C04A5FC-4EAA-1323-7675-8297E312875F%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.0-3299760%2B%2B%2BUE4%2BRelease-4.15&UserID=e6a39d434fef9617152108b0b1a38629%7Cef92f44de1f94bdbba7ee23550d5315b%7Cd9be00eb-0b57-4732-967e-221474b2a002&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.04.23-15.47.14:526][106]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.04.23-15.47.14:530][106]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.04.23-15.47.14:530][106]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.04.23-15.47.14:531][106]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.04.23-15.47.14:531][106]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.04.23-15.47.14:531][106]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.04.23-15.47.14:532][106]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.04.23-15.47.14:533][106]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.04.23-15.47.14:533][106]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.04.23-15.47.14:533][106]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.04.23-15.47.14:533][106]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.04.23-15.47.14:533][106]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.04.23-15.47.14:533][106]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.04.23-15.47.14:533][106]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.04.23-15.47.14:533][106]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.04.23-15.47.14:533][106]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.04.23-15.47.14:534][106]LogExit: Exiting.
+[2017.04.23-15.47.14:537][106]Log file closed, 04/23/17 08:47:14

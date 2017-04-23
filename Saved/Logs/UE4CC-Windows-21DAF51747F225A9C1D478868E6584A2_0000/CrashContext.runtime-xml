@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<CrashGUID>UE4CC-Windows-21DAF51747F225A9C1D478868E6584A2_0000</CrashGUID>
+		<ProcessId>5452</ProcessId>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<IsEnsure>false</IsEnsure>
+		<IsAssert>true</IsAssert>
+		<CrashType>Assert</CrashType>
+		<SecondsSinceStart>1609</SecondsSinceStart>
+		<GameName>UE4-Project433</GameName>
+		<ExecutableName>UE4Editor</ExecutableName>
+		<BuildConfiguration>Development</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>Windows</PlatformName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Editor</EngineMode>
+		<EngineModeEx>Vanilla</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>4.15.0-3299760+++UE4+Release-4.15</EngineVersion>
+		<CommandLine>&quot;C:\Users\Kite\Documents\Unreal Projects\Project433\Project433.uproject&quot;</CommandLine>
+		<LanguageLCID>1033</LanguageLCID>
+		<AppDefaultLocale>en_US</AppDefaultLocale>
+		<BuildVersion>++UE4+Release-4.15-CL-3299760</BuildVersion>
+		<IsUE4Release>true</IsUE4Release>
+		<UserName>Kite</UserName>
+		<BaseDir>C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/</BaseDir>
+		<RootDir>C:/Program Files/Epic Games/UE_4.15/</RootDir>
+		<MachineId>E6A39D434FEF9617152108B0B1A38629</MachineId>
+		<LoginId>e6a39d434fef9617152108b0b1a38629</LoginId>
+		<EpicAccountId>ef92f44de1f94bdbba7ee23550d5315b</EpicAccountId>
+		<CallStack />
+		<SourceContext />
+		<UserDescription>crap computer</UserDescription>
+		<UserActivityHint>Layout=&quot;LevelEditorToolBox&quot; Label=&quot;Modes&quot; Content=SBox</UserActivityHint>
+		<ErrorMessage>Assertion failed: (Index &gt;= 0) &amp; (Index &lt; ArrayNum) [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Runtime\Core\Public\Containers/Array.h] [Line: 633] &nl;Array index out of bounds: 125 from an array of size 0&nl;</ErrorMessage>
+		<CrashDumpMode>0</CrashDumpMode>
+		<CrashReporterMessage />
+		<Misc.NumberOfCores>2</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>4</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>Intel(R) Core(TM) i3-5010U CPU @ 2.10GHz</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>Intel(R) HD Graphics 5500</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 8.1</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<MemoryStats.TotalPhysical>8501215232</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>65536</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>8</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>3907293184</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>140734875070464</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>1935421440</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>1969508352</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>1861324800</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>1902702592</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<TimeOfCrash>636285659058560000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Win64 [Windows 8.1  64b]</PlatformFullName>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+	</PlatformProperties>
+</FGenericCrashContext>
