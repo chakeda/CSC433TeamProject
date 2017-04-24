@@ -1,0 +1,758 @@
+﻿Log file open, 04/23/17 17:57:21
+LogInit:Display: Running engine for game: Project433
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1633422615) SRandInit(1633422616).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 2.747182
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.04.24-00.57.23:331][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.24-00.57.23:331][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.24-00.57.23:497][  0]LogInit: Computer: BEN
+[2017.04.24-00.57.23:497][  0]LogInit: User: Ben
+[2017.04.24-00.57.23:497][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.04.24-00.57.23:497][  0]LogInit: High frequency timer resolution =2.435779 MHz
+[2017.04.24-00.57.23:498][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.04.24-00.57.23:498][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.24-00.57.23:498][  0]LogMemory: Process Physical Memory: 262.70 MB used, 262.70 MB peak
+[2017.04.24-00.57.23:498][  0]LogMemory: Process Virtual Memory: 262.69 MB used, 262.69 MB peak
+[2017.04.24-00.57.23:498][  0]LogMemory: Physical Memory: 4285.63 MB used,  3789.22 MB free, 8074.85 MB total
+[2017.04.24-00.57.23:498][  0]LogMemory: Virtual Memory: 645.11 MB used,  3789.22 MB free, 134217728.00 MB total
+[2017.04.24-00.57.25:278][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.04.24-00.57.34:118][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.24-00.57.34:534][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 860M' (Feature Level 11_0)
+[2017.04.24-00.57.34:534][  0]LogD3D11RHI:       2018/0/4037 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.04.24-00.57.34:568][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.04.24-00.57.34:568][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.04.24-00.57.34:573][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.04.24-00.57.34:573][  0]LogD3D11RHI:       0/0/4037 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.04.24-00.57.34:573][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.24-00.57.34:595][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.24-00.57.34:595][  0]LogD3D11RHI:     GPU DeviceId: 0x1392 (for the marketing name, search the web for "GPU Device Id")
+[2017.04.24-00.57.34:595][  0]LogWindows: EnumDisplayDevices:
+[2017.04.24-00.57.34:595][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2017.04.24-00.57.34:596][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.04.24-00.57.34:596][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.04.24-00.57.34:597][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.04.24-00.57.34:597][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 860M
+[2017.04.24-00.57.34:597][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.04.24-00.57.34:597][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.04.24-00.57.34:606][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.04.24-00.57.34:667][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.24-00.57.34:930][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.04.24-00.57.34:981][  0]LogShaderCompilers: Guid format shader working directory is -28 characters bigger than the processId version (../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Intermediate/Shaders/WorkingDirectory/13112/).
+[2017.04.24-00.57.34:981][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Ben/AppData/Local/Temp/UnrealShaderWorkingDir/B6DEFE1A4CCA6D4CEAEBF9AABCABC146/'.
+[2017.04.24-00.57.34:981][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.24-00.57.45:428][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.24-00.57.45:639][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.04.24-00.57.45:842][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.04.24-00.57.46:028][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.04.24-00.57.46:247][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.04.24-00.57.46:470][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.24-00.57.46:686][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.24-00.57.46:921][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.24-00.57.47:088][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.24-00.57.47:272][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.24-00.57.47:442][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.24-00.57.47:635][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.24-00.57.47:857][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.24-00.57.48:049][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.24-00.57.48:257][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.24-00.57.48:591][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.24-00.57.48:591][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.24-00.57.48:748][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.24-00.57.49:195][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.24-00.57.49:340][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.24-00.57.49:532][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.04.24-00.57.49:698][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.24-00.57.49:922][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.24-00.57.50:209][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.24-00.57.50:209][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.24-00.57.53:387][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.24-00.57.54:401][  0]LogDerivedDataCache: Loaded boot cache 1.00s 50MB C:/Users/Ben/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.24-00.57.54:401][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Ben/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.04.24-00.57.54:401][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.24-00.57.54:401][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.24-00.57.54:401][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.24-00.57.54:401][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.24-00.57.54:545][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.24-00.57.54:558][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Ben/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.24-00.57.54:676][  0]LogSlate: Using Freetype 2.6.0
+[2017.04.24-00.57.54:787][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.24-00.57.54:787][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.24-00.58.15:798][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.24-00.58.15:827][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.24-00.58.16:858][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.04.24-00.58.17:082][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.04.24-00.58.17:292][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.04.24-00.58.17:292][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.04.24-00.58.17:292][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.24-00.58.24:945][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: project433, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3701128711
+[2017.04.24-00.58.25:177][  0]LogAssetRegistry: FAssetRegistry took 0.0230 seconds to start up
+[2017.04.24-00.58.25:446][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.161268 seconds
+[2017.04.24-00.58.25:502][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.04.24-00.58.25:502][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.04.24-00.58.25:502][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.24-00.58.25:720][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.24-00.59.32:516][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.24-00.59.32:631][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.24-00.59.35:936][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.24-00.59.37:605][  0]SourceControl: Info Source control is disabled
+[2017.04.24-00.59.38:105][  0]SourceControl: Info Source control is disabled
+[2017.04.24-00.59.39:023][  0]SourceControl: Info Source control is disabled
+[2017.04.24-00.59.39:287][  0]SourceControl: Info Source control is disabled
+[2017.04.24-00.59.46:742][  0]LogEngine: Initializing Engine...
+[2017.04.24-00.59.46:744][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.04.24-00.59.47:832][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.04.24-00.59.47:996][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.24-00.59.48:797][  0]LogInit: FAudioDevice initialized.
+[2017.04.24-00.59.48:867][  0]LogDerivedDataCache: Saved boot cache 0.07s 50MB C:/Users/Ben/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.24-00.59.48:879][  0]LogInit: Texture streaming: Enabled
+[2017.04.24-00.59.49:444][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.04.24-00.59.49:993][  0]LogInit: Transaction tracking system initialized
+[2017.04.24-00.59.53:940][  0]BlueprintLog: New page: Editor Load
+[2017.04.24-01.00.01:461][  0]LocalizationService: Info Localization service is disabled
+[2017.04.24-01.00.06:391][  0]LogConsoleResponse:Display: 
+[2017.04.24-01.00.08:881][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/' took 0.05s
+[2017.04.24-01.00.08:881][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.04.24-01.00.08:881][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.24-01.00.20:703][  0]SourceControl: Info Source control is disabled
+[2017.04.24-01.00.20:823][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.24-01.00.21:008][  0]LightingResults: New page: Lighting Build
+[2017.04.24-01.00.21:267][  0]MapCheck: New page: Map Check
+[2017.04.24-01.00.21:267][  0]LightingResults: New page: Lighting Build
+[2017.04.24-01.00.26:482][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.04.24-01.00.27:368][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.24-01.00.27:537][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.24-01.00.27:768][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 230.664ms to complete.
+[2017.04.24-01.00.27:768][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 6.946
+[2017.04.24-01.00.27:926][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.24-01.00.29:432][  0]LogCollectionManager: Loaded 0 collections in 0.008642 seconds
+[2017.04.24-01.00.29:706][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/Collections/' took 0.01s
+[2017.04.24-01.00.29:706][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/Developers/Ben/Collections/' took 0.01s
+[2017.04.24-01.00.29:706][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/Collections/' took 0.01s
+[2017.04.24-01.00.29:706][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000010 seconds
+[2017.04.24-01.00.29:760][  0]LogContentBrowser: Native class hierarchy populated in 0.0510 seconds. Added 2245 classes and 453 folders.
+[2017.04.24-01.00.30:103][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.04.24-01.00.30:104][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.04.24-01.00.30:387][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2017.04.24-01.00.33:787][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0020 seconds. Added 0 classes and 0 folders.
+[2017.04.24-01.00.34:003][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0029 seconds. Added 1 classes and 2 folders.
+[2017.04.24-01.00.34:609][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.04.24-01.00.34:753][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.04.24-01.00.35:062][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0021 seconds. Added 1 classes and 2 folders.
+[2017.04.24-01.00.35:062][  0]LogLoad: (Engine Initialization) Total time: 212.59 seconds
+[2017.04.24-01.00.35:062][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.63 seconds
+[2017.04.24-01.00.35:063][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.04.24-01.00.35:063][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.04.24-01.00.35:074][  0]LogOcInput: OculusInput pre-init called
+[2017.04.24-01.00.35:193][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.04.24-01.00.35:257][  0]LogSlate: Took 0.026816 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.24-01.00.35:297][  0]LogSlate: Took 0.027725 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.04.24-01.00.35:388][  0]LogSlate: Took 0.031647 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.04.24-01.00.36:271][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2017.04.24-01.00.37:119][  5]LogAssetRegistry: Asset discovery search completed in 131.9640 seconds
+[2017.04.24-01.00.37:119][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000010 seconds (found 0 objects)
+[2017.04.24-01.00.37:156][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000042 seconds (updated 0 objects)
+[2017.04.24-01.00.40:670][ 89]LogSlate: Took 0.201153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.24-01.07.45:393][810]Cmd: MAP LOAD FILE="../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.24-01.07.45:399][810]LogSlate: Took 0.000187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.24-01.07.45:410][810]LightingResults: New page: Lighting Build
+[2017.04.24-01.07.45:413][810]LoadErrors: New page: Loading map: FirstPersonExampleMap.umap
+[2017.04.24-01.07.45:425][810]MapCheck: New page: Map Check
+[2017.04.24-01.07.45:425][810]LightingResults: New page: Lighting Build
+[2017.04.24-01.07.46:347][810]LogSlate: Took 0.000577 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.24-01.07.47:947][810]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 2048X2048) - 90 MB total VRAM
+[2017.04.24-01.07.48:705][810]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 256X256) - 90 MB total VRAM
+[2017.04.24-01.07.48:711][810]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT, 256X256) - 90 MB total VRAM
+[2017.04.24-01.07.48:715][810]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT, 256X256) - 90 MB total VRAM
+[2017.04.24-01.07.48:719][810]LogTexture:Display: Building textures: HQ_Lightmap0_13 (AutoDXT, 256X256) - 90 MB total VRAM
+[2017.04.24-01.07.48:723][810]LogTexture:Display: Building textures: HQ_Lightmap0_14 (AutoDXT, 256X256) - 90 MB total VRAM
+[2017.04.24-01.07.48:727][810]LogTexture:Display: Building textures: HQ_Lightmap0_15 (AutoDXT, 256X256) - 90 MB total VRAM
+[2017.04.24-01.07.48:742][810]LogTexture:Display: Building textures: HQ_Lightmap0_16 (AutoDXT, 128X128) - 90 MB total VRAM
+[2017.04.24-01.07.48:753][810]LogTexture:Display: Building textures: HQ_Lightmap0_17 (AutoDXT, 256X256) - 90 MB total VRAM
+[2017.04.24-01.07.48:757][810]LogTexture:Display: Building textures: HQ_Lightmap0_18 (AutoDXT, 256X256) - 90 MB total VRAM
+[2017.04.24-01.07.48:768][810]LogTexture:Display: Building textures: HQ_Lightmap0_19 (AutoDXT, 128X128) - 90 MB total VRAM
+[2017.04.24-01.07.48:832][810]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 2048X2048) - 90 MB total VRAM
+[2017.04.24-01.07.49:590][810]LogTexture:Display: Building textures: HQ_Lightmap0_20 (AutoDXT, 256X256) - 90 MB total VRAM
+[2017.04.24-01.07.49:626][810]LogTexture:Display: Building textures: HQ_Lightmap0_21 (AutoDXT, 256X256) - 90 MB total VRAM
+[2017.04.24-01.07.49:649][810]LogTexture:Display: Building textures: HQ_Lightmap0_22 (AutoDXT, 256X256) - 90 MB total VRAM
+[2017.04.24-01.07.49:659][810]LogTexture:Display: Building textures: HQ_Lightmap0_23 (AutoDXT, 128X128) - 90 MB total VRAM
+[2017.04.24-01.07.49:666][810]LogTexture:Display: Building textures: HQ_Lightmap0_24 (AutoDXT, 128X128) - 90 MB total VRAM
+[2017.04.24-01.07.49:675][810]LogTexture:Display: Building textures: HQ_Lightmap0_25 (AutoDXT, 128X128) - 90 MB total VRAM
+[2017.04.24-01.07.49:739][810]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 2048X2048) - 90 MB total VRAM
+[2017.04.24-01.07.50:568][810]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 2048X2048) - 90 MB total VRAM
+[2017.04.24-01.07.51:194][810]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 256X256) - 90 MB total VRAM
+[2017.04.24-01.07.51:203][810]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 256X256) - 90 MB total VRAM
+[2017.04.24-01.07.51:208][810]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 256X256) - 90 MB total VRAM
+[2017.04.24-01.07.51:211][810]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 256X256) - 90 MB total VRAM
+[2017.04.24-01.07.51:214][810]LogTexture:Display: Building textures: HQ_Lightmap1_26 (AutoDXT, 64X64) - 90 MB total VRAM
+[2017.04.24-01.07.51:215][810]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT, 256X256) - 90 MB total VRAM
+[2017.04.24-01.07.51:264][810]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 2048X2048) - 90 MB total VRAM
+[2017.04.24-01.07.51:557][810]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1, 256X256) - 90 MB total VRAM
+[2017.04.24-01.07.51:578][810]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1, 256X256) - 90 MB total VRAM
+[2017.04.24-01.07.51:592][810]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1, 256X256) - 90 MB total VRAM
+[2017.04.24-01.07.51:611][810]LogTexture:Display: Building textures: LQ_Lightmap_0_13 (DXT1, 256X256) - 90 MB total VRAM
+[2017.04.24-01.07.51:628][810]LogTexture:Display: Building textures: LQ_Lightmap_0_14 (DXT1, 256X256) - 90 MB total VRAM
+[2017.04.24-01.07.51:643][810]LogTexture:Display: Building textures: LQ_Lightmap_0_15 (DXT1, 256X256) - 90 MB total VRAM
+[2017.04.24-01.07.51:660][810]LogTexture:Display: Building textures: LQ_Lightmap_0_16 (DXT1, 128X128) - 90 MB total VRAM
+[2017.04.24-01.07.51:672][810]LogTexture:Display: Building textures: LQ_Lightmap_0_17 (DXT1, 256X256) - 90 MB total VRAM
+[2017.04.24-01.07.51:690][810]LogTexture:Display: Building textures: LQ_Lightmap_0_18 (DXT1, 256X256) - 90 MB total VRAM
+[2017.04.24-01.07.51:710][810]LogTexture:Display: Building textures: LQ_Lightmap_0_19 (DXT1, 128X128) - 90 MB total VRAM
+[2017.04.24-01.07.51:760][810]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 2048X2048) - 90 MB total VRAM
+[2017.04.24-01.07.52:011][810]LogTexture:Display: Building textures: LQ_Lightmap_0_20 (DXT1, 256X256) - 90 MB total VRAM
+[2017.04.24-01.07.52:036][810]LogTexture:Display: Building textures: LQ_Lightmap_0_21 (DXT1, 256X256) - 90 MB total VRAM
+[2017.04.24-01.07.52:052][810]LogTexture:Display: Building textures: LQ_Lightmap_0_22 (DXT1, 256X256) - 90 MB total VRAM
+[2017.04.24-01.07.52:067][810]LogTexture:Display: Building textures: LQ_Lightmap_0_23 (DXT1, 128X128) - 90 MB total VRAM
+[2017.04.24-01.07.52:075][810]LogTexture:Display: Building textures: LQ_Lightmap_0_24 (DXT1, 128X128) - 90 MB total VRAM
+[2017.04.24-01.07.52:085][810]LogTexture:Display: Building textures: LQ_Lightmap_0_25 (DXT1, 128X128) - 90 MB total VRAM
+[2017.04.24-01.07.52:132][810]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 2048X2048) - 90 MB total VRAM
+[2017.04.24-01.07.52:453][810]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1, 2048X2048) - 90 MB total VRAM
+[2017.04.24-01.07.52:714][810]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1, 256X256) - 90 MB total VRAM
+[2017.04.24-01.07.52:733][810]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1, 256X256) - 90 MB total VRAM
+[2017.04.24-01.07.52:749][810]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1, 256X256) - 90 MB total VRAM
+[2017.04.24-01.07.52:763][810]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1, 256X256) - 90 MB total VRAM
+[2017.04.24-01.07.52:780][810]LogTexture:Display: Building textures: LQ_Lightmap_1_26 (DXT1, 64X64) - 90 MB total VRAM
+[2017.04.24-01.07.52:785][810]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1, 256X256) - 90 MB total VRAM
+[2017.04.24-01.07.52:824][810]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 2048X1024) - 90 MB total VRAM
+[2017.04.24-01.07.53:108][810]LogTexture:Display: Building textures: SkyOcclusion0_10 (AutoDXT, 256X128) - 90 MB total VRAM
+[2017.04.24-01.07.53:110][810]LogTexture:Display: Building textures: SkyOcclusion0_11 (AutoDXT, 256X128) - 90 MB total VRAM
+[2017.04.24-01.07.53:111][810]LogTexture:Display: Building textures: SkyOcclusion0_12 (AutoDXT, 256X128) - 90 MB total VRAM
+[2017.04.24-01.07.53:113][810]LogTexture:Display: Building textures: SkyOcclusion0_13 (AutoDXT, 256X128) - 90 MB total VRAM
+[2017.04.24-01.07.53:114][810]LogTexture:Display: Building textures: SkyOcclusion0_14 (AutoDXT, 256X128) - 90 MB total VRAM
+[2017.04.24-01.07.53:116][810]LogTexture:Display: Building textures: SkyOcclusion0_15 (AutoDXT, 256X128) - 90 MB total VRAM
+[2017.04.24-01.07.53:126][810]LogTexture:Display: Building textures: SkyOcclusion0_16 (AutoDXT, 128X64) - 90 MB total VRAM
+[2017.04.24-01.07.53:136][810]LogTexture:Display: Building textures: SkyOcclusion0_17 (AutoDXT, 256X128) - 90 MB total VRAM
+[2017.04.24-01.07.53:138][810]LogTexture:Display: Building textures: SkyOcclusion0_18 (AutoDXT, 256X128) - 90 MB total VRAM
+[2017.04.24-01.07.53:148][810]LogTexture:Display: Building textures: SkyOcclusion0_19 (AutoDXT, 128X64) - 90 MB total VRAM
+[2017.04.24-01.07.53:174][810]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 2048X1024) - 90 MB total VRAM
+[2017.04.24-01.07.53:431][810]LogTexture:Display: Building textures: SkyOcclusion0_20 (AutoDXT, 256X128) - 90 MB total VRAM
+[2017.04.24-01.07.53:452][810]LogTexture:Display: Building textures: SkyOcclusion0_21 (AutoDXT, 256X128) - 90 MB total VRAM
+[2017.04.24-01.07.53:468][810]LogTexture:Display: Building textures: SkyOcclusion0_22 (AutoDXT, 256X128) - 90 MB total VRAM
+[2017.04.24-01.07.53:476][810]LogTexture:Display: Building textures: SkyOcclusion0_23 (AutoDXT, 128X64) - 90 MB total VRAM
+[2017.04.24-01.07.53:482][810]LogTexture:Display: Building textures: SkyOcclusion0_24 (AutoDXT, 128X64) - 90 MB total VRAM
+[2017.04.24-01.07.53:489][810]LogTexture:Display: Building textures: SkyOcclusion0_25 (AutoDXT, 128X64) - 90 MB total VRAM
+[2017.04.24-01.07.53:514][810]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT, 2048X1024) - 90 MB total VRAM
+[2017.04.24-01.07.53:851][810]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT, 2048X1024) - 90 MB total VRAM
+[2017.04.24-01.07.54:166][810]LogTexture:Display: Building textures: SkyOcclusion0_5 (AutoDXT, 256X128) - 90 MB total VRAM
+[2017.04.24-01.07.54:173][810]LogTexture:Display: Building textures: SkyOcclusion0_7 (AutoDXT, 256X128) - 90 MB total VRAM
+[2017.04.24-01.07.54:175][810]LogTexture:Display: Building textures: SkyOcclusion0_8 (AutoDXT, 256X128) - 90 MB total VRAM
+[2017.04.24-01.07.54:176][810]LogTexture:Display: Building textures: SkyOcclusion0_9 (AutoDXT, 256X128) - 90 MB total VRAM
+[2017.04.24-01.07.54:178][810]LogTexture:Display: Building textures: SkyOcclusion1_26 (AutoDXT, 64X32) - 90 MB total VRAM
+[2017.04.24-01.07.54:181][810]LogTexture:Display: Building textures: SkyOcclusion1_6 (AutoDXT, 256X128) - 90 MB total VRAM
+[2017.04.24-01.07.54:196][810]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 1024X1024) - 90 MB total VRAM
+[2017.04.24-01.07.54:253][810]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8, 1024X1024) - 90 MB total VRAM
+[2017.04.24-01.07.54:296][810]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (G8, 256X64) - 90 MB total VRAM
+[2017.04.24-01.07.54:297][810]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (G8, 256X64) - 90 MB total VRAM
+[2017.04.24-01.07.54:298][810]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (G8, 256X64) - 90 MB total VRAM
+[2017.04.24-01.07.54:299][810]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (G8, 256X64) - 90 MB total VRAM
+[2017.04.24-01.07.54:300][810]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (G8, 256X64) - 91 MB total VRAM
+[2017.04.24-01.07.54:301][810]LogTexture:Display: Building textures: ShadowMapTexture2D_15 (G8, 256X64) - 91 MB total VRAM
+[2017.04.24-01.07.54:301][810]LogTexture:Display: Building textures: ShadowMapTexture2D_16 (G8, 256X64) - 91 MB total VRAM
+[2017.04.24-01.07.54:302][810]LogTexture:Display: Building textures: ShadowMapTexture2D_17 (G8, 256X64) - 91 MB total VRAM
+[2017.04.24-01.07.54:303][810]LogTexture:Display: Building textures: ShadowMapTexture2D_18 (G8, 128X64) - 91 MB total VRAM
+[2017.04.24-01.07.54:303][810]LogTexture:Display: Building textures: ShadowMapTexture2D_19 (G8, 128X64) - 91 MB total VRAM
+[2017.04.24-01.07.54:316][810]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8, 1024X1024) - 91 MB total VRAM
+[2017.04.24-01.07.54:357][810]LogTexture:Display: Building textures: ShadowMapTexture2D_20 (G8, 256X64) - 91 MB total VRAM
+[2017.04.24-01.07.54:358][810]LogTexture:Display: Building textures: ShadowMapTexture2D_21 (G8, 256X64) - 91 MB total VRAM
+[2017.04.24-01.07.54:359][810]LogTexture:Display: Building textures: ShadowMapTexture2D_22 (G8, 256X64) - 91 MB total VRAM
+[2017.04.24-01.07.54:359][810]LogTexture:Display: Building textures: ShadowMapTexture2D_23 (G8, 64X64) - 91 MB total VRAM
+[2017.04.24-01.07.54:360][810]LogTexture:Display: Building textures: ShadowMapTexture2D_24 (G8, 256X64) - 91 MB total VRAM
+[2017.04.24-01.07.54:360][810]LogTexture:Display: Building textures: ShadowMapTexture2D_25 (G8, 256X64) - 91 MB total VRAM
+[2017.04.24-01.07.54:361][810]LogTexture:Display: Building textures: ShadowMapTexture2D_26 (G8, 64X64) - 91 MB total VRAM
+[2017.04.24-01.07.54:361][810]LogTexture:Display: Building textures: ShadowMapTexture2D_27 (G8, 256X64) - 91 MB total VRAM
+[2017.04.24-01.07.54:362][810]LogTexture:Display: Building textures: ShadowMapTexture2D_28 (BGRA8, 32X64) - 91 MB total VRAM
+[2017.04.24-01.07.54:375][810]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8, 1024X1024) - 91 MB total VRAM
+[2017.04.24-01.07.54:429][810]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8, 1024X1024) - 91 MB total VRAM
+[2017.04.24-01.07.54:534][810]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8, 1024X1024) - 91 MB total VRAM
+[2017.04.24-01.07.54:615][810]LogTexture:Display: Building textures: ShadowMapTexture2D_59 (G8, 32X32) - 91 MB total VRAM
+[2017.04.24-01.07.54:635][810]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8, 1024X1024) - 91 MB total VRAM
+[2017.04.24-01.07.54:691][810]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (BGRA8, 512X64) - 91 MB total VRAM
+[2017.04.24-01.07.54:693][810]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (G8, 256X64) - 91 MB total VRAM
+[2017.04.24-01.07.54:694][810]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (G8, 256X64) - 91 MB total VRAM
+[2017.04.24-01.08.00:544][810]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map FoliageInstancedStaticMeshComponent /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_0.
+[2017.04.24-01.08.03:243][810]LogTexture:Display: Building textures: Texture2D_0 (BGRA8, 512X512) - 99 MB total VRAM
+[2017.04.24-01.08.05:292][810]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.04.24-01.08.06:180][810]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.24-01.08.06:564][810]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.24-01.08.06:705][810]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 141.083ms to complete.
+[2017.04.24-01.08.06:705][810]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 21.326
+[2017.04.24-01.08.10:478][893]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.24-01.08.10:551][893]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.24-01.08.10:641][893]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.24-01.08.10:960][893]PIE: New page: PIE session: FirstPersonExampleMap (Apr 23, 2017, 11:08:10 AM)
+[2017.04.24-01.08.10:999][893]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.04.24-01.08.11:465][893]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map FoliageInstancedStaticMeshComponent /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_0.
+[2017.04.24-01.08.11:698][893]LogPlayLevel: PIE: StaticDuplicateObject took: (0.699539s)
+[2017.04.24-01.08.11:700][893]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.04.24-01.08.11:700][893]LogPlayLevel: PIE: World Init took: (0.001494s)
+[2017.04.24-01.08.11:715][893]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.738634s)
+[2017.04.24-01.08.11:776][893]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.24-01.08.11:810][893]LogInit: FAudioDevice initialized.
+[2017.04.24-01.08.12:448][893]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.24-01.08.12:506][893]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.04.23-18.08.12
+[2017.04.24-01.08.12:717][893]LogWorld: Bringing up level for play took: 0.228809
+[2017.04.24-01.08.13:506][893]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.04.24-01.08.13:739][893]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 3.259
+[2017.04.24-01.08.13:741][893]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.24-01.09.40:666][500]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.24-01.09.40:871][500]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.24-01.23.29:689][298]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 112 classes and 0 folders.
+[2017.04.24-01.23.32:719][298]LogSlate: Took 0.035433 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.04.24-01.23.33:436][299]LogSlate: Took 0.026420 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.04.24-01.24.23:452][797]LogEditorTransaction: Undo Move Nodes
+[2017.04.24-01.24.23:546][797]LogSlate: Took 0.000610 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.24-01.24.50:072][949]LogEditorTransaction: Undo Rename Node
+[2017.04.24-01.24.51:341][957]LogEditorTransaction: Undo Add Node
+[2017.04.24-01.24.54:696][978]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.064
+[2017.04.24-01.24.54:735][978]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonCPP/Blueprints/warppipebp] ([1] browsable assets)...
+[2017.04.24-01.24.54:803][978]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonCPP/Blueprints/warppipebp.warppipebp]
+[2017.04.24-01.24.54:803][978]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonCPP/Blueprints/warppipebp]
+[2017.04.24-01.24.54:891][978]LogSavePackage: Save=65.02ms
+[2017.04.24-01.24.54:891][978]LogSavePackage: Moving '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/warppipebp_Auto131E533AD4F86EB13CFA9B9B781B9724A.tmp' to '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/Autosaves/Game/FirstPersonCPP/Blueprints/warppipebp_Auto1.uasset'
+[2017.04.24-01.24.54:894][978]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/Autosaves/Game/FirstPersonCPP/Blueprints/warppipebp_Auto1.uasset
+[2017.04.24-01.24.54:894][978]LogFileHelpers: Auto-saving content packages took 0.197
+[2017.04.24-01.25.45:827][452]LogEditorTransaction: Undo Add Node
+[2017.04.24-01.25.45:829][452]LogBlueprint:Warning: Loaded invalid component bound event in node /Game/FirstPersonCPP/Blueprints/warppipebp.warppipebp:EventGraph.K2Node_ComponentBoundEvent_0.
+[2017.04.24-01.26.07:165][682]LogEditorTransaction: Undo Move Nodes
+[2017.04.24-01.26.07:660][685]LogEditorTransaction: Undo Rename Node
+[2017.04.24-01.26.51:328][ 99]LogEditorTransaction: Undo Create Pin Link
+[2017.04.24-01.26.53:536][122]LogEditorTransaction: Undo Move Node
+[2017.04.24-01.26.54:590][132]LogEditorTransaction: Undo Add Component Nodes
+[2017.04.24-01.30.45:994][150]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1)
+[2017.04.24-01.31.04:626][665]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (warppipe2)
+[2017.04.24-01.31.05:789][692]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (warppipe2)
+[2017.04.24-01.31.24:696][186]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (warppipe2)
+[2017.04.24-01.31.27:276][237]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (warppipe2)
+[2017.04.24-01.31.32:388][359]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (warppipe2)
+[2017.04.24-01.31.41:993][445]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (warppipe2)
+[2017.04.24-01.34.14:665][704]Cmd: TRANSACTION UNDO
+[2017.04.24-01.34.14:665][704]LogEditorTransaction: Undo Move Actors
+[2017.04.24-01.34.18:981][787]Cmd: TRANSACTION UNDO
+[2017.04.24-01.34.18:981][787]LogEditorTransaction: Undo Move Actors
+[2017.04.24-01.34.19:631][796]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2017.04.24-01.34.23:364][869]Cmd: TRANSACTION UNDO
+[2017.04.24-01.34.23:364][869]LogEditorTransaction: Undo Move Actors
+[2017.04.24-01.34.53:104][696]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2017.04.24-01.35.30:675][ 58]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.04.24-01.35.33:158][106]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (warppipe2)
+[2017.04.24-01.35.34:976][159]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.04.24-01.35.37:056][208]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.04.24-01.35.40:543][312]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (warppipe2)
+[2017.04.24-01.35.43:652][402]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint3)
+[2017.04.24-01.35.44:831][436]Cmd: EDIT CUT
+[2017.04.24-01.35.44:992][436]LogEditorActor: Deleted Actor: TargetPoint
+[2017.04.24-01.35.45:051][436]LogEditorActor: Deleted 1 Actors (0.062 secs)
+[2017.04.24-01.35.45:767][459]Cmd: TRANSACTION UNDO
+[2017.04.24-01.35.45:767][459]LogEditorTransaction: Undo Cut
+[2017.04.24-01.35.46:844][474]Cmd: TRANSACTION UNDO
+[2017.04.24-01.35.46:844][474]LogEditorTransaction: Undo Clicking on Actors
+[2017.04.24-01.35.48:093][491]Cmd: TRANSACTION UNDO
+[2017.04.24-01.35.48:094][491]LogEditorTransaction: Undo Move Actors
+[2017.04.24-01.35.51:317][541]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (warppipe2)
+[2017.04.24-01.35.53:945][616]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (warppipe2)
+[2017.04.24-01.35.54:415][629]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (warppipe2)
+[2017.04.24-01.35.58:395][747]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint3)
+[2017.04.24-01.36.01:434][834]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (warppipe2)
+[2017.04.24-01.36.04:458][920]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint3)
+[2017.04.24-01.36.47:247][477]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2017.04.24-01.36.49:664][519]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (warppipe2)
+[2017.04.24-01.36.52:554][600]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint3)
+[2017.04.24-01.36.54:546][656]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint3)
+[2017.04.24-01.36.55:602][688]Cmd: DELETE
+[2017.04.24-01.36.55:602][688]Cmd: ACTOR DELETE
+[2017.04.24-01.36.55:606][688]LogEditorActor: Deleted Actor: TargetPoint
+[2017.04.24-01.36.55:656][688]LogEditorActor: Deleted 1 Actors (0.052 secs)
+[2017.04.24-01.36.56:336][710]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (warppipe2)
+[2017.04.24-01.37.00:109][820]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2017.04.24-01.37.01:543][859]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (warppipe2)
+[2017.04.24-01.38.24:741][859]LogSavePackage: Save=800.27ms
+[2017.04.24-01.38.24:741][859]LogSavePackage: Moving '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/FirstPersonExampleMap_Auto2083F4D2544C710C89AF1D78191442DE3.tmp' to '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto2.umap'
+[2017.04.24-01.38.24:742][859]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto2.umap
+[2017.04.24-01.38.24:747][859]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.891
+[2017.04.24-01.38.24:747][859]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.891
+[2017.04.24-01.38.24:783][859]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonCPP/Blueprints/warppipebp] ([1] browsable assets)...
+[2017.04.24-01.38.24:886][859]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonCPP/Blueprints/warppipebp.warppipebp]
+[2017.04.24-01.38.24:887][859]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonCPP/Blueprints/warppipebp]
+[2017.04.24-01.38.25:042][859]LogSavePackage: Save=94.18ms
+[2017.04.24-01.38.25:042][859]LogSavePackage: Moving '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/warppipebp_Auto2BB8CE0E4441D7DB5040781968F30557C.tmp' to '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/Autosaves/Game/FirstPersonCPP/Blueprints/warppipebp_Auto2.uasset'
+[2017.04.24-01.38.25:043][859]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/Autosaves/Game/FirstPersonCPP/Blueprints/warppipebp_Auto2.uasset
+[2017.04.24-01.38.25:043][859]LogFileHelpers: Auto-saving content packages took 0.262
+[2017.04.24-01.39.47:265][546]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.04.24-01.41.19:584][767]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor2)
+[2017.04.24-01.41.36:975][  8]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.04.24-01.43.30:456][983]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (warppipe2)
+[2017.04.24-01.43.33:292][108]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (warppipe2)
+[2017.04.24-01.43.34:387][158]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (warppipe2)
+[2017.04.24-01.43.47:919][746]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.04.24-01.43.49:111][791]Cmd: TRANSACTION UNDO
+[2017.04.24-01.43.49:111][791]LogEditorTransaction: Undo Clicking on Actors
+[2017.04.24-01.43.49:733][811]Cmd: TRANSACTION REDO
+[2017.04.24-01.43.49:733][811]LogEditorTransaction: Redo Clicking on Actors
+[2017.04.24-01.43.51:110][870]Cmd: TRANSACTION UNDO
+[2017.04.24-01.43.51:110][870]LogEditorTransaction: Undo Clicking on Actors
+[2017.04.24-01.45.22:412][265]LogEditorTransaction: Undo Delete current selection
+[2017.04.24-01.49.05:721][817]LogSavePackage: Save=749.81ms
+[2017.04.24-01.49.05:721][817]LogSavePackage: Moving '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/FirstPersonExampleMap_Auto31EE59DFA4D6B01F6BBF103B433387DAF.tmp' to '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto3.umap'
+[2017.04.24-01.49.05:725][817]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto3.umap
+[2017.04.24-01.49.05:729][817]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.833
+[2017.04.24-01.49.05:729][817]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.833
+[2017.04.24-01.49.05:741][817]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonCPP/Blueprints/warppipebp] ([1] browsable assets)...
+[2017.04.24-01.49.05:792][817]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonCPP/Blueprints/warppipebp.warppipebp]
+[2017.04.24-01.49.05:792][817]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonCPP/Blueprints/warppipebp]
+[2017.04.24-01.49.05:861][817]LogSavePackage: Save=56.09ms
+[2017.04.24-01.49.05:861][817]LogSavePackage: Moving '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/warppipebp_Auto30827FB1A46AC38D4C530F39544BAD3D0.tmp' to '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/Autosaves/Game/FirstPersonCPP/Blueprints/warppipebp_Auto3.uasset'
+[2017.04.24-01.49.05:863][817]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/Autosaves/Game/FirstPersonCPP/Blueprints/warppipebp_Auto3.uasset
+[2017.04.24-01.49.05:863][817]LogFileHelpers: Auto-saving content packages took 0.124
+[2017.04.24-01.52.45:548][307]LogEditorActor: Deleted Actor: TargetPoint
+[2017.04.24-01.52.45:585][307]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2017.04.24-01.52.49:526][534]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (warppipe2)
+[2017.04.24-01.53.00:541][708]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2017.04.24-01.53.02:416][783]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (warppipe2)
+[2017.04.24-01.53.03:982][869]Cmd: DELETE
+[2017.04.24-01.53.03:982][869]Cmd: ACTOR DELETE
+[2017.04.24-01.53.03:984][869]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.04.24-01.53.04:017][869]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2017.04.24-01.53.27:423][187]LogMetaData: Removing '/Game/FirstPersonCPP/Blueprints/warppipe1.warppipe1:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/FirstPersonCPP/Blueprints/warppipebp.PackageMetaData'
+[2017.04.24-01.53.27:423][187]LogMetaData: Removing '/Game/FirstPersonCPP/Blueprints/warppipe1.warppipe1_C' ref from Metadata '/Game/FirstPersonCPP/Blueprints/warppipebp.PackageMetaData'
+[2017.04.24-01.53.27:423][187]LogMetaData: Removing '/Game/FirstPersonCPP/Blueprints/warppipe1.warppipe1:EventGraph.K2Node_Event_0' ref from Metadata '/Game/FirstPersonCPP/Blueprints/warppipebp.PackageMetaData'
+[2017.04.24-01.53.27:423][187]LogMetaData: Removing '/Game/FirstPersonCPP/Blueprints/warppipe1.warppipe1:EventGraph.K2Node_Event_1' ref from Metadata '/Game/FirstPersonCPP/Blueprints/warppipebp.PackageMetaData'
+[2017.04.24-01.53.27:423][187]LogMetaData: Removing '/Game/FirstPersonCPP/Blueprints/warppipe1.warppipe1:EventGraph.K2Node_Event_2' ref from Metadata '/Game/FirstPersonCPP/Blueprints/warppipebp.PackageMetaData'
+[2017.04.24-01.53.27:423][187]LogMetaData: Removing '/Game/FirstPersonCPP/Blueprints/warppipe1.SKEL_warppipe1_C' ref from Metadata '/Game/FirstPersonCPP/Blueprints/warppipebp.PackageMetaData'
+[2017.04.24-01.53.27:609][187]LogSavePackage: Save=61.85ms
+[2017.04.24-01.53.27:609][187]LogSavePackage: Moving '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/warppipe115CA17F44CAE85F3483D26B0E5A6EAA6.tmp' to '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/FirstPersonCPP/Blueprints/warppipe1.uasset'
+[2017.04.24-01.53.27:628][187]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/FirstPersonCPP/Blueprints/warppipe1.uasset
+[2017.04.24-01.55.07:033][228]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (warppipe)
+[2017.04.24-01.55.07:267][232]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (warppipe)
+[2017.04.24-01.55.12:237][514]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (warppipe)
+[2017.04.24-01.55.12:700][540]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (warppipe)
+[2017.04.24-01.55.47:029][889]BlueprintLog: New page: Compile warppipe1
+[2017.04.24-01.55.48:284][921]LogSavePackage: Save=57.84ms
+[2017.04.24-01.55.48:284][921]LogSavePackage: Moving '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/warppipe14D58D58C43578425C8CC72992AA7E420.tmp' to '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/FirstPersonCPP/Blueprints/warppipe1.uasset'
+[2017.04.24-01.55.48:290][921]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/FirstPersonCPP/Blueprints/warppipe1.uasset
+[2017.04.24-01.55.51:256][ 67]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (warppipe)
+[2017.04.24-01.55.53:423][192]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.04.24-01.55.54:215][231]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (warppipe)
+[2017.04.24-01.57.19:456][882]Cmd: TRANSACTION UNDO
+[2017.04.24-01.57.19:456][882]LogEditorTransaction: Undo Add Node
+[2017.04.24-01.57.21:576][  0]Cmd: TRANSACTION UNDO
+[2017.04.24-01.57.21:576][  0]LogEditorTransaction: Undo Move Node
+[2017.04.24-01.57.22:559][ 57]Cmd: TRANSACTION UNDO
+[2017.04.24-01.57.22:559][ 57]LogEditorTransaction: Undo Add Node
+[2017.04.24-01.57.23:190][ 93]Cmd: TRANSACTION UNDO
+[2017.04.24-01.57.23:190][ 93]LogEditorTransaction: Undo Clicking on Actors
+[2017.04.24-01.57.24:494][163]Cmd: TRANSACTION UNDO
+[2017.04.24-01.57.24:494][163]LogEditorTransaction: Undo Clicking on Actors
+[2017.04.24-01.57.25:198][198]Cmd: TRANSACTION UNDO
+[2017.04.24-01.57.25:198][198]LogEditorTransaction: Undo Clicking on Actors
+[2017.04.24-01.57.25:831][235]Cmd: TRANSACTION UNDO
+[2017.04.24-01.57.25:831][235]LogEditorTransaction: Undo Modify Component(s)
+[2017.04.24-01.57.26:626][280]Cmd: TRANSACTION UNDO
+[2017.04.24-01.57.26:626][280]LogEditorTransaction: Undo Modify Component(s)
+[2017.04.24-01.57.27:075][306]Cmd: TRANSACTION UNDO
+[2017.04.24-01.57.27:076][306]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2017.04.24-01.57.27:553][333]Cmd: TRANSACTION UNDO
+[2017.04.24-01.57.27:553][333]LogEditorTransaction: Undo Clicking on Actors
+[2017.04.24-01.57.27:976][357]Cmd: TRANSACTION UNDO
+[2017.04.24-01.57.27:976][357]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2017.04.24-01.57.28:429][383]Cmd: TRANSACTION UNDO
+[2017.04.24-01.57.28:429][383]LogEditorTransaction: Undo Clicking on Actors
+[2017.04.24-01.57.29:088][422]Cmd: TRANSACTION UNDO
+[2017.04.24-01.57.29:088][422]LogEditorTransaction: Undo Delete Actors
+[2017.04.24-01.57.32:598][624]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (warppipe)
+[2017.04.24-01.57.52:984][587]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.04.24-01.59.15:758][548]LogSavePackage: Save=700.28ms
+[2017.04.24-01.59.15:758][548]LogSavePackage: Moving '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/FirstPersonExampleMap_Auto4ABC71E2E443CFC4401D69480B8592BAD.tmp' to '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto4.umap'
+[2017.04.24-01.59.15:764][548]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto4.umap
+[2017.04.24-01.59.15:774][548]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.793
+[2017.04.24-01.59.15:774][548]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.793
+[2017.04.24-02.00.18:438][ 41]LogEditorTransaction: Undo Move Node
+[2017.04.24-02.00.19:103][ 66]LogEditorTransaction: Undo Add Node
+[2017.04.24-02.04.10:826][877]BlueprintLog: New page: Compile FirstPersonExampleMap
+[2017.04.24-02.07.08:362][250]BlueprintLog: New page: Compile FirstPersonExampleMap
+[2017.04.24-02.09.19:884][ 40]LogSavePackage: Save=864.40ms
+[2017.04.24-02.09.19:887][ 40]LogSavePackage: Moving '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/FirstPersonExampleMap_Auto59C42B6B34C36CB757BDAB9990871A54C.tmp' to '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto5.umap'
+[2017.04.24-02.09.19:892][ 40]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto5.umap
+[2017.04.24-02.09.19:910][ 40]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.970
+[2017.04.24-02.09.19:910][ 40]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.970
+[2017.04.24-02.11.30:366][814]LogEditorTransaction: Undo Create Reroute Node
+[2017.04.24-02.15.05:290][ 60]BlueprintLog: New page: Compile FirstPersonExampleMap
+[2017.04.24-02.16.04:786][ 30]LogSavePackage: Save=715.41ms
+[2017.04.24-02.16.04:787][ 30]LogSavePackage: Moving '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/FirstPersonExampleMapC9FC28D3424F6D869988479DC89754EE.tmp' to '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
+[2017.04.24-02.16.04:798][ 30]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap
+[2017.04.24-02.16.08:510][ 30]LogSavePackage: Save=3578.27ms
+[2017.04.24-02.16.08:510][ 30]LogSavePackage: Moving '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/FirstPersonExampleMap_BuiltData1DA430224AE5E4E0B03A84A7E5038B31.tmp' to '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2017.04.24-02.16.08:517][ 30]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2017.04.24-02.16.10:174][128]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.04.24-02.16.11:863][221]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.24-02.16.11:905][221]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.24-02.16.11:905][221]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.24-02.16.11:905][221]PIE: New page: PIE session: FirstPersonExampleMap (Apr 23, 2017, 12:16:11 PM)
+[2017.04.24-02.16.11:905][221]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.04.24-02.16.12:075][221]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map FoliageInstancedStaticMeshComponent /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_0.
+[2017.04.24-02.16.12:663][221]LogPlayLevel: PIE: StaticDuplicateObject took: (0.758155s)
+[2017.04.24-02.16.12:664][221]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.04.24-02.16.12:665][221]LogPlayLevel: PIE: World Init took: (0.001737s)
+[2017.04.24-02.16.12:665][221]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.760377s)
+[2017.04.24-02.16.12:902][221]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.24-02.16.12:928][221]LogInit: FAudioDevice initialized.
+[2017.04.24-02.16.13:598][221]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.24-02.16.13:616][221]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.04.23-19.16.13
+[2017.04.24-02.16.13:617][221]LogWorld: Bringing up level for play took: 0.015224
+[2017.04.24-02.16.13:623][221]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 1.143
+[2017.04.24-02.16.13:624][221]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.24-02.16.32:793][365]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.24-02.16.32:884][365]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.24-02.16.34:392][443]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (warppipe)
+[2017.04.24-02.16.39:212][714]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (warppipe)
+[2017.04.24-02.17.01:688][766]LogMetaData: Removing '/Game/FirstPersonCPP/Blueprints/warppipebp.warppipebp_C' ref from Metadata '/Game/FirstPersonCPP/Blueprints/warppipe1.PackageMetaData'
+[2017.04.24-02.17.01:688][766]LogMetaData: Removing '/Game/FirstPersonCPP/Blueprints/warppipebp.SKEL_warppipebp_C' ref from Metadata '/Game/FirstPersonCPP/Blueprints/warppipe1.PackageMetaData'
+[2017.04.24-02.17.01:688][766]LogMetaData: Removing '/Game/FirstPersonCPP/Blueprints/warppipebp.warppipebp:EventGraph.K2Node_Event_0' ref from Metadata '/Game/FirstPersonCPP/Blueprints/warppipe1.PackageMetaData'
+[2017.04.24-02.17.01:688][766]LogMetaData: Removing '/Game/FirstPersonCPP/Blueprints/warppipebp.warppipebp:EventGraph.K2Node_Event_1' ref from Metadata '/Game/FirstPersonCPP/Blueprints/warppipe1.PackageMetaData'
+[2017.04.24-02.17.01:688][766]LogMetaData: Removing '/Game/FirstPersonCPP/Blueprints/warppipebp.warppipebp:EventGraph.K2Node_Event_2' ref from Metadata '/Game/FirstPersonCPP/Blueprints/warppipe1.PackageMetaData'
+[2017.04.24-02.17.01:688][766]LogMetaData: Removing '/Game/FirstPersonCPP/Blueprints/warppipebp.warppipebp:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/FirstPersonCPP/Blueprints/warppipe1.PackageMetaData'
+[2017.04.24-02.17.01:854][766]LogSavePackage: Save=110.08ms
+[2017.04.24-02.17.01:854][766]LogSavePackage: Moving '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/warppipebp90BB38E54411F5C00B57399C57A168E5.tmp' to '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/FirstPersonCPP/Blueprints/warppipebp.uasset'
+[2017.04.24-02.17.01:864][766]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/FirstPersonCPP/Blueprints/warppipebp.uasset
+[2017.04.24-02.18.18:791][ 10]BlueprintLog: New page: Compile warppipebp
+[2017.04.24-02.18.20:383][ 34]LogSavePackage: Save=58.02ms
+[2017.04.24-02.18.20:383][ 34]LogSavePackage: Moving '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/warppipebp4C94A2504E24D6C91F2DBAB845EC1FBD.tmp' to '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/FirstPersonCPP/Blueprints/warppipebp.uasset'
+[2017.04.24-02.18.20:389][ 34]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/FirstPersonCPP/Blueprints/warppipebp.uasset
+[2017.04.24-02.18.24:049][225]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.24-02.18.24:090][225]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.24-02.18.24:090][225]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.24-02.18.24:090][225]PIE: New page: PIE session: FirstPersonExampleMap (Apr 23, 2017, 12:18:24 PM)
+[2017.04.24-02.18.24:090][225]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.04.24-02.18.24:163][225]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map FoliageInstancedStaticMeshComponent /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_0.
+[2017.04.24-02.18.24:234][225]LogPlayLevel: PIE: StaticDuplicateObject took: (0.143323s)
+[2017.04.24-02.18.24:235][225]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.04.24-02.18.24:236][225]LogPlayLevel: PIE: World Init took: (0.001949s)
+[2017.04.24-02.18.24:236][225]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.145862s)
+[2017.04.24-02.18.24:282][225]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.24-02.18.24:300][225]LogInit: FAudioDevice initialized.
+[2017.04.24-02.18.24:338][225]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.24-02.18.24:349][225]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.04.23-19.18.24
+[2017.04.24-02.18.24:350][225]LogWorld: Bringing up level for play took: 0.009434
+[2017.04.24-02.18.24:355][225]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.125
+[2017.04.24-02.18.24:355][225]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.24-02.18.41:106][227]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.24-02.18.41:227][227]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.24-02.18.48:796][546]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.04.24-02.18.49:524][581]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (warppipe)
+[2017.04.24-02.19.59:981][945]LogRenderer: Reallocating scene render targets to support 1208x900 NumSamples 1 (Frame:104439).
+[2017.04.24-02.21.43:702][892]BlueprintLog: New page: Compile warppipebp
+[2017.04.24-02.21.44:685][910]LogSavePackage: Save=54.56ms
+[2017.04.24-02.21.44:685][910]LogSavePackage: Moving '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Saved/warppipebp20490CD747769884074D44B3FB485C15.tmp' to '../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/FirstPersonCPP/Blueprints/warppipebp.uasset'
+[2017.04.24-02.21.44:687][910]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Ben/Documents/Unreal Projects/CSC433TeamProject/Content/FirstPersonCPP/Blueprints/warppipebp.uasset
+[2017.04.24-02.21.48:660][ 99]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.04.24-02.21.49:638][149]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (warppipe)
+[2017.04.24-02.21.53:292][360]Cmd: DELETE
+[2017.04.24-02.21.53:292][360]Cmd: ACTOR DELETE
+[2017.04.24-02.21.57:132][360]LogEditorActor: Deleted 0 Actors (3.841 secs)
+[2017.04.24-02.22.07:566][966]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.24-02.22.07:611][966]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.24-02.22.07:611][966]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.24-02.22.07:612][966]PIE: New page: PIE session: FirstPersonExampleMap (Apr 23, 2017, 12:22:07 PM)
+[2017.04.24-02.22.07:612][966]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.04.24-02.22.07:668][966]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map FoliageInstancedStaticMeshComponent /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_0.
+[2017.04.24-02.22.07:690][966]LogPlayLevel: PIE: StaticDuplicateObject took: (0.078501s)
+[2017.04.24-02.22.07:692][966]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.04.24-02.22.07:692][966]LogPlayLevel: PIE: World Init took: (0.001914s)
+[2017.04.24-02.22.07:693][966]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.080970s)
+[2017.04.24-02.22.07:736][966]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.24-02.22.07:753][966]LogInit: FAudioDevice initialized.
+[2017.04.24-02.22.07:787][966]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.24-02.22.07:798][966]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.04.23-19.22.07
+[2017.04.24-02.22.07:799][966]LogWorld: Bringing up level for play took: 0.009700
+[2017.04.24-02.22.07:804][966]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.676
+[2017.04.24-02.22.07:804][966]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.24-02.22.41:385][975]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.24-02.22.41:506][975]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.24-02.26.28:248][ 63]BlueprintLog: New page: Compile FirstPersonExampleMap
+[2017.04.24-02.26.31:426][226]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.04.24-02.26.32:442][283]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.24-02.26.32:472][283]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.24-02.26.32:472][283]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.24-02.26.32:473][283]PIE: New page: PIE session: FirstPersonExampleMap (Apr 23, 2017, 12:26:32 PM)
+[2017.04.24-02.26.32:473][283]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.04.24-02.26.32:530][283]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map FoliageInstancedStaticMeshComponent /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_0.
+[2017.04.24-02.26.32:549][283]LogPlayLevel: PIE: StaticDuplicateObject took: (0.076051s)
+[2017.04.24-02.26.32:551][283]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.04.24-02.26.32:552][283]LogPlayLevel: PIE: World Init took: (0.002613s)
+[2017.04.24-02.26.32:552][283]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.079284s)
+[2017.04.24-02.26.32:603][283]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.24-02.26.32:626][283]LogInit: FAudioDevice initialized.
+[2017.04.24-02.26.32:661][283]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.24-02.26.32:671][283]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.04.23-19.26.32
+[2017.04.24-02.26.32:673][283]LogWorld: Bringing up level for play took: 0.009405
+[2017.04.24-02.26.32:677][283]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.197
+[2017.04.24-02.26.32:678][283]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.24-02.27.03:752][683]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.24-02.27.03:852][683]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.24-02.27.16:538][273]BlueprintLog: New page: Compile FirstPersonExampleMap
+[2017.04.24-02.27.18:578][362]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.24-02.27.18:609][362]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.24-02.27.18:609][362]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.24-02.27.18:609][362]PIE: New page: PIE session: FirstPersonExampleMap (Apr 23, 2017, 12:27:18 PM)
+[2017.04.24-02.27.18:610][362]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.04.24-02.27.18:663][362]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map FoliageInstancedStaticMeshComponent /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_0.
+[2017.04.24-02.27.18:682][362]LogPlayLevel: PIE: StaticDuplicateObject took: (0.072195s)
+[2017.04.24-02.27.18:683][362]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.04.24-02.27.18:683][362]LogPlayLevel: PIE: World Init took: (0.001675s)
+[2017.04.24-02.27.18:684][362]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.074366s)
+[2017.04.24-02.27.18:729][362]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.24-02.27.18:746][362]LogInit: FAudioDevice initialized.
+[2017.04.24-02.27.18:789][362]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.24-02.27.18:799][362]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.04.23-19.27.18
+[2017.04.24-02.27.18:801][362]LogWorld: Bringing up level for play took: 0.009068
+[2017.04.24-02.27.18:815][362]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.335
+[2017.04.24-02.27.18:815][362]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.24-02.27.50:690][ 56]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.24-02.27.50:786][ 56]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.24-02.27.58:341][259]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.24-02.27.58:371][259]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.24-02.27.58:371][259]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.24-02.27.58:372][259]PIE: New page: PIE session: FirstPersonExampleMap (Apr 23, 2017, 12:27:58 PM)
+[2017.04.24-02.27.58:372][259]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.04.24-02.27.58:429][259]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map FoliageInstancedStaticMeshComponent /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_0.
+[2017.04.24-02.27.58:448][259]LogPlayLevel: PIE: StaticDuplicateObject took: (0.076251s)
+[2017.04.24-02.27.58:450][259]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.04.24-02.27.58:450][259]LogPlayLevel: PIE: World Init took: (0.001860s)
+[2017.04.24-02.27.58:450][259]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.078689s)
+[2017.04.24-02.27.58:498][259]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.24-02.27.58:515][259]LogInit: FAudioDevice initialized.
+[2017.04.24-02.27.58:561][259]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.24-02.27.58:572][259]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.04.23-19.27.58
+[2017.04.24-02.27.58:573][259]LogWorld: Bringing up level for play took: 0.009392
+[2017.04.24-02.27.58:578][259]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.098
+[2017.04.24-02.27.58:578][259]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.24-02.28.24:833][761]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.24-02.28.24:931][761]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.24-02.28.37:059][373]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (warppipe)
+[2017.04.24-02.28.58:242][176]BlueprintLog: New page: Compile FirstPersonExampleMap
+[2017.04.24-02.29.01:094][319]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (warppipe)
+[2017.04.24-02.29.03:266][465]Cmd: DELETE
+[2017.04.24-02.29.03:266][465]Cmd: ACTOR DELETE
+[2017.04.24-02.29.07:673][465]LogEditorActor: Deleted 0 Actors (4.406 secs)
+[2017.04.24-02.29.12:974][715]BlueprintLog: New page: Compile FirstPersonExampleMap
+[2017.04.24-02.29.23:286][177]BlueprintLog: New page: Compile FirstPersonExampleMap
+[2017.04.24-02.29.26:558][354]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (warppipe)
+[2017.04.24-02.29.27:329][406]Cmd: DELETE
+[2017.04.24-02.29.27:330][406]Cmd: ACTOR DELETE
+[2017.04.24-02.29.27:331][406]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.04.24-02.29.27:362][406]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2017.04.24-02.29.30:236][633]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.04.24-02.29.30:265][633]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2017.04.24-02.30.14:935][755]LogEditorViewport: Clicking on Actor (LMB): warppipebp_C (warppipebp)
+[2017.04.24-02.30.42:966][622]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.04.24-02.30.44:165][694]LogEditorViewport: Clicking on Actor (LMB): warppipebp_C (warppipebp)
+[2017.04.24-02.30.53:693][337]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.04.24-02.30.54:681][393]LogEditorViewport: Clicking on Actor (context menu): warppipebp_C (warppipebp)
+[2017.04.24-02.30.56:106][468]LogEditorViewport: Clicking on Actor (context menu): warppipebp_C (warppipebp)
+[2017.04.24-02.30.59:729][664]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.04.24-02.31.00:461][704]LogEditorViewport: Clicking on Actor (LMB): warppipebp_C (warppipebp)
+[2017.04.24-02.31.03:745][933]Cmd: EDIT COPY
+[2017.04.24-02.31.04:497][985]Cmd: EDIT PASTE
+[2017.04.24-02.31.13:979][588]LogEditorViewport: Clicking on Actor (context menu): warppipebp_C (warppipebp2)
+[2017.04.24-02.31.16:582][662]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.199 s
+[2017.04.24-02.31.16:582][662]LogOutputDevice:Error: === Handled ensure: ===
+[2017.04.24-02.31.16:582][662]LogOutputDevice:Error: 
+[2017.04.24-02.31.16:582][662]LogOutputDevice:Error: Ensure condition failed: ListenerTransformCopy.IsValid() [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Runtime\Engine\Private\AudioDevice.cpp] [Line: 2143]
+[2017.04.24-02.31.16:582][662]LogOutputDevice:Error: Invalid listener transform provided to AudioDevice
+[2017.04.24-02.31.16:582][662]LogOutputDevice:Error: Stack: 
+[2017.04.24-02.31.16:582][662]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000728D95E6
+[2017.04.24-02.31.16:582][662]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000072689B82
+[2017.04.24-02.31.16:582][662]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000007269B666
+[2017.04.24-02.31.16:582][662]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000005B8C1B6B
+[2017.04.24-02.31.16:582][662]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000005A41782A
+[2017.04.24-02.31.16:582][662]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000005A414763
+[2017.04.24-02.31.16:582][662]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000005A0A197D
+[2017.04.24-02.31.16:582][662]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000005C5DA74E
+[2017.04.24-02.31.16:582][662]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000059FF9315
+[2017.04.24-02.31.16:582][662]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000059FF72F9
+[2017.04.24-02.31.16:582][662]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000005A802086
+[2017.04.24-02.31.16:582][662]LogOutputDevice:Error: UE4Editor.exe!0x00000000A277DEE3
+[2017.04.24-02.31.16:582][662]LogOutputDevice:Error: UE4Editor.exe!0x00000000A276EB40
+[2017.04.24-02.31.16:582][662]LogOutputDevice:Error: UE4Editor.exe!0x00000000A276EBBA
+[2017.04.24-02.31.16:582][662]LogOutputDevice:Error: UE4Editor.exe!0x00000000A2780A29
+[2017.04.24-02.31.16:582][662]LogOutputDevice:Error: UE4Editor.exe!0x00000000A27822B6
+[2017.04.24-02.31.16:582][662]LogOutputDevice:Error: KERNEL32.DLL!0x00000000A5698364
+[2017.04.24-02.31.16:583][662]LogOutputDevice:Error: ntdll.dll!0x00000000A59F70D1
+[2017.04.24-02.31.16:583][662]LogOutputDevice:Error: 
+[2017.04.24-02.31.16:586][662]LogStats:                SubmitErrorReport -  0.000 s
+[2017.04.24-02.31.27:498][662]LogStats:                    SendNewReport - 10.912 s
+[2017.04.24-02.31.27:498][662]LogStats:             FDebug::EnsureFailed - 12.137 s
+[2017.04.24-02.31.27:828][663]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.327 s
+[2017.04.24-02.31.27:828][663]LogOutputDevice:Error: === Handled ensure: ===
+[2017.04.24-02.31.27:828][663]LogOutputDevice:Error: 
+[2017.04.24-02.31.27:828][663]LogOutputDevice:Error: Ensure condition failed: Y != 0 [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Runtime\Core\Private\GenericPlatform\GenericPlatformMath.cpp] [Line: 81]
+[2017.04.24-02.31.27:828][663]LogOutputDevice:Error: FMath::FMod(X=3684.465332, Y=-nan) : Y is zero, this is invalid and would result in NaN!
+[2017.04.24-02.31.27:828][663]LogOutputDevice:Error: Stack: 
+[2017.04.24-02.31.27:828][663]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000728D95E6
+[2017.04.24-02.31.27:828][663]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000072689B82
+[2017.04.24-02.31.27:828][663]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000007269B666
+[2017.04.24-02.31.27:828][663]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000072549A25
+[2017.04.24-02.31.27:828][663]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x0000000058E37343
+[2017.04.24-02.31.27:828][663]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x0000000058D8B003
+[2017.04.24-02.31.27:828][663]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x0000000058DFE9C0
+[2017.04.24-02.31.27:828][663]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x0000000058E1C8B7
+[2017.04.24-02.31.27:828][663]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x0000000058DCDE59
+[2017.04.24-02.31.27:828][663]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x0000000058DD1100
+[2017.04.24-02.31.27:828][663]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x0000000058DF2310
+[2017.04.24-02.31.27:828][663]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x0000000058D59FBB
+[2017.04.24-02.31.27:828][663]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x0000000058D59473
+[2017.04.24-02.31.27:828][663]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x00000000589ABE8E
+[2017.04.24-02.31.27:828][663]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x0000000058D767A2
+[2017.04.24-02.31.27:828][663]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x0000000058D4094E
+[2017.04.24-02.31.27:828][663]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000007255D84D
+[2017.04.24-02.31.27:828][663]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000007255DC6D
+[2017.04.24-02.31.27:828][663]LogOutputDevice:Error: UE4Editor-RenderCore.dll!0x000000007E530397
+[2017.04.24-02.31.27:828][663]LogOutputDevice:Error: UE4Editor-RenderCore.dll!0x000000007E531486
+[2017.04.24-02.31.27:828][663]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000728EA3D8
+[2017.04.24-02.31.27:828][663]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000728E4C79
+[2017.04.24-02.31.27:828][663]LogOutputDevice:Error: KERNEL32.DLL!0x00000000A5698364
+[2017.04.24-02.31.27:828][663]LogOutputDevice:Error: ntdll.dll!0x00000000A59F70D1
+[2017.04.24-02.31.27:828][663]LogOutputDevice:Error: 
+[2017.04.24-02.31.27:828][663]LogStats:                SubmitErrorReport -  0.000 s
