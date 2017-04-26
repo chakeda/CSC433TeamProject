@@ -1,0 +1,1147 @@
+﻿Log file open, 04/25/17 23:53:53
+LogInit:Display: Running engine for game: Project433
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1040801308) SRandInit(1040801308).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.080444
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.04.26-06.53.54:063][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.26-06.53.54:063][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.26-06.53.54:072][  0]LogInit: Computer: TEMP
+[2017.04.26-06.53.54:072][  0]LogInit: User: pfesz
+[2017.04.26-06.53.54:072][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.04.26-06.53.54:072][  0]LogInit: High frequency timer resolution =3.328126 MHz
+[2017.04.26-06.53.54:072][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.04.26-06.53.54:072][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.26-06.53.54:072][  0]LogMemory: Process Physical Memory: 262.72 MB used, 262.72 MB peak
+[2017.04.26-06.53.54:072][  0]LogMemory: Process Virtual Memory: 262.59 MB used, 262.59 MB peak
+[2017.04.26-06.53.54:073][  0]LogMemory: Physical Memory: 7434.70 MB used,  8878.50 MB free, 16313.20 MB total
+[2017.04.26-06.53.54:073][  0]LogMemory: Virtual Memory: 645.13 MB used,  8878.50 MB free, 134217728.00 MB total
+[2017.04.26-06.53.54:139][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.04.26-06.53.54:712][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.26-06.53.54:737][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.04.26-06.53.54:737][  0]LogD3D11RHI:       4059/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.04.26-06.53.54:738][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.04.26-06.53.54:738][  0]LogD3D11RHI:       0/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.04.26-06.53.54:738][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.26-06.53.54:742][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.26-06.53.54:742][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.04.26-06.53.54:742][  0]LogWindows: EnumDisplayDevices:
+[2017.04.26-06.53.54:742][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.04.26-06.53.54:742][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.04.26-06.53.54:742][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.04.26-06.53.54:742][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.04.26-06.53.54:742][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.04.26-06.53.54:742][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.04.26-06.53.54:742][  0]LogD3D11RHI:   Driver Version: 376.33 (internal:21.21.13.7633, unified:376.33)
+[2017.04.26-06.53.54:742][  0]LogD3D11RHI:      Driver Date: 12-11-2016
+[2017.04.26-06.53.54:742][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.04.26-06.53.54:754][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.26-06.53.54:763][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.04.26-06.53.54:811][  0]LogShaderCompilers: Guid format shader working directory is -28 characters bigger than the processId version (../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Intermediate/Shaders/WorkingDirectory/14848/).
+[2017.04.26-06.53.54:811][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/pfesz/AppData/Local/Temp/UnrealShaderWorkingDir/AD1358F540E0E31F7CE3289C49513D5A/'.
+[2017.04.26-06.53.54:811][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.26-06.53.55:748][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.26-06.53.55:796][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.04.26-06.53.55:855][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.04.26-06.53.55:903][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.04.26-06.53.55:951][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.04.26-06.53.55:999][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.26-06.53.56:049][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.26-06.53.56:101][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.26-06.53.56:139][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.26-06.53.56:193][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.26-06.53.56:240][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.26-06.53.56:298][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.26-06.53.56:344][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.26-06.53.56:400][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.26-06.53.56:461][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.26-06.53.56:562][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.26-06.53.56:562][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.26-06.53.56:599][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.26-06.53.56:689][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.26-06.53.56:727][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.26-06.53.56:774][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.04.26-06.53.56:825][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.26-06.53.56:870][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.26-06.53.56:918][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.26-06.53.56:919][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.26-06.53.57:304][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.26-06.53.57:346][  0]LogDerivedDataCache: Loaded boot cache 0.04s 50MB C:/Users/pfesz/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.26-06.53.57:346][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/pfesz/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.04.26-06.53.57:346][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.26-06.53.57:346][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.26-06.53.57:346][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.26-06.53.57:346][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.26-06.53.57:362][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.26-06.53.57:374][  0]LogDerivedDataCache: Using Local data cache path C:/Users/pfesz/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.26-06.53.57:381][  0]LogSlate: Using Freetype 2.6.0
+[2017.04.26-06.53.57:382][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.26-06.53.57:382][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.26-06.53.57:620][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.26-06.53.57:622][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.26-06.53.57:805][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.04.26-06.53.57:839][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.04.26-06.53.57:881][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.04.26-06.53.57:881][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.04.26-06.53.57:881][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.26-06.53.58:346][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: project433, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3701128711
+[2017.04.26-06.53.58:391][  0]LogAssetRegistry: FAssetRegistry took 0.0220 seconds to start up
+[2017.04.26-06.53.58:446][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.030110 seconds
+[2017.04.26-06.53.58:452][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.04.26-06.53.58:452][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.04.26-06.53.58:452][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.26-06.53.58:535][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.26-06.54.00:066][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.26-06.54.00:102][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.26-06.54.00:519][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.26-06.54.00:889][  0]SourceControl: Info Source control is disabled
+[2017.04.26-06.54.00:923][  0]SourceControl: Info Source control is disabled
+[2017.04.26-06.54.00:976][  0]SourceControl: Info Source control is disabled
+[2017.04.26-06.54.01:026][  0]SourceControl: Info Source control is disabled
+[2017.04.26-06.54.02:126][  0]LogEngine: Initializing Engine...
+[2017.04.26-06.54.02:127][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.04.26-06.54.02:340][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.04.26-06.54.02:346][  0]LogInit: XAudio2 using 'DELL S2415H-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.26-06.54.02:359][  0]LogInit: FAudioDevice initialized.
+[2017.04.26-06.54.02:381][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/pfesz/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.26-06.54.02:385][  0]LogInit: Texture streaming: Enabled
+[2017.04.26-06.54.02:468][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.04.26-06.54.02:545][  0]LogInit: Transaction tracking system initialized
+[2017.04.26-06.54.02:851][  0]BlueprintLog: New page: Editor Load
+[2017.04.26-06.54.03:626][  0]LocalizationService: Info Localization service is disabled
+[2017.04.26-06.54.04:190][  0]LogConsoleResponse:Display: 
+[2017.04.26-06.54.04:303][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.04.26-06.54.04:303][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.26-06.54.05:173][  0]LogFileCache: Scanning file cache for directory 'C:/Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/' took 0.01s
+[2017.04.26-06.54.05:210][  0]SourceControl: Info Source control is disabled
+[2017.04.26-06.54.05:210][  0]Cmd: MAP LOAD FILE="../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.26-06.54.05:210][  0]LightingResults: New page: Lighting Build
+[2017.04.26-06.54.05:252][  0]MapCheck: New page: Map Check
+[2017.04.26-06.54.05:252][  0]LightingResults: New page: Lighting Build
+[2017.04.26-06.54.05:563][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave smsunshine_mario_jump_8...
+[2017.04.26-06.54.05:579][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave smsunshine_mario_jump_10...
+[2017.04.26-06.54.05:586][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave sm64_mario_lost_a_life...
+[2017.04.26-06.54.05:594][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave sm64_mario_falling...
+[2017.04.26-06.54.05:607][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave sm64_mario_hurt...
+[2017.04.26-06.54.05:711][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave smsunshine_mario_jump_wahaa...
+[2017.04.26-06.54.05:769][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.04.26-06.54.05:795][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.26-06.54.05:795][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.26-06.54.05:834][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 38.873ms to complete.
+[2017.04.26-06.54.05:834][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.624
+[2017.04.26-06.54.05:888][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.26-06.54.05:992][  0]LogCollectionManager: Loaded 0 collections in 0.001993 seconds
+[2017.04.26-06.54.06:064][  0]LogFileCache: Scanning file cache for directory 'C:/Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Saved/Collections/' took 0.01s
+[2017.04.26-06.54.06:064][  0]LogFileCache: Scanning file cache for directory 'C:/Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Developers/pfesz/Collections/' took 0.01s
+[2017.04.26-06.54.06:064][  0]LogFileCache: Scanning file cache for directory 'C:/Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Collections/' took 0.01s
+[2017.04.26-06.54.06:064][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.04.26-06.54.06:071][  0]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 2245 classes and 453 folders.
+[2017.04.26-06.54.06:074][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.04.26-06.54.06:074][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.04.26-06.54.06:130][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.04.26-06.54.06:168][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.04.26-06.54.06:203][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.04.26-06.54.06:245][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.04.26-06.54.06:251][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.04.26-06.54.06:313][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.04.26-06.54.06:314][  0]LogLoad: (Engine Initialization) Total time: 14.13 seconds
+[2017.04.26-06.54.06:314][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.19 seconds
+[2017.04.26-06.54.06:314][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.04.26-06.54.06:314][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.04.26-06.54.06:323][  0]LogOcInput: OculusInput pre-init called
+[2017.04.26-06.54.06:343][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.04.26-06.54.06:343][  0]LogSlate: Took 0.000203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.26-06.54.06:347][  0]LogSlate: Took 0.000187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.04.26-06.54.06:352][  0]LogSlate: Took 0.000202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.04.26-06.54.06:458][  0]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.26-06.54.06:517][  0]LogRenderer: Reallocating scene render targets to support 1040x676 NumSamples 1 (Frame:2).
+[2017.04.26-06.54.06:578][  1]LogAssetRegistry: Asset discovery search completed in 8.2091 seconds
+[2017.04.26-06.54.06:578][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
+[2017.04.26-06.54.06:578][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000023 seconds (updated 0 objects)
+[2017.04.26-06.55.48:945][253]LogSlate: Took 0.000121 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.26-06.55.49:151][253]LogMaterial: Missing cached shader map for material star, compiling. 
+[2017.04.26-06.55.49:151][253]LogTemp:Display: Added material ShaderMap 0x000001A307FC9600 with Material 0x000001A32CC64E80 to ShaderMapsBeingCompiled
+[2017.04.26-06.55.49:191][253]LogTemp:Display: Kicking off shader compilation for star, GameThreadShaderMap 0x000001A307FC9600
+[2017.04.26-06.55.49:275][253]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 2048X2048) - 115 MB total VRAM
+[2017.04.26-06.55.49:967][253]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 256X256) - 115 MB total VRAM
+[2017.04.26-06.55.49:971][253]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT, 256X256) - 115 MB total VRAM
+[2017.04.26-06.55.49:976][253]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT, 256X256) - 115 MB total VRAM
+[2017.04.26-06.55.49:986][253]LogTexture:Display: Building textures: HQ_Lightmap0_13 (AutoDXT, 256X256) - 115 MB total VRAM
+[2017.04.26-06.55.49:990][253]LogTexture:Display: Building textures: HQ_Lightmap0_14 (AutoDXT, 256X256) - 115 MB total VRAM
+[2017.04.26-06.55.49:995][253]LogTexture:Display: Building textures: HQ_Lightmap0_15 (AutoDXT, 256X256) - 115 MB total VRAM
+[2017.04.26-06.55.50:016][253]LogTexture:Display: Building textures: HQ_Lightmap0_16 (AutoDXT, 256X256) - 115 MB total VRAM
+[2017.04.26-06.55.50:027][253]LogTexture:Display: Building textures: HQ_Lightmap0_17 (AutoDXT, 128X128) - 115 MB total VRAM
+[2017.04.26-06.55.50:030][253]LogTexture:Display: Building textures: HQ_Lightmap0_18 (AutoDXT, 256X256) - 115 MB total VRAM
+[2017.04.26-06.55.50:050][253]LogTexture:Display: Building textures: HQ_Lightmap0_19 (AutoDXT, 128X128) - 115 MB total VRAM
+[2017.04.26-06.55.50:121][253]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 2048X2048) - 115 MB total VRAM
+[2017.04.26-06.55.50:879][253]LogSlate: Took 0.000247 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.26-06.55.50:885][253]LogTexture:Display: Building textures: HQ_Lightmap0_20 (AutoDXT, 128X128) - 115 MB total VRAM
+[2017.04.26-06.55.50:900][253]LogTexture:Display: Building textures: HQ_Lightmap0_21 (AutoDXT, 256X256) - 115 MB total VRAM
+[2017.04.26-06.55.50:917][253]LogTexture:Display: Building textures: HQ_Lightmap0_22 (AutoDXT, 256X256) - 115 MB total VRAM
+[2017.04.26-06.55.50:954][253]LogTexture:Display: Building textures: HQ_Lightmap0_23 (AutoDXT, 128X128) - 115 MB total VRAM
+[2017.04.26-06.55.50:978][253]LogTexture:Display: Building textures: HQ_Lightmap0_24 (AutoDXT, 128X128) - 115 MB total VRAM
+[2017.04.26-06.55.50:993][253]LogTexture:Display: Building textures: HQ_Lightmap0_25 (AutoDXT, 128X128) - 115 MB total VRAM
+[2017.04.26-06.55.51:067][253]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 2048X2048) - 115 MB total VRAM
+[2017.04.26-06.55.51:993][253]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 2048X2048) - 115 MB total VRAM
+[2017.04.26-06.55.52:654][253]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 256X256) - 115 MB total VRAM
+[2017.04.26-06.55.52:658][253]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 256X256) - 115 MB total VRAM
+[2017.04.26-06.55.52:663][253]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 256X256) - 115 MB total VRAM
+[2017.04.26-06.55.52:667][253]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 256X256) - 115 MB total VRAM
+[2017.04.26-06.55.52:671][253]LogTexture:Display: Building textures: HQ_Lightmap1_26 (AutoDXT, 64X64) - 115 MB total VRAM
+[2017.04.26-06.55.52:672][253]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT, 256X256) - 115 MB total VRAM
+[2017.04.26-06.55.52:737][253]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 2048X2048) - 115 MB total VRAM
+[2017.04.26-06.55.53:049][253]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1, 256X256) - 115 MB total VRAM
+[2017.04.26-06.55.53:079][253]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1, 256X256) - 115 MB total VRAM
+[2017.04.26-06.55.53:097][253]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1, 256X256) - 115 MB total VRAM
+[2017.04.26-06.55.53:115][253]LogTexture:Display: Building textures: LQ_Lightmap_0_13 (DXT1, 256X256) - 115 MB total VRAM
+[2017.04.26-06.55.53:131][253]LogTexture:Display: Building textures: LQ_Lightmap_0_14 (DXT1, 256X256) - 115 MB total VRAM
+[2017.04.26-06.55.53:148][253]LogTexture:Display: Building textures: LQ_Lightmap_0_15 (DXT1, 256X256) - 115 MB total VRAM
+[2017.04.26-06.55.53:166][253]LogTexture:Display: Building textures: LQ_Lightmap_0_16 (DXT1, 256X256) - 115 MB total VRAM
+[2017.04.26-06.55.53:184][253]LogTexture:Display: Building textures: LQ_Lightmap_0_17 (DXT1, 128X128) - 115 MB total VRAM
+[2017.04.26-06.55.53:200][253]LogTexture:Display: Building textures: LQ_Lightmap_0_18 (DXT1, 256X256) - 115 MB total VRAM
+[2017.04.26-06.55.53:218][253]LogTexture:Display: Building textures: LQ_Lightmap_0_19 (DXT1, 128X128) - 115 MB total VRAM
+[2017.04.26-06.55.53:285][253]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 2048X2048) - 115 MB total VRAM
+[2017.04.26-06.55.53:538][253]LogTexture:Display: Building textures: LQ_Lightmap_0_20 (DXT1, 128X128) - 115 MB total VRAM
+[2017.04.26-06.55.53:558][253]LogTexture:Display: Building textures: LQ_Lightmap_0_21 (DXT1, 256X256) - 115 MB total VRAM
+[2017.04.26-06.55.53:577][253]LogTexture:Display: Building textures: LQ_Lightmap_0_22 (DXT1, 256X256) - 115 MB total VRAM
+[2017.04.26-06.55.53:601][253]LogTexture:Display: Building textures: LQ_Lightmap_0_23 (DXT1, 128X128) - 115 MB total VRAM
+[2017.04.26-06.55.53:626][253]LogTexture:Display: Building textures: LQ_Lightmap_0_24 (DXT1, 128X128) - 115 MB total VRAM
+[2017.04.26-06.55.53:638][253]LogTexture:Display: Building textures: LQ_Lightmap_0_25 (DXT1, 128X128) - 115 MB total VRAM
+[2017.04.26-06.55.53:699][253]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 2048X2048) - 115 MB total VRAM
+[2017.04.26-06.55.54:021][253]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1, 2048X2048) - 115 MB total VRAM
+[2017.04.26-06.55.54:255][253]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1, 256X256) - 115 MB total VRAM
+[2017.04.26-06.55.54:277][253]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1, 256X256) - 115 MB total VRAM
+[2017.04.26-06.55.54:294][253]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1, 256X256) - 115 MB total VRAM
+[2017.04.26-06.55.54:311][253]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1, 256X256) - 115 MB total VRAM
+[2017.04.26-06.55.54:328][253]LogTexture:Display: Building textures: LQ_Lightmap_1_26 (DXT1, 64X64) - 115 MB total VRAM
+[2017.04.26-06.55.54:334][253]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1, 256X256) - 115 MB total VRAM
+[2017.04.26-06.55.54:382][253]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 2048X1024) - 115 MB total VRAM
+[2017.04.26-06.55.54:664][253]LogTexture:Display: Building textures: SkyOcclusion0_10 (AutoDXT, 256X128) - 115 MB total VRAM
+[2017.04.26-06.55.54:666][253]LogTexture:Display: Building textures: SkyOcclusion0_11 (AutoDXT, 256X128) - 115 MB total VRAM
+[2017.04.26-06.55.54:667][253]LogTexture:Display: Building textures: SkyOcclusion0_12 (AutoDXT, 256X128) - 115 MB total VRAM
+[2017.04.26-06.55.54:677][253]LogTexture:Display: Building textures: SkyOcclusion0_13 (AutoDXT, 256X128) - 115 MB total VRAM
+[2017.04.26-06.55.54:678][253]LogTexture:Display: Building textures: SkyOcclusion0_14 (AutoDXT, 256X128) - 115 MB total VRAM
+[2017.04.26-06.55.54:680][253]LogTexture:Display: Building textures: SkyOcclusion0_15 (AutoDXT, 256X128) - 115 MB total VRAM
+[2017.04.26-06.55.54:697][253]LogTexture:Display: Building textures: SkyOcclusion0_16 (AutoDXT, 256X128) - 115 MB total VRAM
+[2017.04.26-06.55.54:709][253]LogTexture:Display: Building textures: SkyOcclusion0_17 (AutoDXT, 128X64) - 115 MB total VRAM
+[2017.04.26-06.55.54:711][253]LogTexture:Display: Building textures: SkyOcclusion0_18 (AutoDXT, 256X128) - 115 MB total VRAM
+[2017.04.26-06.55.54:734][253]LogTexture:Display: Building textures: SkyOcclusion0_19 (AutoDXT, 128X64) - 115 MB total VRAM
+[2017.04.26-06.55.54:761][253]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 2048X1024) - 115 MB total VRAM
+[2017.04.26-06.55.55:029][253]LogTexture:Display: Building textures: SkyOcclusion0_20 (AutoDXT, 128X64) - 115 MB total VRAM
+[2017.04.26-06.55.55:039][253]LogTexture:Display: Building textures: SkyOcclusion0_21 (AutoDXT, 256X128) - 115 MB total VRAM
+[2017.04.26-06.55.55:052][253]LogTexture:Display: Building textures: SkyOcclusion0_22 (AutoDXT, 256X128) - 115 MB total VRAM
+[2017.04.26-06.55.55:077][253]LogTexture:Display: Building textures: SkyOcclusion0_23 (AutoDXT, 128X64) - 115 MB total VRAM
+[2017.04.26-06.55.55:093][253]LogTexture:Display: Building textures: SkyOcclusion0_24 (AutoDXT, 128X64) - 115 MB total VRAM
+[2017.04.26-06.55.55:102][253]LogTexture:Display: Building textures: SkyOcclusion0_25 (AutoDXT, 128X64) - 115 MB total VRAM
+[2017.04.26-06.55.55:130][253]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT, 2048X1024) - 115 MB total VRAM
+[2017.04.26-06.55.55:443][253]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT, 2048X1024) - 115 MB total VRAM
+[2017.04.26-06.55.55:750][253]LogTexture:Display: Building textures: SkyOcclusion0_5 (AutoDXT, 256X128) - 115 MB total VRAM
+[2017.04.26-06.55.55:752][253]LogTexture:Display: Building textures: SkyOcclusion0_7 (AutoDXT, 256X128) - 115 MB total VRAM
+[2017.04.26-06.55.55:754][253]LogTexture:Display: Building textures: SkyOcclusion0_8 (AutoDXT, 256X128) - 115 MB total VRAM
+[2017.04.26-06.55.55:756][253]LogTexture:Display: Building textures: SkyOcclusion0_9 (AutoDXT, 256X128) - 115 MB total VRAM
+[2017.04.26-06.55.55:757][253]LogTexture:Display: Building textures: SkyOcclusion1_26 (AutoDXT, 64X32) - 115 MB total VRAM
+[2017.04.26-06.55.55:761][253]LogTexture:Display: Building textures: SkyOcclusion1_6 (AutoDXT, 256X128) - 115 MB total VRAM
+[2017.04.26-06.55.55:773][253]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 1024X1024) - 115 MB total VRAM
+[2017.04.26-06.55.55:830][253]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8, 1024X1024) - 115 MB total VRAM
+[2017.04.26-06.55.55:865][253]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (G8, 256X64) - 115 MB total VRAM
+[2017.04.26-06.55.55:866][253]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (G8, 256X64) - 115 MB total VRAM
+[2017.04.26-06.55.55:867][253]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (G8, 256X64) - 115 MB total VRAM
+[2017.04.26-06.55.55:868][253]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (G8, 256X64) - 115 MB total VRAM
+[2017.04.26-06.55.55:869][253]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (G8, 256X64) - 115 MB total VRAM
+[2017.04.26-06.55.55:870][253]LogTexture:Display: Building textures: ShadowMapTexture2D_15 (G8, 256X64) - 115 MB total VRAM
+[2017.04.26-06.55.55:871][253]LogTexture:Display: Building textures: ShadowMapTexture2D_16 (G8, 256X64) - 115 MB total VRAM
+[2017.04.26-06.55.55:872][253]LogTexture:Display: Building textures: ShadowMapTexture2D_17 (G8, 256X64) - 115 MB total VRAM
+[2017.04.26-06.55.55:873][253]LogTexture:Display: Building textures: ShadowMapTexture2D_18 (G8, 256X64) - 115 MB total VRAM
+[2017.04.26-06.55.55:874][253]LogTexture:Display: Building textures: ShadowMapTexture2D_19 (G8, 256X64) - 115 MB total VRAM
+[2017.04.26-06.55.55:889][253]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8, 1024X1024) - 115 MB total VRAM
+[2017.04.26-06.55.55:927][253]LogTexture:Display: Building textures: ShadowMapTexture2D_20 (G8, 128X64) - 115 MB total VRAM
+[2017.04.26-06.55.55:927][253]LogTexture:Display: Building textures: ShadowMapTexture2D_21 (G8, 256X64) - 115 MB total VRAM
+[2017.04.26-06.55.55:928][253]LogTexture:Display: Building textures: ShadowMapTexture2D_22 (G8, 128X64) - 115 MB total VRAM
+[2017.04.26-06.55.55:929][253]LogTexture:Display: Building textures: ShadowMapTexture2D_23 (G8, 128X64) - 115 MB total VRAM
+[2017.04.26-06.55.55:930][253]LogTexture:Display: Building textures: ShadowMapTexture2D_24 (G8, 256X64) - 115 MB total VRAM
+[2017.04.26-06.55.55:931][253]LogTexture:Display: Building textures: ShadowMapTexture2D_25 (G8, 256X64) - 115 MB total VRAM
+[2017.04.26-06.55.55:932][253]LogTexture:Display: Building textures: ShadowMapTexture2D_26 (G8, 128X64) - 115 MB total VRAM
+[2017.04.26-06.55.55:932][253]LogTexture:Display: Building textures: ShadowMapTexture2D_27 (G8, 64X64) - 115 MB total VRAM
+[2017.04.26-06.55.55:933][253]LogTexture:Display: Building textures: ShadowMapTexture2D_28 (BGRA8, 32X64) - 115 MB total VRAM
+[2017.04.26-06.55.55:946][253]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8, 1024X1024) - 115 MB total VRAM
+[2017.04.26-06.55.55:998][253]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8, 1024X1024) - 115 MB total VRAM
+[2017.04.26-06.55.56:055][253]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8, 1024X1024) - 115 MB total VRAM
+[2017.04.26-06.55.56:094][253]LogTexture:Display: Building textures: ShadowMapTexture2D_59 (G8, 32X32) - 115 MB total VRAM
+[2017.04.26-06.55.56:110][253]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8, 1024X1024) - 115 MB total VRAM
+[2017.04.26-06.55.56:149][253]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (BGRA8, 512X64) - 116 MB total VRAM
+[2017.04.26-06.55.56:151][253]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (G8, 256X64) - 116 MB total VRAM
+[2017.04.26-06.55.56:152][253]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (G8, 256X64) - 116 MB total VRAM
+[2017.04.26-06.55.56:170][253]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map FoliageInstancedStaticMeshComponent /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_0.
+[2017.04.26-06.55.56:212][253]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.04.26-06.55.56:250][253]Cmd: MAP LOAD FILE="../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.26-06.55.56:250][253]LightingResults: New page: Lighting Build
+[2017.04.26-06.55.56:252][253]LoadErrors: New page: Loading map: FirstPersonExampleMap.umap
+[2017.04.26-06.55.56:253][253]MapCheck: New page: Map Check
+[2017.04.26-06.55.56:253][253]LightingResults: New page: Lighting Build
+[2017.04.26-06.55.56:296][253]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.26-06.55.56:339][253]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.26-06.55.56:397][253]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 57.158ms to complete.
+[2017.04.26-06.55.56:397][253]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.148
+[2017.04.26-06.55.56:608][270]LogTemp:Display: Finished compile of shader map 0x000001A307FC9600
+[2017.04.26-06.55.56:608][270]LogTemp:Display: Shader map star complete, GameThreadShaderMap 0x000001A307FC9600, marking material star as finished
+[2017.04.26-06.55.56:608][270]LogTemp:Display: Marking material as finished 0x000001A32CC64E80
+[2017.04.26-06.56.11:997][ 53]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2017.04.26-06.56.12:678][ 53]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.04.26-06.56.12:932][ 54]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.04.26-06.56.16:022][252]LogSlate: Took 0.000166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.26-06.56.17:367][345]LogAnimation:Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton mario_Skeleton, removing AnimBP from actor.
+[2017.04.26-06.56.17:369][345]LogAnimation:Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton mario_Skeleton, removing AnimBP from actor.
+[2017.04.26-06.56.17:369][345]LogAnimation:Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton mario_Skeleton, removing AnimBP from actor.
+[2017.04.26-06.56.19:851][522]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.04.26-06.56.50:243][775]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.26-06.56.50:268][775]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.26-06.56.50:268][775]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.04.26-06.56.50:268][775]LogPlayLevel: [PlayLevel] Compiling ThirdPersonCharacter before play...
+[2017.04.26-06.56.50:654][775]LogPlayLevel: PlayLevel: Blueprint regeneration took 386 ms (1 blueprints)
+[2017.04.26-06.56.50:654][775]PIE: New page: PIE session: FirstPersonExampleMap (Apr 25, 2017, 4:56:50 PM)
+[2017.04.26-06.56.50:654][775]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.04.26-06.56.50:685][775]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map FoliageInstancedStaticMeshComponent /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_0.
+[2017.04.26-06.56.50:693][775]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038121s)
+[2017.04.26-06.56.50:693][775]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.04.26-06.56.50:693][775]LogPlayLevel: PIE: World Init took: (0.000855s)
+[2017.04.26-06.56.50:694][775]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.039244s)
+[2017.04.26-06.56.50:713][775]LogInit: XAudio2 using 'DELL S2415H-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.26-06.56.50:717][775]LogInit: FAudioDevice initialized.
+[2017.04.26-06.56.50:774][775]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.26-06.56.50:779][775]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.04.25-23.56.50
+[2017.04.26-06.56.50:780][775]LogWorld: Bringing up level for play took: 0.004151
+[2017.04.26-06.56.50:820][775]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.04.26-06.56.50:845][775]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.854
+[2017.04.26-06.56.50:846][775]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.26-06.56.58:106][545]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.26-06.56.58:145][545]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.26-06.56.58:683][606]Cmd: SELECT NONE
+[2017.04.26-06.57.26:535][875]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.04.26-06.57.26:643][875]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.04.26-06.57.26:686][875]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.04.26-06.57.28:746][ 42]LogEditorFactories: Performing atomic reimport of [C:/Users/pfesz/Documents/mario.fbx]
+[2017.04.26-06.57.28:770][ 42]LogFbx: Loading FBX Scene from C:/Users/pfesz/Documents/mario.fbx
+[2017.04.26-06.57.28:821][ 42]LogFbx: FBX Scene Loaded Succesfully
+[2017.04.26-06.57.28:825][ 42]LogFbx: =================================================
+[2017.04.26-06.57.28:825][ 42]LogFbx: Dumping Node START [Face] 
+[2017.04.26-06.57.28:825][ 42]LogFbx: 	Total Deformer Count -1187406320.
+[2017.04.26-06.57.28:825][ 42]LogFbx: 		[Node 1] Armature (Type Skin).
+[2017.04.26-06.57.28:825][ 42]LogFbx: =================================================
+[2017.04.26-06.57.28:825][ 42]LogFbx: 	Attribute (Face) Type (4).
+[2017.04.26-06.57.28:825][ 42]LogFbx: 		[Node Attribute Child 1] Face (Type Mesh).
+[2017.04.26-06.57.28:825][ 42]LogFbx: Dumping Node END [Face]
+[2017.04.26-06.57.28:826][ 42]LogFbx: =================================================
+[2017.04.26-06.57.28:826][ 42]LogFbx: Dumping Node START [Face] 
+[2017.04.26-06.57.28:826][ 42]LogFbx: 	Total Deformer Count -1187399792.
+[2017.04.26-06.57.28:826][ 42]LogFbx: 		[Node 1] Armature (Type Skin).
+[2017.04.26-06.57.28:826][ 42]LogFbx: =================================================
+[2017.04.26-06.57.28:826][ 42]LogFbx: 	Attribute (Face) Type (4).
+[2017.04.26-06.57.28:826][ 42]LogFbx: 		[Node Attribute Child 1] Face (Type Mesh).
+[2017.04.26-06.57.28:826][ 42]LogFbx: Dumping Node END [Face]
+[2017.04.26-06.57.28:826][ 42]LogFbx: Valid bind pose for Pose (Face) - Face
+[2017.04.26-06.57.28:827][ 42]LogFbx: Triangulating skeletal mesh Face
+[2017.04.26-06.57.28:833][ 42]LogFbx:Warning: Bones digested - 27  Depth of hierarchy - 8
+[2017.04.26-06.57.28:867][ 42]LogSkeletalMesh: Section 0: 65 vertices, 1 active bones
+[2017.04.26-06.57.28:867][ 42]LogSkeletalMesh: Section 1: 131 vertices, 10 active bones
+[2017.04.26-06.57.28:867][ 42]LogSkeletalMesh: Section 2: 30 vertices, 5 active bones
+[2017.04.26-06.57.28:867][ 42]LogSkeletalMesh: Section 3: 153 vertices, 14 active bones
+[2017.04.26-06.57.28:867][ 42]LogSkeletalMesh: Section 4: 18 vertices, 1 active bones
+[2017.04.26-06.57.28:867][ 42]LogSkeletalMesh: Section 5: 50 vertices, 4 active bones
+[2017.04.26-06.57.28:868][ 42]LogSkeletalMesh: Section 6: 14 vertices, 3 active bones
+[2017.04.26-06.57.28:868][ 42]LogSkeletalMesh: Section 7: 19 vertices, 1 active bones
+[2017.04.26-06.57.28:868][ 42]LogSkeletalMesh: Section 8: 7 vertices, 1 active bones
+[2017.04.26-06.57.28:868][ 42]LogSkeletalMesh: Section 9: 12 vertices, 1 active bones
+[2017.04.26-06.57.28:868][ 42]LogSkeletalMesh: Section 10: 12 vertices, 1 active bones
+[2017.04.26-06.57.28:868][ 42]LogSkeletalMesh: Section 11: 8 vertices, 1 active bones
+[2017.04.26-06.57.28:869][ 42]LogSkeletalMesh: Section 0: Material=0, 80 triangles
+[2017.04.26-06.57.28:870][ 42]LogSkeletalMesh: Section 1: Material=1, 196 triangles
+[2017.04.26-06.57.28:870][ 42]LogSkeletalMesh: Section 2: Material=2, 52 triangles
+[2017.04.26-06.57.28:870][ 42]LogSkeletalMesh: Section 3: Material=3, 255 triangles
+[2017.04.26-06.57.28:870][ 42]LogSkeletalMesh: Section 4: Material=4, 16 triangles
+[2017.04.26-06.57.28:870][ 42]LogSkeletalMesh: Section 5: Material=5, 92 triangles
+[2017.04.26-06.57.28:870][ 42]LogSkeletalMesh: Section 6: Material=6, 10 triangles
+[2017.04.26-06.57.28:870][ 42]LogSkeletalMesh: Section 7: Material=7, 27 triangles
+[2017.04.26-06.57.28:870][ 42]LogSkeletalMesh: Section 8: Material=8, 5 triangles
+[2017.04.26-06.57.28:870][ 42]LogSkeletalMesh: Section 9: Material=9, 8 triangles
+[2017.04.26-06.57.28:870][ 42]LogSkeletalMesh: Section 10: Material=10, 11 triangles
+[2017.04.26-06.57.28:870][ 42]LogSkeletalMesh: Section 11: Material=11, 12 triangles
+[2017.04.26-06.57.28:886][ 42]LogEditorFactories: -- imported successfully
+[2017.04.26-06.57.28:896][ 42]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.04.26-06.57.28:896][ 42]FBXImport:Warning: Warning The following bones are missing from the bind pose:
+head_end  
+hand.R_end  
+hand.L_end  
+foot.L_end  
+foot.R_end  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2017.04.26-06.57.33:624][485]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.26-06.57.33:642][485]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.26-06.57.33:642][485]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.26-06.57.33:642][485]PIE: New page: PIE session: FirstPersonExampleMap (Apr 25, 2017, 4:57:33 PM)
+[2017.04.26-06.57.33:642][485]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.04.26-06.57.33:668][485]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map FoliageInstancedStaticMeshComponent /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_0.
+[2017.04.26-06.57.33:677][485]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034357s)
+[2017.04.26-06.57.33:678][485]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.04.26-06.57.33:678][485]LogPlayLevel: PIE: World Init took: (0.000758s)
+[2017.04.26-06.57.33:678][485]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.035364s)
+[2017.04.26-06.57.33:697][485]LogInit: XAudio2 using 'DELL S2415H-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.26-06.57.33:701][485]LogInit: FAudioDevice initialized.
+[2017.04.26-06.57.33:732][485]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.26-06.57.33:736][485]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.04.25-23.57.33
+[2017.04.26-06.57.33:737][485]LogWorld: Bringing up level for play took: 0.003878
+[2017.04.26-06.57.33:739][485]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.253
+[2017.04.26-06.57.33:739][485]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.26-06.57.45:807][927]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.26-06.57.45:844][927]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.26-06.58.00:890][518]LogMetaData: Removing '/Game/Mario2/marioAnimBlueprint.marioAnimBlueprint:AnimGraph.AnimGraphNode_Root_0' ref from Metadata '/Game/Mario/marioAnimBlueprint.PackageMetaData'
+[2017.04.26-06.58.00:890][518]LogMetaData: Removing '/Game/Mario2/marioAnimBlueprint.marioAnimBlueprint_C' ref from Metadata '/Game/Mario/marioAnimBlueprint.PackageMetaData'
+[2017.04.26-06.58.00:890][518]LogMetaData: Removing '/Game/Mario2/marioAnimBlueprint.marioAnimBlueprint_C:ExecuteUbergraph_marioAnimBlueprint' ref from Metadata '/Game/Mario/marioAnimBlueprint.PackageMetaData'
+[2017.04.26-06.58.00:890][518]LogMetaData: Removing '/Game/Mario2/marioAnimBlueprint.marioAnimBlueprint_C:BlueprintUpdateAnimation' ref from Metadata '/Game/Mario/marioAnimBlueprint.PackageMetaData'
+[2017.04.26-06.58.00:890][518]LogMetaData: Removing '/Game/Mario2/marioAnimBlueprint.marioAnimBlueprint_C:Speed' ref from Metadata '/Game/Mario/marioAnimBlueprint.PackageMetaData'
+[2017.04.26-06.58.00:890][518]LogMetaData: Removing '/Game/Mario2/marioAnimBlueprint.marioAnimBlueprint_C:IsInAir?' ref from Metadata '/Game/Mario/marioAnimBlueprint.PackageMetaData'
+[2017.04.26-06.58.00:890][518]LogMetaData: Removing '/Game/Mario2/marioAnimBlueprint.SKEL_marioAnimBlueprint_C:IsInAir?' ref from Metadata '/Game/Mario/marioAnimBlueprint.PackageMetaData'
+[2017.04.26-06.58.00:890][518]LogMetaData: Removing '/Game/Mario2/marioAnimBlueprint.SKEL_marioAnimBlueprint_C:Speed' ref from Metadata '/Game/Mario/marioAnimBlueprint.PackageMetaData'
+[2017.04.26-06.58.00:890][518]LogMetaData: Removing '/Game/Mario2/marioAnimBlueprint.SKEL_marioAnimBlueprint_C:BlueprintUpdateAnimation' ref from Metadata '/Game/Mario/marioAnimBlueprint.PackageMetaData'
+[2017.04.26-06.58.00:890][518]LogMetaData: Removing '/Game/Mario2/marioAnimBlueprint.SKEL_marioAnimBlueprint_C:ExecuteUbergraph_marioAnimBlueprint' ref from Metadata '/Game/Mario/marioAnimBlueprint.PackageMetaData'
+[2017.04.26-06.58.00:890][518]LogMetaData: Removing '/Game/Mario2/marioAnimBlueprint.SKEL_marioAnimBlueprint_C' ref from Metadata '/Game/Mario/marioAnimBlueprint.PackageMetaData'
+[2017.04.26-06.58.00:921][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mario2/Buttons2" FILE="../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/Buttons2.uasset" SILENT=true
+[2017.04.26-06.58.00:943][518]LogSavePackage: Save=21.18ms
+[2017.04.26-06.58.00:943][518]LogSavePackage: Moving '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Saved/Buttons2E206187749C65261194531A34EA84829.tmp' to '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/Buttons2.uasset'
+[2017.04.26-06.58.00:948][518]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/Buttons2.uasset
+[2017.04.26-06.58.00:964][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mario2/Buttons" FILE="../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/Buttons.uasset" SILENT=true
+[2017.04.26-06.58.00:980][518]LogSavePackage: Save=14.98ms
+[2017.04.26-06.58.00:980][518]LogSavePackage: Moving '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Saved/ButtonsE42BA8AB45EE452B3D9BEE9F52C2CBCF.tmp' to '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/Buttons.uasset'
+[2017.04.26-06.58.00:982][518]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/Buttons.uasset
+[2017.04.26-06.58.00:986][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mario2/Eyes2" FILE="../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/Eyes2.uasset" SILENT=true
+[2017.04.26-06.58.00:992][518]LogSavePackage: Save=4.52ms
+[2017.04.26-06.58.00:992][518]LogSavePackage: Moving '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Saved/Eyes2935D1558402B35FE71C8709929D5BC79.tmp' to '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/Eyes2.uasset'
+[2017.04.26-06.58.00:994][518]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/Eyes2.uasset
+[2017.04.26-06.58.01:011][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mario2/Eyes" FILE="../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/Eyes.uasset" SILENT=true
+[2017.04.26-06.58.01:030][518]LogSavePackage: Save=17.60ms
+[2017.04.26-06.58.01:030][518]LogSavePackage: Moving '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Saved/Eyes9D99D559412158077DB9A99F2DC2BCCE.tmp' to '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/Eyes.uasset'
+[2017.04.26-06.58.01:032][518]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/Eyes.uasset
+[2017.04.26-06.58.01:047][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mario2/Gloves" FILE="../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/Gloves.uasset" SILENT=true
+[2017.04.26-06.58.01:062][518]LogSavePackage: Save=13.63ms
+[2017.04.26-06.58.01:062][518]LogSavePackage: Moving '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Saved/GlovesCF97772547B8610580AB72A5F2DE45ED.tmp' to '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/Gloves.uasset'
+[2017.04.26-06.58.01:065][518]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/Gloves.uasset
+[2017.04.26-06.58.01:082][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mario2/Hair" FILE="../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/Hair.uasset" SILENT=true
+[2017.04.26-06.58.01:098][518]LogSavePackage: Save=15.19ms
+[2017.04.26-06.58.01:098][518]LogSavePackage: Moving '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Saved/HairEA8AAC00464CF3CB9B759EA4EFBAD39A.tmp' to '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/Hair.uasset'
+[2017.04.26-06.58.01:101][518]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/Hair.uasset
+[2017.04.26-06.58.01:105][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mario2/Hair_Piece2" FILE="../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/Hair_Piece2.uasset" SILENT=true
+[2017.04.26-06.58.01:111][518]LogSavePackage: Save=4.83ms
+[2017.04.26-06.58.01:111][518]LogSavePackage: Moving '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Saved/Hair_Piece2F1623CC8497AE5FFA15A8C84712A5DB0.tmp' to '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/Hair_Piece2.uasset'
+[2017.04.26-06.58.01:114][518]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/Hair_Piece2.uasset
+[2017.04.26-06.58.01:130][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mario2/Hair_Piece" FILE="../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/Hair_Piece.uasset" SILENT=true
+[2017.04.26-06.58.01:149][518]LogSavePackage: Save=17.42ms
+[2017.04.26-06.58.01:149][518]LogSavePackage: Moving '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Saved/Hair_Piece87A29B434B90D00037DC0D82174A26AC.tmp' to '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/Hair_Piece.uasset'
+[2017.04.26-06.58.01:152][518]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/Hair_Piece.uasset
+[2017.04.26-06.58.01:154][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mario2/Logo2" FILE="../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/Logo2.uasset" SILENT=true
+[2017.04.26-06.58.01:160][518]LogSavePackage: Save=4.38ms
+[2017.04.26-06.58.01:160][518]LogSavePackage: Moving '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Saved/Logo23B449264495A5B31B2C49E8064E7C2B5.tmp' to '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/Logo2.uasset'
+[2017.04.26-06.58.01:163][518]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/Logo2.uasset
+[2017.04.26-06.58.01:176][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mario2/Logo" FILE="../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/Logo.uasset" SILENT=true
+[2017.04.26-06.58.01:190][518]LogSavePackage: Save=12.85ms
+[2017.04.26-06.58.01:190][518]LogSavePackage: Moving '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Saved/LogoFC9FB5804D3AB8752C4DD2875C0748DB.tmp' to '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/Logo.uasset'
+[2017.04.26-06.58.01:192][518]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/Logo.uasset
+[2017.04.26-06.58.01:206][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mario2/Material" FILE="../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/Material.uasset" SILENT=true
+[2017.04.26-06.58.01:224][518]LogSavePackage: Save=16.70ms
+[2017.04.26-06.58.01:224][518]LogSavePackage: Moving '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Saved/MaterialBCCAC4DF44AE34BB6CC9C08642557A73.tmp' to '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/Material.uasset'
+[2017.04.26-06.58.01:226][518]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/Material.uasset
+[2017.04.26-06.58.01:229][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mario2/Moustache2" FILE="../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/Moustache2.uasset" SILENT=true
+[2017.04.26-06.58.01:234][518]LogSavePackage: Save=3.90ms
+[2017.04.26-06.58.01:234][518]LogSavePackage: Moving '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Saved/Moustache2466B81E249756276F95278A8CAAF5E8D.tmp' to '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/Moustache2.uasset'
+[2017.04.26-06.58.01:236][518]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/Moustache2.uasset
+[2017.04.26-06.58.01:249][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mario2/Moustache" FILE="../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/Moustache.uasset" SILENT=true
+[2017.04.26-06.58.01:266][518]LogSavePackage: Save=15.16ms
+[2017.04.26-06.58.01:266][518]LogSavePackage: Moving '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Saved/MoustacheEB37AC1B4714934C45B0F9B4E4742A9D.tmp' to '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/Moustache.uasset'
+[2017.04.26-06.58.01:268][518]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/Moustache.uasset
+[2017.04.26-06.58.01:284][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mario2/Overalls" FILE="../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/Overalls.uasset" SILENT=true
+[2017.04.26-06.58.01:301][518]LogSavePackage: Save=15.08ms
+[2017.04.26-06.58.01:301][518]LogSavePackage: Moving '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Saved/Overalls17BFF00D48D2C41BB497F095F8406D6D.tmp' to '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/Overalls.uasset'
+[2017.04.26-06.58.01:303][518]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/Overalls.uasset
+[2017.04.26-06.58.01:316][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mario2/Shirt_Cap" FILE="../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/Shirt_Cap.uasset" SILENT=true
+[2017.04.26-06.58.01:332][518]LogSavePackage: Save=14.33ms
+[2017.04.26-06.58.01:332][518]LogSavePackage: Moving '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Saved/Shirt_CapF25D96C243C75782FC627FBE7CD1F3B8.tmp' to '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/Shirt_Cap.uasset'
+[2017.04.26-06.58.01:334][518]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/Shirt_Cap.uasset
+[2017.04.26-06.58.01:350][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mario2/Shoes" FILE="../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/Shoes.uasset" SILENT=true
+[2017.04.26-06.58.01:365][518]LogSavePackage: Save=13.92ms
+[2017.04.26-06.58.01:365][518]LogSavePackage: Moving '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Saved/ShoesF7DD6E7F4031C85399EDA48FA3E8D588.tmp' to '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/Shoes.uasset'
+[2017.04.26-06.58.01:368][518]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/Shoes.uasset
+[2017.04.26-06.58.01:381][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mario2/Skin" FILE="../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/Skin.uasset" SILENT=true
+[2017.04.26-06.58.01:407][518]LogSavePackage: Save=25.10ms
+[2017.04.26-06.58.01:407][518]LogSavePackage: Moving '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Saved/Skin0224118F4DCEEA6B4C99C3A0D5097770.tmp' to '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/Skin.uasset'
+[2017.04.26-06.58.01:409][518]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/Skin.uasset
+[2017.04.26-06.58.01:411][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mario2/mario_PhysicsAsset" FILE="../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/mario_PhysicsAsset.uasset" SILENT=true
+[2017.04.26-06.58.01:422][518]LogSavePackage: Save=10.48ms
+[2017.04.26-06.58.01:422][518]LogSavePackage: Moving '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Saved/mario_PhysicsAsset9E5357434BC2FB031329E49F17EF18DC.tmp' to '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/mario_PhysicsAsset.uasset'
+[2017.04.26-06.58.01:425][518]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/mario_PhysicsAsset.uasset
+[2017.04.26-06.58.01:427][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mario2/mario_Skeleton" FILE="../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/mario_Skeleton.uasset" SILENT=true
+[2017.04.26-06.58.01:432][518]LogSavePackage: Save=3.74ms
+[2017.04.26-06.58.01:432][518]LogSavePackage: Moving '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Saved/mario_Skeleton67E9CCAA48DB766659EC3984D91576EA.tmp' to '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/mario_Skeleton.uasset'
+[2017.04.26-06.58.01:434][518]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/mario_Skeleton.uasset
+[2017.04.26-06.58.01:448][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mario2/mario" FILE="../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/mario.uasset" SILENT=true
+[2017.04.26-06.58.01:464][518]LogSavePackage: Save=14.69ms
+[2017.04.26-06.58.01:464][518]LogSavePackage: Moving '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Saved/mario055FBCBD454C246657E3C5BD2CE42380.tmp' to '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/mario.uasset'
+[2017.04.26-06.58.01:467][518]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/mario.uasset
+[2017.04.26-06.58.01:501][518]LogSavePackage: Save=15.44ms
+[2017.04.26-06.58.01:501][518]LogSavePackage: Moving '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Saved/mario_Anim_Armature_jumpEndF7ADF12D4FFCBBC7A6C489A9A7403557.tmp' to '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/mario_Anim_Armature_jumpEnd.uasset'
+[2017.04.26-06.58.01:503][518]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/mario_Anim_Armature_jumpEnd.uasset
+[2017.04.26-06.58.01:533][518]LogSavePackage: Save=14.24ms
+[2017.04.26-06.58.01:533][518]LogSavePackage: Moving '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Saved/mario_Anim_Armature_jumpLoop3055303B4C80445D4F375893E6F33BD9.tmp' to '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/mario_Anim_Armature_jumpLoop.uasset'
+[2017.04.26-06.58.01:536][518]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/mario_Anim_Armature_jumpLoop.uasset
+[2017.04.26-06.58.01:567][518]LogSavePackage: Save=15.71ms
+[2017.04.26-06.58.01:567][518]LogSavePackage: Moving '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Saved/mario_Anim_Armature_jumpStartE01BEBA248924EC2FD8D22A5D3CC192B.tmp' to '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/mario_Anim_Armature_jumpStart.uasset'
+[2017.04.26-06.58.01:569][518]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/mario_Anim_Armature_jumpStart.uasset
+[2017.04.26-06.58.01:596][518]LogSavePackage: Save=11.90ms
+[2017.04.26-06.58.01:596][518]LogSavePackage: Moving '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Saved/mario_Anim_Armature_idle29184EB44C30F21FEEAEDCBD5B2F47F8.tmp' to '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/mario_Anim_Armature_idle.uasset'
+[2017.04.26-06.58.01:598][518]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/mario_Anim_Armature_idle.uasset
+[2017.04.26-06.58.01:625][518]LogSavePackage: Save=11.72ms
+[2017.04.26-06.58.01:625][518]LogSavePackage: Moving '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Saved/mario_Anim_Armature_runBB986BEB45D01F2C1EFCBD8BBBA948E7.tmp' to '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/mario_Anim_Armature_run.uasset'
+[2017.04.26-06.58.01:626][518]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/mario_Anim_Armature_run.uasset
+[2017.04.26-06.58.01:643][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mario2/marioBlendSpace" FILE="../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/marioBlendSpace.uasset" SILENT=true
+[2017.04.26-06.58.01:655][518]LogSavePackage: Save=11.00ms
+[2017.04.26-06.58.01:655][518]LogSavePackage: Moving '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Saved/marioBlendSpace4A353B1A421CF553897040BBB0CA0063.tmp' to '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/marioBlendSpace.uasset'
+[2017.04.26-06.58.01:657][518]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/marioBlendSpace.uasset
+[2017.04.26-06.58.01:670][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mario2/marioAnimBlueprint" FILE="../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/marioAnimBlueprint.uasset" SILENT=true
+[2017.04.26-06.58.01:709][518]LogSavePackage: Save=38.06ms
+[2017.04.26-06.58.01:709][518]LogSavePackage: Moving '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Saved/marioAnimBlueprint43B27968458A8E4D961CF9B96618E521.tmp' to '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/marioAnimBlueprint.uasset'
+[2017.04.26-06.58.01:712][518]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/marioAnimBlueprint.uasset
+[2017.04.26-06.58.01:743][518]LogSavePackage: Save=15.07ms
+[2017.04.26-06.58.01:743][518]LogSavePackage: Moving '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Saved/mario_Anim_Armature_bloopyE3848D4E4169FAAD896F5BA0DC9A36EF.tmp' to '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/mario_Anim_Armature_bloopy.uasset'
+[2017.04.26-06.58.01:745][518]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/mario_Anim_Armature_bloopy.uasset
+[2017.04.26-06.58.01:774][518]LogSavePackage: Save=13.35ms
+[2017.04.26-06.58.01:774][518]LogSavePackage: Moving '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Saved/mario_Anim_Armature_poopy3D79DFF941390ED4D9AEF7AF596B655D.tmp' to '../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/mario_Anim_Armature_poopy.uasset'
+[2017.04.26-06.58.01:776][518]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/pfesz/Documents/Unreal Projects/CSC433TeamProject/Content/Mario2/mario_Anim_Armature_poopy.uasset
+[2017.04.26-06.58.17:651][438]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/pfesz/Documents/mario.fbx)
+[2017.04.26-06.58.17:658][438]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.04.26-06.58.17:658][438]LogFbx: ItemName: NodeAttribute, ItemCount : 24
+[2017.04.26-06.58.17:658][438]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.04.26-06.58.17:658][438]LogFbx: ItemName: Model, ItemCount : 25
+[2017.04.26-06.58.17:658][438]LogFbx: ItemName: Pose, ItemCount : 1
+[2017.04.26-06.58.17:658][438]LogFbx: ItemName: Deformer, ItemCount : 22
+[2017.04.26-06.58.17:658][438]LogFbx: ItemName: Material, ItemCount : 12
+[2017.04.26-06.58.17:658][438]LogFbx: ItemName: Texture, ItemCount : 10
+[2017.04.26-06.58.17:658][438]LogFbx: ItemName: Video, ItemCount : 5
+[2017.04.26-06.58.17:658][438]LogFbx: ItemName: AnimationStack, ItemCount : 7
+[2017.04.26-06.58.17:658][438]LogFbx: ItemName: AnimationLayer, ItemCount : 7
+[2017.04.26-06.58.17:658][438]LogFbx: ItemName: AnimationCurveNode, ItemCount : 462
+[2017.04.26-06.58.17:658][438]LogFbx: ItemName: AnimationCurve, ItemCount : 1386
+[2017.04.26-06.58.17:664][438]LogFbx: Loading FBX Scene from ../../../../../../Users/pfesz/Documents/mario.fbx
+[2017.04.26-06.58.17:719][438]LogFbx: FBX Scene Loaded Succesfully
+[2017.04.26-06.58.40:765][438]LogFbx: Loading FBX Scene from ../../../../../../Users/pfesz/Documents/mario.fbx
+[2017.04.26-06.58.40:819][438]LogFbx: FBX Scene Loaded Succesfully
+[2017.04.26-06.58.40:823][438]LogFbx: =================================================
+[2017.04.26-06.58.40:823][438]LogFbx: Dumping Node START [Face] 
+[2017.04.26-06.58.40:823][438]LogFbx: 	Total Deformer Count -1473686256.
+[2017.04.26-06.58.40:823][438]LogFbx: 		[Node 1] Armature (Type Skin).
+[2017.04.26-06.58.40:823][438]LogFbx: =================================================
+[2017.04.26-06.58.40:823][438]LogFbx: 	Attribute (Face) Type (4).
+[2017.04.26-06.58.40:823][438]LogFbx: 		[Node Attribute Child 1] Face (Type Mesh).
+[2017.04.26-06.58.40:823][438]LogFbx: Dumping Node END [Face]
+[2017.04.26-06.58.40:823][438]LogFbx: =================================================
+[2017.04.26-06.58.40:823][438]LogFbx: Dumping Node START [Face] 
+[2017.04.26-06.58.40:823][438]LogFbx: 	Total Deformer Count -1473686736.
+[2017.04.26-06.58.40:823][438]LogFbx: 		[Node 1] Armature (Type Skin).
+[2017.04.26-06.58.40:823][438]LogFbx: =================================================
+[2017.04.26-06.58.40:823][438]LogFbx: 	Attribute (Face) Type (4).
+[2017.04.26-06.58.40:823][438]LogFbx: 		[Node Attribute Child 1] Face (Type Mesh).
+[2017.04.26-06.58.40:823][438]LogFbx: Dumping Node END [Face]
+[2017.04.26-06.58.40:824][438]LogFbx: Valid bind pose for Pose (Face) - Face
+[2017.04.26-06.58.40:824][438]LogLinker: Can't find file '/Game/Mario/Skin'
+[2017.04.26-06.58.40:824][438]LogLinker: Can't find file '/Game/Mario/Skin'
+[2017.04.26-06.58.40:825][438]LogMaterial:Warning: Material /Game/Mario/Skin.Skin needed to have new flag set bUsedWithSkeletalMesh !
+[2017.04.26-06.58.40:827][438]LogMaterial: Missing cached shader map for material Skin, compiling. 
+[2017.04.26-06.58.40:828][438]LogTemp:Display: Added material ShaderMap 0x000001A3A0D81280 with Material 0x000001A3927AEC80 to ShaderMapsBeingCompiled
+[2017.04.26-06.58.40:855][438]LogTemp:Display: Kicking off shader compilation for Skin, GameThreadShaderMap 0x000001A3A0D81280
+[2017.04.26-06.58.40:855][438]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.26-06.58.40:857][438]LogMaterial: Missing cached shader map for material Skin, compiling. 
+[2017.04.26-06.58.40:858][438]LogTemp:Display: Added material ShaderMap 0x000001A38321AB00 with Material 0x000001A3927AEC80 to ShaderMapsBeingCompiled
+[2017.04.26-06.58.40:883][438]LogTemp:Display: Kicking off shader compilation for Skin, GameThreadShaderMap 0x000001A38321AB00
+[2017.04.26-06.58.40:885][438]LogLinker: Can't find file '/Game/Mario/Shirt_Cap'
+[2017.04.26-06.58.40:885][438]LogLinker: Can't find file '/Game/Mario/Shirt_Cap'
+[2017.04.26-06.58.40:886][438]LogMaterial:Warning: Material /Game/Mario/Shirt_Cap.Shirt_Cap needed to have new flag set bUsedWithSkeletalMesh !
+[2017.04.26-06.58.40:890][438]LogMaterial: Missing cached shader map for material Shirt_Cap, compiling. 
+[2017.04.26-06.58.40:891][438]LogTemp:Display: Added material ShaderMap 0x000001A39FAEAB00 with Material 0x000001A39279B580 to ShaderMapsBeingCompiled
+[2017.04.26-06.58.40:923][438]LogTemp:Display: Kicking off shader compilation for Shirt_Cap, GameThreadShaderMap 0x000001A39FAEAB00
+[2017.04.26-06.58.40:923][438]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.26-06.58.40:925][438]LogMaterial: Missing cached shader map for material Shirt_Cap, compiling. 
+[2017.04.26-06.58.40:926][438]LogTemp:Display: Added material ShaderMap 0x000001A3A1005600 with Material 0x000001A39279B580 to ShaderMapsBeingCompiled
+[2017.04.26-06.58.40:965][438]LogTemp:Display: Kicking off shader compilation for Shirt_Cap, GameThreadShaderMap 0x000001A3A1005600
+[2017.04.26-06.58.40:971][438]LogLinker: Can't find file '/Game/Mario/Shoes'
+[2017.04.26-06.58.40:971][438]LogLinker: Can't find file '/Game/Mario/Shoes'
+[2017.04.26-06.58.40:972][438]LogMaterial:Warning: Material /Game/Mario/Shoes.Shoes needed to have new flag set bUsedWithSkeletalMesh !
+[2017.04.26-06.58.40:974][438]LogMaterial: Missing cached shader map for material Shoes, compiling. 
+[2017.04.26-06.58.40:974][438]LogTemp:Display: Added material ShaderMap 0x000001A394FF8480 with Material 0x000001A3926CD180 to ShaderMapsBeingCompiled
+[2017.04.26-06.58.40:999][438]LogTemp:Display: Kicking off shader compilation for Shoes, GameThreadShaderMap 0x000001A394FF8480
+[2017.04.26-06.58.40:999][438]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.26-06.58.41:001][438]LogMaterial: Missing cached shader map for material Shoes, compiling. 
+[2017.04.26-06.58.41:002][438]LogTemp:Display: Added material ShaderMap 0x000001A394CFE080 with Material 0x000001A3926CD180 to ShaderMapsBeingCompiled
+[2017.04.26-06.58.41:031][438]LogTemp:Display: Kicking off shader compilation for Shoes, GameThreadShaderMap 0x000001A394CFE080
+[2017.04.26-06.58.41:033][438]LogLinker: Can't find file '/Game/Mario/Overalls'
+[2017.04.26-06.58.41:033][438]LogLinker: Can't find file '/Game/Mario/Overalls'
+[2017.04.26-06.58.41:034][438]LogMaterial:Warning: Material /Game/Mario/Overalls.Overalls needed to have new flag set bUsedWithSkeletalMesh !
+[2017.04.26-06.58.41:039][438]LogMaterial: Missing cached shader map for material Overalls, compiling. 
+[2017.04.26-06.58.41:040][438]LogTemp:Display: Added material ShaderMap 0x000001A392B94100 with Material 0x000001A3926F2C80 to ShaderMapsBeingCompiled
+[2017.04.26-06.58.41:079][438]LogTemp:Display: Kicking off shader compilation for Overalls, GameThreadShaderMap 0x000001A392B94100
+[2017.04.26-06.58.41:080][438]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.26-06.58.41:082][438]LogMaterial: Missing cached shader map for material Overalls, compiling. 
+[2017.04.26-06.58.41:083][438]LogTemp:Display: Added material ShaderMap 0x000001A3B925A080 with Material 0x000001A3926F2C80 to ShaderMapsBeingCompiled
+[2017.04.26-06.58.41:121][438]LogTemp:Display: Kicking off shader compilation for Overalls, GameThreadShaderMap 0x000001A3B925A080
+[2017.04.26-06.58.41:123][438]LogLinker: Can't find file '/Game/Mario/Moustache'
+[2017.04.26-06.58.41:123][438]LogLinker: Can't find file '/Game/Mario/Moustache'
+[2017.04.26-06.58.41:125][438]LogMaterial:Warning: Material /Game/Mario/Moustache.Moustache needed to have new flag set bUsedWithSkeletalMesh !
+[2017.04.26-06.58.41:130][438]LogMaterial: Missing cached shader map for material Moustache, compiling. 
+[2017.04.26-06.58.41:131][438]LogTemp:Display: Added material ShaderMap 0x000001A394AC8100 with Material 0x000001A3927D9780 to ShaderMapsBeingCompiled
+[2017.04.26-06.58.41:171][438]LogTemp:Display: Kicking off shader compilation for Moustache, GameThreadShaderMap 0x000001A394AC8100
+[2017.04.26-06.58.41:171][438]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.26-06.58.41:179][438]LogTexture:Display: Building textures: Moustache2 (AutoDXT, 32X32) - 277 MB total VRAM
+[2017.04.26-06.58.41:184][438]LogMaterial: Missing cached shader map for material Moustache, compiling. 
+[2017.04.26-06.58.41:185][438]LogTemp:Display: Added material ShaderMap 0x000001A3A317D280 with Material 0x000001A3927D9780 to ShaderMapsBeingCompiled
+[2017.04.26-06.58.41:225][438]LogTemp:Display: Kicking off shader compilation for Moustache, GameThreadShaderMap 0x000001A3A317D280
+[2017.04.26-06.58.41:227][438]LogLinker: Can't find file '/Game/Mario/Gloves'
+[2017.04.26-06.58.41:227][438]LogLinker: Can't find file '/Game/Mario/Gloves'
+[2017.04.26-06.58.41:229][438]LogMaterial:Warning: Material /Game/Mario/Gloves.Gloves needed to have new flag set bUsedWithSkeletalMesh !
+[2017.04.26-06.58.41:235][438]LogMaterial: Missing cached shader map for material Gloves, compiling. 
+[2017.04.26-06.58.41:237][438]LogTemp:Display: Added material ShaderMap 0x000001A3A56BBC80 with Material 0x000001A392806B00 to ShaderMapsBeingCompiled
+[2017.04.26-06.58.41:283][438]LogTemp:Display: Kicking off shader compilation for Gloves, GameThreadShaderMap 0x000001A3A56BBC80
+[2017.04.26-06.58.41:284][438]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.26-06.58.41:286][438]LogMaterial: Missing cached shader map for material Gloves, compiling. 
+[2017.04.26-06.58.41:287][438]LogTemp:Display: Added material ShaderMap 0x000001A3ADB9E080 with Material 0x000001A392806B00 to ShaderMapsBeingCompiled
+[2017.04.26-06.58.41:331][438]LogTemp:Display: Kicking off shader compilation for Gloves, GameThreadShaderMap 0x000001A3ADB9E080
+[2017.04.26-06.58.41:333][438]LogLinker: Can't find file '/Game/Mario/Buttons'
+[2017.04.26-06.58.41:333][438]LogLinker: Can't find file '/Game/Mario/Buttons'
+[2017.04.26-06.58.41:334][438]LogMaterial:Warning: Material /Game/Mario/Buttons.Buttons needed to have new flag set bUsedWithSkeletalMesh !
+[2017.04.26-06.58.41:340][438]LogMaterial: Missing cached shader map for material Buttons, compiling. 
+[2017.04.26-06.58.41:341][438]LogTemp:Display: Added material ShaderMap 0x000001A3B08E8100 with Material 0x000001A392836E00 to ShaderMapsBeingCompiled
+[2017.04.26-06.58.41:383][438]LogTemp:Display: Kicking off shader compilation for Buttons, GameThreadShaderMap 0x000001A3B08E8100
+[2017.04.26-06.58.41:383][438]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.26-06.58.41:391][438]LogTexture:Display: Building textures: Buttons2 (AutoDXT, 32X32) - 277 MB total VRAM
+[2017.04.26-06.58.41:398][438]LogMaterial: Missing cached shader map for material Buttons, compiling. 
+[2017.04.26-06.58.41:399][438]LogTemp:Display: Added material ShaderMap 0x000001A3B0111280 with Material 0x000001A392836E00 to ShaderMapsBeingCompiled
+[2017.04.26-06.58.41:440][438]LogTemp:Display: Kicking off shader compilation for Buttons, GameThreadShaderMap 0x000001A3B0111280
+[2017.04.26-06.58.41:442][438]LogLinker: Can't find file '/Game/Mario/Hair'
+[2017.04.26-06.58.41:442][438]LogLinker: Can't find file '/Game/Mario/Hair'
+[2017.04.26-06.58.41:443][438]LogMaterial:Warning: Material /Game/Mario/Hair.Hair needed to have new flag set bUsedWithSkeletalMesh !
+[2017.04.26-06.58.41:448][438]LogMaterial: Missing cached shader map for material Hair, compiling. 
+[2017.04.26-06.58.41:449][438]LogTemp:Display: Added material ShaderMap 0x000001A3B1917C80 with Material 0x000001A392863580 to ShaderMapsBeingCompiled
+[2017.04.26-06.58.41:491][438]LogTemp:Display: Kicking off shader compilation for Hair, GameThreadShaderMap 0x000001A3B1917C80
+[2017.04.26-06.58.41:491][438]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.26-06.58.41:493][438]LogMaterial: Missing cached shader map for material Hair, compiling. 
+[2017.04.26-06.58.41:494][438]LogTemp:Display: Added material ShaderMap 0x000001A3B11E2080 with Material 0x000001A392863580 to ShaderMapsBeingCompiled
+[2017.04.26-06.58.41:537][438]LogTemp:Display: Kicking off shader compilation for Hair, GameThreadShaderMap 0x000001A3B11E2080
+[2017.04.26-06.58.41:540][438]LogLinker: Can't find file '/Game/Mario/Logo'
+[2017.04.26-06.58.41:540][438]LogLinker: Can't find file '/Game/Mario/Logo'
+[2017.04.26-06.58.41:541][438]LogMaterial:Warning: Material /Game/Mario/Logo.Logo needed to have new flag set bUsedWithSkeletalMesh !
+[2017.04.26-06.58.41:547][438]LogMaterial: Missing cached shader map for material Logo, compiling. 
+[2017.04.26-06.58.41:548][438]LogTemp:Display: Added material ShaderMap 0x000001A3B1D08100 with Material 0x000001A392887700 to ShaderMapsBeingCompiled
+[2017.04.26-06.58.41:595][438]LogTemp:Display: Kicking off shader compilation for Logo, GameThreadShaderMap 0x000001A3B1D08100
+[2017.04.26-06.58.41:595][438]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.26-06.58.41:608][438]LogTexture:Display: Building textures: Logo2 (AutoDXT, 32X32) - 277 MB total VRAM
+[2017.04.26-06.58.41:614][438]LogMaterial: Missing cached shader map for material Logo, compiling. 
+[2017.04.26-06.58.41:615][438]LogTemp:Display: Added material ShaderMap 0x000001A3B9F91600 with Material 0x000001A392887700 to ShaderMapsBeingCompiled
+[2017.04.26-06.58.41:658][438]LogTemp:Display: Kicking off shader compilation for Logo, GameThreadShaderMap 0x000001A3B9F91600
+[2017.04.26-06.58.41:661][438]LogLinker: Can't find file '/Game/Mario/Hair_Piece'
+[2017.04.26-06.58.41:661][438]LogLinker: Can't find file '/Game/Mario/Hair_Piece'
+[2017.04.26-06.58.41:662][438]LogMaterial:Warning: Material /Game/Mario/Hair_Piece.Hair_Piece needed to have new flag set bUsedWithSkeletalMesh !
+[2017.04.26-06.58.41:667][438]LogMaterial: Missing cached shader map for material Hair_Piece, compiling. 
+[2017.04.26-06.58.41:667][438]LogTemp:Display: Added material ShaderMap 0x000001A3BBDAFC80 with Material 0x000001A3928C7400 to ShaderMapsBeingCompiled
+[2017.04.26-06.58.41:708][438]LogTemp:Display: Kicking off shader compilation for Hair_Piece, GameThreadShaderMap 0x000001A3BBDAFC80
+[2017.04.26-06.58.41:708][438]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.26-06.58.41:716][438]LogTexture:Display: Building textures: Hair_Piece2 (AutoDXT, 32X32) - 277 MB total VRAM
+[2017.04.26-06.58.41:722][438]LogMaterial: Missing cached shader map for material Hair_Piece, compiling. 
+[2017.04.26-06.58.41:723][438]LogTemp:Display: Added material ShaderMap 0x000001A3BD871600 with Material 0x000001A3928C7400 to ShaderMapsBeingCompiled
+[2017.04.26-06.58.41:770][438]LogTemp:Display: Kicking off shader compilation for Hair_Piece, GameThreadShaderMap 0x000001A3BD871600
+[2017.04.26-06.58.41:772][438]LogLinker: Can't find file '/Game/Mario/Eyes'
+[2017.04.26-06.58.41:772][438]LogLinker: Can't find file '/Game/Mario/Eyes'
+[2017.04.26-06.58.41:774][438]LogMaterial:Warning: Material /Game/Mario/Eyes.Eyes needed to have new flag set bUsedWithSkeletalMesh !
+[2017.04.26-06.58.41:779][438]LogMaterial: Missing cached shader map for material Eyes, compiling. 
+[2017.04.26-06.58.41:781][438]LogTemp:Display: Added material ShaderMap 0x000001A3BE45FC80 with Material 0x000001A392902980 to ShaderMapsBeingCompiled
+[2017.04.26-06.58.41:823][438]LogTemp:Display: Kicking off shader compilation for Eyes, GameThreadShaderMap 0x000001A3BE45FC80
+[2017.04.26-06.58.41:823][438]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.26-06.58.41:832][438]LogTexture:Display: Building textures: Eyes2 (AutoDXT, 32X32) - 277 MB total VRAM
+[2017.04.26-06.58.41:837][438]LogMaterial: Missing cached shader map for material Eyes, compiling. 
+[2017.04.26-06.58.41:838][438]LogTemp:Display: Added material ShaderMap 0x000001A3BFA35600 with Material 0x000001A392902980 to ShaderMapsBeingCompiled
+[2017.04.26-06.58.41:879][438]LogTemp:Display: Kicking off shader compilation for Eyes, GameThreadShaderMap 0x000001A3BFA35600
+[2017.04.26-06.58.41:881][438]LogLinker: Can't find file '/Game/Mario/Material'
+[2017.04.26-06.58.41:881][438]LogLinker: Can't find file '/Game/Mario/Material'
+[2017.04.26-06.58.41:883][438]LogMaterial:Warning: Material /Game/Mario/Material.Material needed to have new flag set bUsedWithSkeletalMesh !
+[2017.04.26-06.58.41:888][438]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2017.04.26-06.58.41:889][438]LogTemp:Display: Added material ShaderMap 0x000001A3BE787C80 with Material 0x000001A392929180 to ShaderMapsBeingCompiled
+[2017.04.26-06.58.41:938][438]LogTemp:Display: Kicking off shader compilation for Material, GameThreadShaderMap 0x000001A3BE787C80
+[2017.04.26-06.58.41:938][438]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.26-06.58.41:940][438]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2017.04.26-06.58.41:941][438]LogTemp:Display: Added material ShaderMap 0x000001A3C0AFE080 with Material 0x000001A392929180 to ShaderMapsBeingCompiled
+[2017.04.26-06.58.41:984][438]LogTemp:Display: Kicking off shader compilation for Material, GameThreadShaderMap 0x000001A3C0AFE080
+[2017.04.26-06.58.41:986][438]LogFbx: Triangulating skeletal mesh Face
+[2017.04.26-06.58.41:992][438]LogFbx:Warning: Bones digested - 27  Depth of hierarchy - 8
+[2017.04.26-06.58.42:010][438]LogSkeletalMesh: Section 0: 65 vertices, 1 active bones
+[2017.04.26-06.58.42:010][438]LogSkeletalMesh: Section 1: 131 vertices, 10 active bones
+[2017.04.26-06.58.42:010][438]LogSkeletalMesh: Section 2: 30 vertices, 5 active bones
+[2017.04.26-06.58.42:010][438]LogSkeletalMesh: Section 3: 153 vertices, 14 active bones
+[2017.04.26-06.58.42:010][438]LogSkeletalMesh: Section 4: 18 vertices, 1 active bones
+[2017.04.26-06.58.42:010][438]LogSkeletalMesh: Section 5: 50 vertices, 4 active bones
+[2017.04.26-06.58.42:010][438]LogSkeletalMesh: Section 6: 14 vertices, 3 active bones
+[2017.04.26-06.58.42:010][438]LogSkeletalMesh: Section 7: 19 vertices, 1 active bones
+[2017.04.26-06.58.42:010][438]LogSkeletalMesh: Section 8: 7 vertices, 1 active bones
+[2017.04.26-06.58.42:010][438]LogSkeletalMesh: Section 9: 12 vertices, 1 active bones
+[2017.04.26-06.58.42:010][438]LogSkeletalMesh: Section 10: 12 vertices, 1 active bones
+[2017.04.26-06.58.42:010][438]LogSkeletalMesh: Section 11: 8 vertices, 1 active bones
+[2017.04.26-06.58.42:011][438]LogSkeletalMesh: Section 0: Material=0, 80 triangles
+[2017.04.26-06.58.42:011][438]LogSkeletalMesh: Section 1: Material=1, 196 triangles
+[2017.04.26-06.58.42:011][438]LogSkeletalMesh: Section 2: Material=2, 52 triangles
+[2017.04.26-06.58.42:011][438]LogSkeletalMesh: Section 3: Material=3, 255 triangles
+[2017.04.26-06.58.42:011][438]LogSkeletalMesh: Section 4: Material=4, 16 triangles
+[2017.04.26-06.58.42:011][438]LogSkeletalMesh: Section 5: Material=5, 92 triangles
+[2017.04.26-06.58.42:011][438]LogSkeletalMesh: Section 6: Material=6, 10 triangles
+[2017.04.26-06.58.42:011][438]LogSkeletalMesh: Section 7: Material=7, 27 triangles
+[2017.04.26-06.58.42:011][438]LogSkeletalMesh: Section 8: Material=8, 5 triangles
+[2017.04.26-06.58.42:011][438]LogSkeletalMesh: Section 9: Material=9, 8 triangles
+[2017.04.26-06.58.42:011][438]LogSkeletalMesh: Section 10: Material=10, 11 triangles
+[2017.04.26-06.58.42:011][438]LogSkeletalMesh: Section 11: Material=11, 12 triangles
+[2017.04.26-06.58.42:012][438]LogLinker: Can't find file '/Game/Mario/mario_PhysicsAsset'
+[2017.04.26-06.58.42:012][438]LogLinker: Can't find file '/Game/Mario/mario_PhysicsAsset'
+[2017.04.26-06.58.42:014][438]LogLinker: Can't find file '/Game/Mario/mario_Skeleton'
+[2017.04.26-06.58.42:014][438]LogLinker: Can't find file '/Game/Mario/mario_Skeleton'
+[2017.04.26-06.58.42:015][438]LogFbx: =================================================
+[2017.04.26-06.58.42:015][438]LogFbx: Dumping Node START [Face] 
+[2017.04.26-06.58.42:015][438]LogFbx: 	Total Deformer Count -1151972864.
+[2017.04.26-06.58.42:015][438]LogFbx: 		[Node 1] Armature (Type Skin).
+[2017.04.26-06.58.42:015][438]LogFbx: =================================================
+[2017.04.26-06.58.42:015][438]LogFbx: 	Attribute (Face) Type (4).
+[2017.04.26-06.58.42:015][438]LogFbx: 		[Node Attribute Child 1] Face (Type Mesh).
+[2017.04.26-06.58.42:015][438]LogFbx: Dumping Node END [Face]
+[2017.04.26-06.58.42:016][438]LogFbx: =================================================
+[2017.04.26-06.58.42:016][438]LogFbx: Dumping Node START [Face] 
+[2017.04.26-06.58.42:016][438]LogFbx: 	Total Deformer Count -1536163584.
+[2017.04.26-06.58.42:016][438]LogFbx: 		[Node 1] Armature (Type Skin).
+[2017.04.26-06.58.42:016][438]LogFbx: =================================================
+[2017.04.26-06.58.42:016][438]LogFbx: 	Attribute (Face) Type (4).
+[2017.04.26-06.58.42:016][438]LogFbx: 		[Node Attribute Child 1] Face (Type Mesh).
+[2017.04.26-06.58.42:016][438]LogFbx: Dumping Node END [Face]
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(0) Armature
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(1) pelvis
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(2) spine
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(3) head
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(4) head_end
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(5) shoulder_R
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(6) upperArm_R
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(7) forearm_R
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(8) hand_R
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(9) hand_R_end
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(10) shoulder_L
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(11) upperArm_L
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(12) forearm_L
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(13) hand_L
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(14) hand_L_end
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(15) hip_L
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(16) upperLeg_L
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(17) lowerLeg_L
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(18) lowerLeg_L_001
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(19) foot_L
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(20) foot_L_end
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(21) hip_R
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(22) upperLeg_R
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(23) lowerLeg_R
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(24) lowerLeg_R_001
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(25) foot_R
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(26) foot_R_end
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(0) Armature
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(1) pelvis
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(2) spine
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(3) head
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(4) head_end
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(5) shoulder_R
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(6) upperArm_R
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(7) forearm_R
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(8) hand_R
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(9) hand_R_end
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(10) shoulder_L
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(11) upperArm_L
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(12) forearm_L
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(13) hand_L
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(14) hand_L_end
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(15) hip_L
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(16) upperLeg_L
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(17) lowerLeg_L
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(18) lowerLeg_L_001
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(19) foot_L
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(20) foot_L_end
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(21) hip_R
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(22) upperLeg_R
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(23) lowerLeg_R
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(24) lowerLeg_R_001
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(25) foot_R
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(26) foot_R_end
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(0) Armature
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(1) pelvis
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(2) spine
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(3) head
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(4) head_end
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(5) shoulder_R
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(6) upperArm_R
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(7) forearm_R
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(8) hand_R
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(9) hand_R_end
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(10) shoulder_L
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(11) upperArm_L
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(12) forearm_L
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(13) hand_L
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(14) hand_L_end
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(15) hip_L
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(16) upperLeg_L
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(17) lowerLeg_L
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(18) lowerLeg_L_001
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(19) foot_L
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(20) foot_L_end
+[2017.04.26-06.58.42:016][438]LogFbx: SortedLinks :(21) hip_R
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(22) upperLeg_R
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(23) lowerLeg_R
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(24) lowerLeg_R_001
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(25) foot_R
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(26) foot_R_end
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(0) Armature
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(1) pelvis
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(2) spine
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(3) head
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(4) head_end
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(5) shoulder_R
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(6) upperArm_R
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(7) forearm_R
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(8) hand_R
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(9) hand_R_end
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(10) shoulder_L
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(11) upperArm_L
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(12) forearm_L
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(13) hand_L
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(14) hand_L_end
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(15) hip_L
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(16) upperLeg_L
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(17) lowerLeg_L
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(18) lowerLeg_L_001
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(19) foot_L
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(20) foot_L_end
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(21) hip_R
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(22) upperLeg_R
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(23) lowerLeg_R
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(24) lowerLeg_R_001
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(25) foot_R
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(26) foot_R_end
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(0) Armature
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(1) pelvis
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(2) spine
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(3) head
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(4) head_end
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(5) shoulder_R
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(6) upperArm_R
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(7) forearm_R
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(8) hand_R
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(9) hand_R_end
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(10) shoulder_L
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(11) upperArm_L
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(12) forearm_L
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(13) hand_L
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(14) hand_L_end
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(15) hip_L
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(16) upperLeg_L
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(17) lowerLeg_L
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(18) lowerLeg_L_001
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(19) foot_L
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(20) foot_L_end
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(21) hip_R
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(22) upperLeg_R
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(23) lowerLeg_R
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(24) lowerLeg_R_001
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(25) foot_R
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(26) foot_R_end
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(0) Armature
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(1) pelvis
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(2) spine
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(3) head
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(4) head_end
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(5) shoulder_R
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(6) upperArm_R
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(7) forearm_R
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(8) hand_R
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(9) hand_R_end
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(10) shoulder_L
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(11) upperArm_L
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(12) forearm_L
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(13) hand_L
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(14) hand_L_end
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(15) hip_L
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(16) upperLeg_L
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(17) lowerLeg_L
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(18) lowerLeg_L_001
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(19) foot_L
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(20) foot_L_end
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(21) hip_R
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(22) upperLeg_R
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(23) lowerLeg_R
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(24) lowerLeg_R_001
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(25) foot_R
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(26) foot_R_end
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(0) Armature
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(1) pelvis
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(2) spine
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(3) head
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(4) head_end
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(5) shoulder_R
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(6) upperArm_R
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(7) forearm_R
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(8) hand_R
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(9) hand_R_end
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(10) shoulder_L
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(11) upperArm_L
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(12) forearm_L
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(13) hand_L
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(14) hand_L_end
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(15) hip_L
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(16) upperLeg_L
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(17) lowerLeg_L
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(18) lowerLeg_L_001
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(19) foot_L
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(20) foot_L_end
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(21) hip_R
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(22) upperLeg_R
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(23) lowerLeg_R
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(24) lowerLeg_R_001
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(25) foot_R
+[2017.04.26-06.58.42:017][438]LogFbx: SortedLinks :(26) foot_R_end
+[2017.04.26-06.58.42:022][438]LogFbx: Parsing AnimStack Armature|bloopy
+[2017.04.26-06.58.42:025][438]LogLinker: Can't find file '/Game/Mario/mario_Anim_Armature_bloopy'
+[2017.04.26-06.58.42:025][438]LogLinker: Can't find file '/Game/Mario/mario_Anim_Armature_bloopy'
+[2017.04.26-06.58.42:047][438]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mario/mario_Anim_Armature_bloopy.mario_Anim_Armature_bloopy
+[2017.04.26-06.58.42:048][438]LogFbx: Parsing AnimStack Armature|idle
+[2017.04.26-06.58.42:051][438]LogLinker: Can't find file '/Game/Mario/mario_Anim_Armature_idle'
+[2017.04.26-06.58.42:051][438]LogLinker: Can't find file '/Game/Mario/mario_Anim_Armature_idle'
+[2017.04.26-06.58.42:347][438]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mario/mario_Anim_Armature_idle.mario_Anim_Armature_idle
+[2017.04.26-06.58.42:351][438]LogFbx: Parsing AnimStack Armature|jumpEnd
+[2017.04.26-06.58.42:353][438]LogLinker: Can't find file '/Game/Mario/mario_Anim_Armature_jumpEnd'
+[2017.04.26-06.58.42:353][438]LogLinker: Can't find file '/Game/Mario/mario_Anim_Armature_jumpEnd'
+[2017.04.26-06.58.42:384][438]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mario/mario_Anim_Armature_jumpEnd.mario_Anim_Armature_jumpEnd
+[2017.04.26-06.58.42:385][438]LogFbx: Parsing AnimStack Armature|jumpLoop
+[2017.04.26-06.58.42:387][438]LogLinker: Can't find file '/Game/Mario/mario_Anim_Armature_jumpLoop'
+[2017.04.26-06.58.42:387][438]LogLinker: Can't find file '/Game/Mario/mario_Anim_Armature_jumpLoop'
+[2017.04.26-06.58.42:408][438]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mario/mario_Anim_Armature_jumpLoop.mario_Anim_Armature_jumpLoop
+[2017.04.26-06.58.42:409][438]LogFbx: Parsing AnimStack Armature|jumpStart
+[2017.04.26-06.58.42:411][438]LogLinker: Can't find file '/Game/Mario/mario_Anim_Armature_jumpStart'
+[2017.04.26-06.58.42:412][438]LogLinker: Can't find file '/Game/Mario/mario_Anim_Armature_jumpStart'
+[2017.04.26-06.58.42:461][438]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mario/mario_Anim_Armature_jumpStart.mario_Anim_Armature_jumpStart
+[2017.04.26-06.58.42:462][438]LogFbx: Parsing AnimStack Armature|poopy
+[2017.04.26-06.58.42:463][438]LogLinker: Can't find file '/Game/Mario/mario_Anim_Armature_poopy'
+[2017.04.26-06.58.42:464][438]LogLinker: Can't find file '/Game/Mario/mario_Anim_Armature_poopy'
+[2017.04.26-06.58.42:484][438]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mario/mario_Anim_Armature_poopy.mario_Anim_Armature_poopy
+[2017.04.26-06.58.42:485][438]LogFbx: Parsing AnimStack Armature|run
+[2017.04.26-06.58.42:488][438]LogLinker: Can't find file '/Game/Mario/mario_Anim_Armature_run'
+[2017.04.26-06.58.42:488][438]LogLinker: Can't find file '/Game/Mario/mario_Anim_Armature_run'
+[2017.04.26-06.58.42:536][438]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mario/mario_Anim_Armature_run.mario_Anim_Armature_run
+[2017.04.26-06.58.42:555][438]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.04.26-06.58.42:555][438]FBXImport:Warning: Warning The following bones are missing from the bind pose:
+head_end  
+hand.R_end  
+hand.L_end  
+foot.L_end  
+foot.R_end  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2017.04.26-06.58.48:612][ 46]LogTemp:Display: Finished compile of shader map 0x000001A38321AB00
+[2017.04.26-06.58.48:612][ 46]LogTemp:Display: Shader map Skin complete, GameThreadShaderMap 0x000001A38321AB00, marking material Skin as finished
+[2017.04.26-06.58.48:612][ 46]LogTemp:Display: Marking material as finished 0x000001A3927AEC80
+[2017.04.26-06.58.51:798][391]LogTemp:Display: Finished compile of shader map 0x000001A3A1005600
+[2017.04.26-06.58.51:798][391]LogTemp:Display: Shader map Shirt_Cap complete, GameThreadShaderMap 0x000001A3A1005600, marking material Shirt_Cap as finished
+[2017.04.26-06.58.51:798][391]LogTemp:Display: Marking material as finished 0x000001A39279B580
+[2017.04.26-06.58.57:871][997]LogTemp:Display: Finished compile of shader map 0x000001A394CFE080
+[2017.04.26-06.58.57:872][997]LogTemp:Display: Shader map Shoes complete, GameThreadShaderMap 0x000001A394CFE080, marking material Shoes as finished
+[2017.04.26-06.58.57:872][997]LogTemp:Display: Marking material as finished 0x000001A3926CD180
+[2017.04.26-06.59.01:136][292]LogTemp:Display: Finished compile of shader map 0x000001A3B925A080
+[2017.04.26-06.59.01:136][292]LogTemp:Display: Shader map Overalls complete, GameThreadShaderMap 0x000001A3B925A080, marking material Overalls as finished
+[2017.04.26-06.59.01:136][292]LogTemp:Display: Marking material as finished 0x000001A3926F2C80
+[2017.04.26-06.59.03:315][480]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2017.04.26-06.59.03:376][480]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_9:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) - call TermArticulated first.
+[2017.04.26-06.59.06:579][666]LogTemp:Display: Finished compile of shader map 0x000001A3A317D280
+[2017.04.26-06.59.06:579][666]LogTemp:Display: Shader map Moustache complete, GameThreadShaderMap 0x000001A3A317D280, marking material Moustache as finished
+[2017.04.26-06.59.06:579][666]LogTemp:Display: Marking material as finished 0x000001A3927D9780
+[2017.04.26-06.59.11:650][162]LogTemp:Display: Finished compile of shader map 0x000001A3ADB9E080
+[2017.04.26-06.59.11:650][162]LogTemp:Display: Shader map Gloves complete, GameThreadShaderMap 0x000001A3ADB9E080, marking material Gloves as finished
+[2017.04.26-06.59.11:650][162]LogTemp:Display: Marking material as finished 0x000001A392806B00
+[2017.04.26-06.59.17:989][775]LogTemp:Display: Finished compile of shader map 0x000001A3B0111280
+[2017.04.26-06.59.17:989][775]LogTemp:Display: Shader map Buttons complete, GameThreadShaderMap 0x000001A3B0111280, marking material Buttons as finished
+[2017.04.26-06.59.17:989][775]LogTemp:Display: Marking material as finished 0x000001A392836E00
+[2017.04.26-06.59.22:687][267]LogTemp:Display: Finished compile of shader map 0x000001A3B11E2080
+[2017.04.26-06.59.22:687][267]LogTemp:Display: Shader map Hair complete, GameThreadShaderMap 0x000001A3B11E2080, marking material Hair as finished
+[2017.04.26-06.59.22:687][267]LogTemp:Display: Marking material as finished 0x000001A392863580
+[2017.04.26-06.59.25:787][632]LogTemp:Display: Finished compile of shader map 0x000001A3B9F91600
+[2017.04.26-06.59.25:787][632]LogTemp:Display: Shader map Logo complete, GameThreadShaderMap 0x000001A3B9F91600, marking material Logo as finished
+[2017.04.26-06.59.25:787][632]LogTemp:Display: Marking material as finished 0x000001A392887700
+[2017.04.26-06.59.35:591][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SKEL_marioAnimBlueprint_C' or package '/Game/Mario/marioAnimBlueprint'.
+[2017.04.26-06.59.35:591][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CharacterMesh0' or package '/Engine/Transient'.
+[2017.04.26-06.59.35:591][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CharacterMesh0' or package '/Engine/Transient'.
+[2017.04.26-06.59.35:591][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'marioAnimBlueprint_C_2' or package '/Engine/Transient'.
+[2017.04.26-06.59.35:591][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_3' or package '/Engine/Transient'.
+[2017.04.26-06.59.35:591][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_1' or package '/Engine/Transient'.
+[2017.04.26-06.59.35:592][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__SKEL_marioAnimBlueprint_C' or package '/Game/Mario/marioAnimBlueprint'.
+[2017.04.26-06.59.35:592][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CharacterMesh0' or package '/Engine/Transient'.
+[2017.04.26-06.59.35:594][695]LogMaterial: Missing cached shader map for material Buttons, compiling. 
+[2017.04.26-06.59.35:594][695]LogMaterial:Warning: Failed to compile Material /Game/Mario2/Buttons.Buttons for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.26-06.59.35:594][695]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.04.26-06.59.35:596][695]LogMaterial: Missing cached shader map for material Eyes, compiling. 
+[2017.04.26-06.59.35:596][695]LogMaterial:Warning: Failed to compile Material /Game/Mario2/Eyes.Eyes for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.26-06.59.35:596][695]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.04.26-06.59.35:598][695]LogMaterial: Missing cached shader map for material Hair_Piece, compiling. 
+[2017.04.26-06.59.35:598][695]LogMaterial:Warning: Failed to compile Material /Game/Mario2/Hair_Piece.Hair_Piece for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.26-06.59.35:598][695]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.04.26-06.59.35:600][695]LogMaterial: Missing cached shader map for material Logo, compiling. 
+[2017.04.26-06.59.35:600][695]LogMaterial:Warning: Failed to compile Material /Game/Mario2/Logo.Logo for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.26-06.59.35:600][695]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.04.26-06.59.35:602][695]LogMaterial: Missing cached shader map for material Moustache, compiling. 
+[2017.04.26-06.59.35:602][695]LogMaterial:Warning: Failed to compile Material /Game/Mario2/Moustache.Moustache for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.26-06.59.35:602][695]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.04.26-06.59.35:605][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_marioAnimBlueprint_C_0' or package '/Engine/Transient'.
+[2017.04.26-06.59.35:605][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_marioAnimBlueprint_C_1' or package '/Engine/Transient'.
+[2017.04.26-06.59.35:605][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EvaluateGraphExposedInputs_ExecuteUbergraph_marioAnimBlueprint_AnimGraphNode_TransitionResult_EB26C4B44509776D1C9FA6991E047C32' or package '/Game/Mario2/marioAnimBlueprint'.
+[2017.04.26-06.59.35:605][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BlueprintUpdateAnimation' or package '/Game/Mario2/marioAnimBlueprint'.
+[2017.04.26-06.59.35:605][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EvaluateGraphExposedInputs_ExecuteUbergraph_marioAnimBlueprint_AnimGraphNode_TransitionResult_F867B5374C7EFB9ED9010FA7431019DF' or package '/Game/Mario2/marioAnimBlueprint'.
+[2017.04.26-06.59.35:605][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EvaluateGraphExposedInputs_ExecuteUbergraph_marioAnimBlueprint_AnimGraphNode_BlendSpacePlayer_A7BEEC9549A0D1C47D5AFC9A74E37385' or package '/Game/Mario2/marioAnimBlueprint'.
+[2017.04.26-06.59.35:605][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EvaluateGraphExposedInputs_ExecuteUbergraph_marioAnimBlueprint_AnimGraphNode_TransitionResult_175FFF54400CA0EC412B7083B0989D7E' or package '/Game/Mario2/marioAnimBlueprint'.
+[2017.04.26-06.59.35:605][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EvaluateGraphExposedInputs_ExecuteUbergraph_marioAnimBlueprint_AnimGraphNode_TransitionResult_EA982A1F4C5300ED41A13CAD26E05A19' or package '/Game/Mario2/marioAnimBlueprint'.
+[2017.04.26-06.59.35:606][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__DEADCLASS_marioAnimBlueprint_C_1' or package '/Engine/Transient'.
+[2017.04.26-06.59.35:606][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'IsInAir?' or package '/Engine/Transient'.
+[2017.04.26-06.59.35:606][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Speed' or package '/Engine/Transient'.
+[2017.04.26-06.59.35:606][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_StateMachine_2BE0A7EE4F07C99FAA4C87A7D44677A6' or package '/Engine/Transient'.
+[2017.04.26-06.59.35:606][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_StateResult_7618737141064086BB77CBB9D5CD2D59' or package '/Engine/Transient'.
+[2017.04.26-06.59.35:606][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_BlendSpacePlayer_A7BEEC9549A0D1C47D5AFC9A74E37385' or package '/Engine/Transient'.
+[2017.04.26-06.59.35:606][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_StateResult_046F1C2548286DB7421A07BCB8B9830E' or package '/Engine/Transient'.
+[2017.04.26-06.59.35:606][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_SequencePlayer_02BB0EF34151706674B6A5BAF3097352' or package '/Engine/Transient'.
+[2017.04.26-06.59.35:606][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_StateResult_1EBEFD1E44C9887ACE06AC8147E389E1' or package '/Engine/Transient'.
+[2017.04.26-06.59.35:606][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_SequencePlayer_DA1FB43A48E4126CFD8F3C975CE57773' or package '/Engine/Transient'.
+[2017.04.26-06.59.35:606][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_StateResult_297D99FF44D47FD485B4F89D8011EE52' or package '/Engine/Transient'.
+[2017.04.26-06.59.35:606][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_SequencePlayer_454B3C064E9DA56405D2E984FF8E5D79' or package '/Engine/Transient'.
+[2017.04.26-06.59.35:606][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_TransitionResult_EA982A1F4C5300ED41A13CAD26E05A19' or package '/Engine/Transient'.
+[2017.04.26-06.59.35:606][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_TransitionResult_F867B5374C7EFB9ED9010FA7431019DF' or package '/Engine/Transient'.
+[2017.04.26-06.59.35:606][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_TransitionResult_EB26C4B44509776D1C9FA6991E047C32' or package '/Engine/Transient'.
+[2017.04.26-06.59.35:607][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_TransitionResult_175FFF54400CA0EC412B7083B0989D7E' or package '/Engine/Transient'.
+[2017.04.26-06.59.35:607][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_Root_9482248B46E53265FB1B34A455BD0B0E' or package '/Engine/Transient'.
+[2017.04.26-06.59.35:607][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_marioAnimBlueprint' or package '/Engine/Transient'.
+[2017.04.26-06.59.35:607][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BlueprintUpdateAnimation' or package '/Engine/Transient'.
+[2017.04.26-06.59.35:607][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EvaluateGraphExposedInputs_ExecuteUbergraph_marioAnimBlueprint_AnimGraphNode_TransitionResult_EB26C4B44509776D1C9FA6991E047C32' or package '/Engine/Transient'.
+[2017.04.26-06.59.35:607][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EvaluateGraphExposedInputs_ExecuteUbergraph_marioAnimBlueprint_AnimGraphNode_BlendSpacePlayer_A7BEEC9549A0D1C47D5AFC9A74E37385' or package '/Engine/Transient'.
+[2017.04.26-06.59.35:607][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EvaluateGraphExposedInputs_ExecuteUbergraph_marioAnimBlueprint_AnimGraphNode_TransitionResult_175FFF54400CA0EC412B7083B0989D7E' or package '/Engine/Transient'.
+[2017.04.26-06.59.35:607][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EvaluateGraphExposedInputs_ExecuteUbergraph_marioAnimBlueprint_AnimGraphNode_TransitionResult_EA982A1F4C5300ED41A13CAD26E05A19' or package '/Engine/Transient'.
+[2017.04.26-06.59.35:607][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EvaluateGraphExposedInputs_ExecuteUbergraph_marioAnimBlueprint_AnimGraphNode_TransitionResult_F867B5374C7EFB9ED9010FA7431019DF' or package '/Engine/Transient'.
+[2017.04.26-06.59.35:607][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UberGraphFrame' or package '/Engine/Transient'.
+[2017.04.26-06.59.35:607][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__DEADCLASS_marioAnimBlueprint_C_0' or package '/Engine/Transient'.
+[2017.04.26-06.59.35:608][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'marioAnimBlueprint_C_0' or package '/Engine/Transient'.
+[2017.04.26-06.59.35:608][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'marioAnimBlueprint_C_1' or package '/Engine/Transient'.
+[2017.04.26-06.59.35:608][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CharacterMesh0' or package '/Engine/Transient'.
+[2017.04.26-06.59.35:608][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__REINST_SKEL_marioAnimBlueprint_C_8' or package '/Engine/Transient'.
+[2017.04.26-06.59.35:608][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_marioAnimBlueprint_C_8' or package '/Engine/Transient'.
+[2017.04.26-06.59.35:608][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__REINST_marioAnimBlueprint_C_7' or package '/Engine/Transient'.
+[2017.04.26-06.59.35:608][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_2' or package '/Engine/Transient'.
+[2017.04.26-06.59.35:608][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_0' or package '/Engine/Transient'.
+[2017.04.26-06.59.35:608][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SkeletalMeshComponent0' or package '/Engine/Transient'.
+[2017.04.26-06.59.35:608][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CharacterMesh0' or package '/Engine/Transient'.
+[2017.04.26-06.59.35:609][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'marioAnimBlueprint_C_3' or package '/Engine/Transient'.
+[2017.04.26-06.59.35:609][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CharacterMesh0' or package '/Engine/Transient'.
+[2017.04.26-06.59.35:609][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'marioAnimBlueprint_C_5' or package '/Engine/Transient'.
+[2017.04.26-06.59.35:609][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_0' or package '/Engine/Transient'.
+[2017.04.26-06.59.35:609][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_marioAnimBlueprint_C_7' or package '/Engine/Transient'.
+[2017.04.26-06.59.35:610][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CharacterMesh0' or package '/Engine/Transient'.
+[2017.04.26-06.59.35:610][695]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'marioAnimBlueprint_C_6' or package '/Engine/Transient'.
+[2017.04.26-06.59.39:172][695]LogTemp:Display: Finished compile of shader map 0x000001A3BD871600
+[2017.04.26-06.59.39:172][695]LogTemp:Display: Shader map Hair_Piece complete, GameThreadShaderMap 0x000001A3BD871600, marking material Hair_Piece as finished
+[2017.04.26-06.59.39:172][695]LogTemp:Display: Marking material as finished 0x000001A3928C7400
+[2017.04.26-06.59.39:178][695]LogTemp:Display: Finished compile of shader map 0x000001A3BFA35600
+[2017.04.26-06.59.39:178][695]LogTemp:Display: Shader map Eyes complete, GameThreadShaderMap 0x000001A3BFA35600, marking material Eyes as finished
+[2017.04.26-06.59.39:178][695]LogTemp:Display: Marking material as finished 0x000001A392902980
+[2017.04.26-06.59.39:183][695]LogTemp:Display: Finished compile of shader map 0x000001A3C0AFE080
+[2017.04.26-06.59.39:183][695]LogTemp:Display: Shader map Material complete, GameThreadShaderMap 0x000001A3C0AFE080, marking material Material as finished
+[2017.04.26-06.59.39:183][695]LogTemp:Display: Marking material as finished 0x000001A392929180
+[2017.04.26-06.59.52:665][875]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.04.26-07.00.01:016][492]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
+[2017.04.26-07.00.01:939][575]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.26-07.00.01:964][575]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.26-07.00.01:964][575]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.04.26-07.00.01:964][575]LogPlayLevel: [PlayLevel] Compiling ThirdPersonCharacter before play...
+[2017.04.26-07.00.02:385][575]LogPlayLevel: PlayLevel: Blueprint regeneration took 421 ms (1 blueprints)
+[2017.04.26-07.00.02:385][575]PIE: New page: PIE session: FirstPersonExampleMap (Apr 25, 2017, 5:00:02 PM)
+[2017.04.26-07.00.02:385][575]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.04.26-07.00.02:408][575]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map FoliageInstancedStaticMeshComponent /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_0.
+[2017.04.26-07.00.02:416][575]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031130s)
+[2017.04.26-07.00.02:417][575]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.04.26-07.00.02:417][575]LogPlayLevel: PIE: World Init took: (0.000739s)
+[2017.04.26-07.00.02:417][575]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.032109s)
+[2017.04.26-07.00.02:438][575]LogInit: XAudio2 using 'DELL S2415H-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.26-07.00.02:442][575]LogInit: FAudioDevice initialized.
+[2017.04.26-07.00.02:472][575]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.26-07.00.02:476][575]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.04.26-00.00.02
+[2017.04.26-07.00.02:477][575]LogWorld: Bringing up level for play took: 0.003666
+[2017.04.26-07.00.02:479][575]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.487
+[2017.04.26-07.00.02:479][575]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.26-07.00.05:974][987]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.26-07.00.06:039][987]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.26-07.00.34:390][994]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.Actor_2.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2017.04.26-07.00.34:427][994]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_15:PersistentLevel.Actor_2.DebugSkelMeshComponent_5) - call TermArticulated first.
+[2017.04.26-07.01.14:756][606]LogBlueprint:Error: [Compiler marioAnimBlueprint] Error  Blendspace Player '(None)'  references an unknown blend space
+[2017.04.26-07.01.14:756][606]LogBlueprint:Error: [Compiler marioAnimBlueprint] Error  Play (None)  references an unknown sequence
+[2017.04.26-07.01.14:757][606]LogBlueprint:Error: [Compiler marioAnimBlueprint] Error  Play (None)  references an unknown sequence
+[2017.04.26-07.01.14:757][606]LogBlueprint:Error: [Compiler marioAnimBlueprint] Error  Play (None)  references an unknown sequence
+[2017.04.26-07.01.14:759][606]LogBlueprint:Error: [Compiler marioAnimBlueprint] Error Missing allocated node for AnimGraphNode_BlendSpacePlayer_2 while searching for node links - likely due to the node having outstanding errors.
+[2017.04.26-07.01.14:759][606]LogBlueprint:Error: [Compiler marioAnimBlueprint] Error Missing allocated node for AnimGraphNode_SequencePlayer_30 while searching for node links - likely due to the node having outstanding errors.
+[2017.04.26-07.01.14:759][606]LogBlueprint:Error: [Compiler marioAnimBlueprint] Error Missing allocated node for AnimGraphNode_SequencePlayer_31 while searching for node links - likely due to the node having outstanding errors.
+[2017.04.26-07.01.14:759][606]LogBlueprint:Error: [Compiler marioAnimBlueprint] Error Missing allocated node for AnimGraphNode_SequencePlayer_32 while searching for node links - likely due to the node having outstanding errors.
+[2017.04.26-07.01.14:908][606]LogBlueprint:Warning: [Compiler marioAnimBlueprint] Warning [0442.72] Compile of marioAnimBlueprint failed. 8 Fatal Issue(s) 0 Warning(s) [in 160 ms] (/Game/Mario/marioAnimBlueprint.marioAnimBlueprint)
+[2017.04.26-07.01.14:908][606]LogBlueprint:Warning: [Compiler marioAnimBlueprint] Warning [0442.72] Compile of marioAnimBlueprint failed. 8 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/Mario/marioAnimBlueprint.marioAnimBlueprint)
+[2017.04.26-07.01.14:908][606]LogBlueprint:Warning: [Compiler marioAnimBlueprint] Warning [0442.72] Compile of marioAnimBlueprint failed. 8 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/Mario/marioAnimBlueprint.marioAnimBlueprint)
+[2017.04.26-07.01.14:908][606]LogBlueprint:Warning: [Compiler marioAnimBlueprint] Warning [0442.72] Compile of marioAnimBlueprint failed. 8 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/Mario/marioAnimBlueprint.marioAnimBlueprint)
+[2017.04.26-07.01.14:909][606]LogBlueprint:Warning: [Compiler marioAnimBlueprint] Warning [0442.72] Compile of marioAnimBlueprint failed. 8 Fatal Issue(s) 4 Warning(s) [in 1 ms] (/Game/Mario/marioAnimBlueprint.marioAnimBlueprint)
+[2017.04.26-07.01.14:909][606]LogBlueprint:Warning: [Compiler marioAnimBlueprint] Warning [0442.72] Compile of marioAnimBlueprint failed. 8 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/Mario/marioAnimBlueprint.marioAnimBlueprint)
+[2017.04.26-07.01.18:432][966]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.Actor_3.DebugSkelMeshComponent_9) Already registered. Aborting.
+[2017.04.26-07.01.18:476][966]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_19:PersistentLevel.Actor_3.DebugSkelMeshComponent_9) - call TermArticulated first.
